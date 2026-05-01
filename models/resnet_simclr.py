@@ -6,12 +6,13 @@ from exceptions.exceptions import InvalidBackboneError
 
 class ResNetSimCLR(nn.Module):
 
-    def __init__(self, base_model, out_dim):
+    def __init__(self, base_model, out_dim, use_projection_head=True):
         """
         初始化 SimCLR 模型
 
         :param base_model: backbone 的名称 (resnet18 或 resnet50)
         :param out_dim: 最终输出特征维度 (projection head 的输出维度)
+        :param use_projection_head: 是否使用两层 MLP projection head
         """
         super(ResNetSimCLR, self).__init__()
         # 定义可选的 ResNet 模型字典
@@ -21,14 +22,16 @@ class ResNetSimCLR(nn.Module):
         self.backbone = self._get_basemodel(base_model)
         # 获取 ResNet 最后一层全连接层的输入维度
         dim_mlp = self.backbone.fc.in_features
-        # 添加 projection head
-        # 原来: Linear(dim_mlp -> out_dim)
-        # 现在: Linear(dim_mlp -> dim_mlp) -> ReLU -> Linear(dim_mlp -> out_dim)
-        self.backbone.fc = nn.Sequential(
-            nn.Linear(dim_mlp, dim_mlp), 
-            nn.ReLU(), 
-            self.backbone.fc
-            )
+        if use_projection_head:
+            # Linear(dim_mlp -> dim_mlp) -> ReLU -> Linear(dim_mlp -> out_dim)
+            self.backbone.fc = nn.Sequential(
+                nn.Linear(dim_mlp, dim_mlp),
+                nn.ReLU(),
+                self.backbone.fc
+                )
+        else:
+            # 无 projection head 时，直接使用 encoder 表征参与对比损失。
+            self.backbone.fc = nn.Identity()
 
     def _get_basemodel(self, model_name):
         """

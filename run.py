@@ -56,6 +56,11 @@ parser.add_argument('--fp16-precision', action='store_true',
 # 输出特征维度 (projection head 输出的维度)
 parser.add_argument('--out_dim', default=128, type=int,
                     help='feature dimension (default: 128)')
+# 是否使用 projection head
+parser.add_argument('--no-projection-head', dest='use_projection_head',
+                    action='store_false',
+                    help='Disable the two-layer MLP projection head.')
+parser.set_defaults(use_projection_head=True)
 # 日志打印频率
 parser.add_argument('--log-every-n-steps', default=100, type=int,
                     help='Log every n steps')
@@ -92,7 +97,9 @@ def main():
         train_dataset, batch_size=args.batch_size, shuffle=True,
         num_workers=args.workers, pin_memory=True, drop_last=True)
     # 定义模型
-    model = ResNetSimCLR(base_model=args.arch, out_dim=args.out_dim)
+    model = ResNetSimCLR(base_model=args.arch,
+                         out_dim=args.out_dim,
+                         use_projection_head=args.use_projection_head)
     # 优化器
     optimizer = torch.optim.Adam(model.parameters(), args.lr, weight_decay=args.weight_decay)
     # 学习率调度器
