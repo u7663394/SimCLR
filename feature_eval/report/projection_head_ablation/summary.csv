@@ -1,0 +1,3 @@
+setting,feature_dim,best_test_acc,best_epoch,final_test_acc
+With projection head,512,63.59,77,62.84
+Without projection head,512,62.16,15,61.4
