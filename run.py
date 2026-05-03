@@ -1,4 +1,6 @@
 import argparse
+import os
+import time
 import torch
 import torch.backends.cudnn as cudnn
 from torchvision import models
@@ -50,11 +52,35 @@ parser.add_argument('--temperature', default=0.07, type=float,
 parser.add_argument('--n-views', default=2, type=int, metavar='N',
                     help='Number of views for contrastive learning training.')
 parser.add_argument('--gpu-index', default=0, type=int, help='Gpu index.')
+parser.add_argument('--aug-strength', default='strong', choices=['weak', 'medium', 'strong'],
+                    help='augmentation preset for ablation experiments')
+parser.add_argument('--disable-projection-head', action='store_true',
+                    help='use encoder features directly instead of an MLP projection head')
+parser.add_argument('--experiment-name', default=None, type=str,
+                    help='optional suffix used to label the run directory')
+parser.add_argument('--run-base-dir', default='runs', type=str,
+                    help='base directory where TensorBoard logs and checkpoints are stored')
+
+
+def build_run_name(args):
+    parts = [
+        args.dataset_name,
+        args.arch,
+        f"aug-{args.aug_strength}",
+        f"proj-{'off' if args.disable_projection_head else 'on'}",
+        f"bs-{args.batch_size}",
+    ]
+    if args.experiment_name:
+        parts.append(args.experiment_name)
+    return "_".join(parts)
 
 
 def main():
     args = parser.parse_args()
     assert args.n_views == 2, "Only two view training is supported. Please use --n-views 2."
+    args.use_projection_head = not args.disable_projection_head
+    args.run_name = build_run_name(args)
+    args.run_dir = os.path.join(args.run_base_dir, f"{time.strftime('%Y%m%d-%H%M%S')}_{args.run_name}")
     # check if gpu training is available
     if not args.disable_cuda and torch.cuda.is_available():
         args.device = torch.device('cuda')
@@ -66,13 +92,21 @@ def main():
 
     dataset = ContrastiveLearningDataset(args.data)
 
-    train_dataset = dataset.get_dataset(args.dataset_name, args.n_views)
+    train_dataset = dataset.get_dataset(
+        args.dataset_name,
+        args.n_views,
+        augmentation_strength=args.aug_strength,
+    )
 
     train_loader = torch.utils.data.DataLoader(
         train_dataset, batch_size=args.batch_size, shuffle=True,
         num_workers=args.workers, pin_memory=True, drop_last=True)
 
-    model = ResNetSimCLR(base_model=args.arch, out_dim=args.out_dim)
+    model = ResNetSimCLR(
+        base_model=args.arch,
+        out_dim=args.out_dim,
+        use_projection_head=args.use_projection_head,
+    )
 
     optimizer = torch.optim.Adam(model.parameters(), args.lr, weight_decay=args.weight_decay)
 

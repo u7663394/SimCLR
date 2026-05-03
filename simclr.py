@@ -19,7 +19,7 @@ class SimCLR(object):
         self.model = kwargs['model'].to(self.args.device)
         self.optimizer = kwargs['optimizer']
         self.scheduler = kwargs['scheduler']
-        self.writer = SummaryWriter()
+        self.writer = SummaryWriter(log_dir=self.args.run_dir)
         logging.basicConfig(filename=os.path.join(self.writer.log_dir, 'training.log'), level=logging.DEBUG)
         self.criterion = torch.nn.CrossEntropyLoss().to(self.args.device)
 
@@ -72,8 +72,8 @@ class SimCLR(object):
                 images = images.to(self.args.device)
 
                 with autocast(enabled=self.args.fp16_precision):
-                    features = self.model(images)
-                    logits, labels = self.info_nce_loss(features)
+                    embeddings, projections = self.model(images, return_embedding=True)
+                    logits, labels = self.info_nce_loss(projections)
                     loss = self.criterion(logits, labels)
 
                 self.optimizer.zero_grad()
@@ -89,6 +89,8 @@ class SimCLR(object):
                     self.writer.add_scalar('acc/top1', top1[0], global_step=n_iter)
                     self.writer.add_scalar('acc/top5', top5[0], global_step=n_iter)
                     self.writer.add_scalar('learning_rate', self.scheduler.get_lr()[0], global_step=n_iter)
+                    self.writer.add_scalar('feature_dim', float(self.model.feature_dim), global_step=n_iter)
+                    self.writer.add_scalar('projection_dim', float(self.model.projection_dim), global_step=n_iter)
 
                 n_iter += 1
 
@@ -103,6 +105,10 @@ class SimCLR(object):
         save_checkpoint({
             'epoch': self.args.epochs,
             'arch': self.args.arch,
+            'aug_strength': self.args.aug_strength,
+            'use_projection_head': not self.args.disable_projection_head,
+            'feature_dim': self.model.feature_dim,
+            'projection_dim': self.model.projection_dim,
             'state_dict': self.model.state_dict(),
             'optimizer': self.optimizer.state_dict(),
         }, is_best=False, filename=os.path.join(self.writer.log_dir, checkpoint_name))
