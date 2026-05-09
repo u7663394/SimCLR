@@ -1,0 +1,4 @@
+batch_size,negatives_per_anchor,feature_dim,best_test_acc,best_epoch,final_test_acc,result_path
+128,254,512,62.54,49,62.1,feature_eval/results/batch_size_128.json
+256,510,512,63.59,77,62.84,feature_eval/results/batch_size_256.json
+512,1022,512,60.03,37,59.79,feature_eval/results/batch_size_512.json
