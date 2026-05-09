@@ -1,0 +1,2001 @@
+model,sample_index,label_id,label_name,tsne_x,tsne_y
+Baseline (with projection head),1604,1,automobile,9.754875183105469,-7.251687049865723
+Baseline (with projection head),5143,9,truck,5.685960292816162,-12.039019584655762
+Baseline (with projection head),5835,3,cat,-1.693726897239685,-4.813353538513184
+Baseline (with projection head),1578,6,frog,16.122377395629883,22.98232650756836
+Baseline (with projection head),218,8,ship,14.461174964904785,-19.098623275756836
+Baseline (with projection head),6315,6,frog,-20.661148071289062,2.09379243850708
+Baseline (with projection head),9458,7,horse,6.166545867919922,-3.8606274127960205
+Baseline (with projection head),1865,7,horse,33.87588882446289,-5.429716110229492
+Baseline (with projection head),5781,0,airplane,-17.425966262817383,-18.184492111206055
+Baseline (with projection head),8924,2,bird,20.572153091430664,8.665145874023438
+Baseline (with projection head),8331,3,cat,21.469701766967773,16.14756965637207
+Baseline (with projection head),5123,7,horse,0.06884727627038956,18.47205352783203
+Baseline (with projection head),330,1,automobile,-23.518234252929688,-17.44047737121582
+Baseline (with projection head),6210,4,deer,0.7197785973548889,37.65622329711914
+Baseline (with projection head),1558,4,deer,24.309133529663086,9.24749755859375
+Baseline (with projection head),9442,4,deer,24.48459815979004,13.514060974121094
+Baseline (with projection head),2270,2,bird,-7.625387668609619,2.9950199127197266
+Baseline (with projection head),7662,5,dog,9.46194076538086,43.267215728759766
+Baseline (with projection head),3122,1,automobile,-25.2130069732666,-5.892457008361816
+Baseline (with projection head),115,3,cat,-15.454570770263672,5.869355201721191
+Baseline (with projection head),3329,3,cat,-6.544407367706299,13.972944259643555
+Baseline (with projection head),9919,4,deer,12.227933883666992,-15.504668235778809
+Baseline (with projection head),1431,4,deer,5.373080253601074,27.02727508544922
+Baseline (with projection head),6907,6,frog,8.561331748962402,28.153730392456055
+Baseline (with projection head),4279,6,frog,6.182518482208252,43.78496170043945
+Baseline (with projection head),7373,0,airplane,-0.9444699287414551,-37.59718704223633
+Baseline (with projection head),2324,0,airplane,34.53483963012695,16.365856170654297
+Baseline (with projection head),5493,3,cat,-11.625555992126465,18.069459915161133
+Baseline (with projection head),7919,6,frog,4.964878559112549,43.40946960449219
+Baseline (with projection head),5946,8,ship,-22.88291358947754,-27.47513771057129
+Baseline (with projection head),4788,6,frog,-0.035249508917331696,25.654430389404297
+Baseline (with projection head),6583,0,airplane,-5.574509143829346,-36.14278793334961
+Baseline (with projection head),2672,0,airplane,15.121380805969238,-18.266357421875
+Baseline (with projection head),4314,1,automobile,-25.033309936523438,-13.82172966003418
+Baseline (with projection head),9364,5,dog,-16.876314163208008,24.86248207092285
+Baseline (with projection head),1880,1,automobile,-23.970417022705078,-17.539836883544922
+Baseline (with projection head),569,2,bird,13.172149658203125,32.85304260253906
+Baseline (with projection head),5376,5,dog,-14.919739723205566,16.249956130981445
+Baseline (with projection head),9426,2,bird,-20.471359252929688,-12.313255310058594
+Baseline (with projection head),3509,3,cat,-25.486967086791992,10.912364959716797
+Baseline (with projection head),8307,4,deer,29.20377540588379,-3.6368284225463867
+Baseline (with projection head),8132,8,ship,1.2913345098495483,-28.59840965270996
+Baseline (with projection head),1631,1,automobile,10.499442100524902,4.532869338989258
+Baseline (with projection head),5108,1,automobile,11.530820846557617,-6.458434104919434
+Baseline (with projection head),7526,9,truck,-3.5609254837036133,-21.19908332824707
+Baseline (with projection head),7899,7,horse,11.4849271774292,-22.597082138061523
+Baseline (with projection head),3319,2,bird,0.3300855755805969,38.10892105102539
+Baseline (with projection head),8012,3,cat,-2.2024002075195312,15.778607368469238
+Baseline (with projection head),9470,9,truck,8.339656829833984,-9.08800220489502
+Baseline (with projection head),2326,7,horse,23.23830795288086,2.3211662769317627
+Baseline (with projection head),8604,6,frog,8.36979866027832,-14.571072578430176
+Baseline (with projection head),5906,4,deer,24.804412841796875,14.381061553955078
+Baseline (with projection head),7286,2,bird,-19.164363861083984,-29.52229881286621
+Baseline (with projection head),720,4,deer,-2.755678176879883,29.809730529785156
+Baseline (with projection head),7232,9,truck,7.498093605041504,31.802274703979492
+Baseline (with projection head),1529,4,deer,-11.12903118133545,18.749292373657227
+Baseline (with projection head),4202,0,airplane,20.267478942871094,-22.76486587524414
+Baseline (with projection head),794,7,horse,23.410280227661133,-4.205598831176758
+Baseline (with projection head),3079,8,ship,2.8180253505706787,-15.106876373291016
+Baseline (with projection head),7832,8,ship,-21.87557601928711,-19.136749267578125
+Baseline (with projection head),6050,2,bird,5.54863166809082,-38.81291961669922
+Baseline (with projection head),1170,7,horse,19.457027435302734,-15.317464828491211
+Baseline (with projection head),6037,5,dog,17.388607025146484,35.86662292480469
+Baseline (with projection head),5818,7,horse,-22.805362701416016,1.2648502588272095
+Baseline (with projection head),9111,0,airplane,0.6770995855331421,-38.15285110473633
+Baseline (with projection head),209,9,truck,-8.0521879196167,-19.854948043823242
+Baseline (with projection head),3948,1,automobile,-1.5283215045928955,-13.883115768432617
+Baseline (with projection head),5770,8,ship,-6.659412384033203,-24.122875213623047
+Baseline (with projection head),7419,0,airplane,-23.465492248535156,-23.794687271118164
+Baseline (with projection head),7735,4,deer,19.273778915405273,-17.473546981811523
+Baseline (with projection head),1870,2,bird,14.405713081359863,-24.556718826293945
+Baseline (with projection head),2040,0,airplane,-19.47360610961914,-25.679250717163086
+Baseline (with projection head),7107,2,bird,-0.7917121648788452,11.447806358337402
+Baseline (with projection head),3020,1,automobile,-18.941116333007812,-4.7232794761657715
+Baseline (with projection head),6671,5,dog,17.11314582824707,14.931572914123535
+Baseline (with projection head),9940,4,deer,1.6985175609588623,23.83486557006836
+Baseline (with projection head),8525,3,cat,-17.568527221679688,25.25972557067871
+Baseline (with projection head),3288,9,truck,-4.1437578201293945,-25.59819793701172
+Baseline (with projection head),2953,8,ship,-4.594571113586426,-25.949607849121094
+Baseline (with projection head),8732,8,ship,-29.649038314819336,-5.902114391326904
+Baseline (with projection head),8459,9,truck,8.564602851867676,-9.387645721435547
+Baseline (with projection head),7417,3,cat,3.292914867401123,31.560449600219727
+Baseline (with projection head),373,4,deer,21.897287368774414,-7.223756313323975
+Baseline (with projection head),3373,6,frog,21.524568557739258,27.554677963256836
+Baseline (with projection head),7282,1,automobile,14.903627395629883,11.003777503967285
+Baseline (with projection head),6476,0,airplane,-1.6312206983566284,-34.503902435302734
+Baseline (with projection head),5585,0,airplane,-22.312685012817383,9.59560489654541
+Baseline (with projection head),3120,4,deer,1.463876485824585,15.405665397644043
+Baseline (with projection head),3658,2,bird,1.9827567338943481,-5.324804306030273
+Baseline (with projection head),3881,7,horse,33.0593376159668,-5.827756404876709
+Baseline (with projection head),233,8,ship,-12.653570175170898,-25.281326293945312
+Baseline (with projection head),5709,2,bird,-3.9683594703674316,41.43079376220703
+Baseline (with projection head),178,5,dog,31.677345275878906,7.217523574829102
+Baseline (with projection head),1570,4,deer,-31.642662048339844,-17.433683395385742
+Baseline (with projection head),1815,9,truck,-25.96967124938965,-9.195846557617188
+Baseline (with projection head),2628,0,airplane,0.356231153011322,-26.200666427612305
+Baseline (with projection head),7954,9,truck,7.092972278594971,-9.836701393127441
+Baseline (with projection head),7788,6,frog,13.773099899291992,-1.6231609582901
+Baseline (with projection head),1542,5,dog,-5.694263935089111,20.426286697387695
+Baseline (with projection head),8679,8,ship,-16.14922523498535,-3.8835737705230713
+Baseline (with projection head),3336,0,airplane,4.01342248916626,-21.0891170501709
+Baseline (with projection head),7326,4,deer,5.71753454208374,20.37515640258789
+Baseline (with projection head),8005,1,automobile,-11.80721378326416,-18.084667205810547
+Baseline (with projection head),9513,6,frog,10.8889799118042,30.997760772705078
+Baseline (with projection head),3874,6,frog,22.68971824645996,16.675342559814453
+Baseline (with projection head),8504,1,automobile,-16.598045349121094,-8.232807159423828
+Baseline (with projection head),3109,8,ship,0.3643031120300293,-14.049898147583008
+Baseline (with projection head),241,1,automobile,6.209305286407471,-16.241777420043945
+Baseline (with projection head),3207,0,airplane,26.526269912719727,5.7860236167907715
+Baseline (with projection head),7697,5,dog,25.130569458007812,-12.90324592590332
+Baseline (with projection head),2910,8,ship,-12.74145221710205,4.936940670013428
+Baseline (with projection head),5887,1,automobile,-17.230682373046875,-15.327788352966309
+Baseline (with projection head),9783,2,bird,5.042707443237305,14.964502334594727
+Baseline (with projection head),8432,5,dog,-9.682440757751465,17.455184936523438
+Baseline (with projection head),3460,1,automobile,-8.871223449707031,-6.4819231033325195
+Baseline (with projection head),2722,5,dog,20.086688995361328,5.697349548339844
+Baseline (with projection head),8209,2,bird,21.62621307373047,33.01993179321289
+Baseline (with projection head),4125,8,ship,-7.703331470489502,-32.00835037231445
+Baseline (with projection head),3939,9,truck,3.215106725692749,-16.408010482788086
+Baseline (with projection head),7840,1,automobile,-23.542810440063477,-2.6750800609588623
+Baseline (with projection head),4019,7,horse,3.3977410793304443,-3.0537242889404297
+Baseline (with projection head),4681,9,truck,-13.811291694641113,-3.221663475036621
+Baseline (with projection head),5270,1,automobile,-24.07169532775879,-15.534635543823242
+Baseline (with projection head),2266,8,ship,-20.626352310180664,-9.221643447875977
+Baseline (with projection head),1175,9,truck,7.649750709533691,-4.267213344573975
+Baseline (with projection head),1464,1,automobile,-13.360194206237793,-15.65160846710205
+Baseline (with projection head),392,6,frog,15.115255355834961,18.586952209472656
+Baseline (with projection head),2650,5,dog,9.897356986999512,-21.88969612121582
+Baseline (with projection head),3507,4,deer,26.805177688598633,1.1176105737686157
+Baseline (with projection head),8682,5,dog,-6.944950103759766,14.8482084274292
+Baseline (with projection head),1155,9,truck,0.3160433769226074,-12.204935073852539
+Baseline (with projection head),6164,7,horse,15.223621368408203,37.058658599853516
+Baseline (with projection head),6712,0,airplane,2.3928658962249756,-38.40727233886719
+Baseline (with projection head),654,9,truck,-32.79059600830078,-28.958881378173828
+Baseline (with projection head),2785,4,deer,-8.738774299621582,18.297426223754883
+Baseline (with projection head),9403,9,truck,-21.206880569458008,25.294775009155273
+Baseline (with projection head),9853,5,dog,8.627784729003906,21.639537811279297
+Baseline (with projection head),6441,5,dog,-8.307971954345703,28.39449691772461
+Baseline (with projection head),3152,1,automobile,-20.72686004638672,-5.002292156219482
+Baseline (with projection head),2532,0,airplane,-18.79221534729004,-14.77811336517334
+Baseline (with projection head),2236,5,dog,27.434520721435547,29.76879119873047
+Baseline (with projection head),6202,3,cat,11.153685569763184,29.90036392211914
+Baseline (with projection head),2622,0,airplane,5.124933242797852,-35.03477478027344
+Baseline (with projection head),9139,4,deer,26.969009399414062,23.541431427001953
+Baseline (with projection head),6758,8,ship,-9.749104499816895,-31.430700302124023
+Baseline (with projection head),4373,0,airplane,0.20407304167747498,-44.87220001220703
+Baseline (with projection head),7414,8,ship,1.7917543649673462,-13.355358123779297
+Baseline (with projection head),4638,6,frog,19.270263671875,26.0072078704834
+Baseline (with projection head),8565,7,horse,29.113853454589844,-8.49199390411377
+Baseline (with projection head),8127,9,truck,13.194941520690918,-7.87912130355835
+Baseline (with projection head),5148,3,cat,-7.855368137359619,16.30536651611328
+Baseline (with projection head),1637,5,dog,-5.677224159240723,8.073370933532715
+Baseline (with projection head),1403,6,frog,24.019166946411133,16.88321304321289
+Baseline (with projection head),8578,2,bird,-17.93933868408203,30.953405380249023
+Baseline (with projection head),2127,2,bird,-0.7869848012924194,32.84784698486328
+Baseline (with projection head),3779,3,cat,-2.690788507461548,-26.060497283935547
+Baseline (with projection head),3990,4,deer,21.01580047607422,20.342910766601562
+Baseline (with projection head),7343,7,horse,-2.7881293296813965,27.115781784057617
+Baseline (with projection head),2831,3,cat,13.341771125793457,32.401031494140625
+Baseline (with projection head),7581,9,truck,-0.4828551113605499,-19.034420013427734
+Baseline (with projection head),8773,6,frog,12.315979957580566,15.162862777709961
+Baseline (with projection head),5969,5,dog,16.36893653869629,34.3283576965332
+Baseline (with projection head),8494,1,automobile,-17.725297927856445,-5.129830837249756
+Baseline (with projection head),6902,4,deer,19.626115798950195,18.953418731689453
+Baseline (with projection head),8275,3,cat,2.233086585998535,4.86411714553833
+Baseline (with projection head),5494,9,truck,-23.323951721191406,-12.36742115020752
+Baseline (with projection head),3154,9,truck,-0.40605035424232483,-23.534372329711914
+Baseline (with projection head),2537,1,automobile,-24.367979049682617,-6.945006847381592
+Baseline (with projection head),4633,1,automobile,-13.863262176513672,-4.209954738616943
+Baseline (with projection head),5438,7,horse,24.26995849609375,12.069531440734863
+Baseline (with projection head),5247,7,horse,6.211677074432373,-7.189583778381348
+Baseline (with projection head),6484,8,ship,3.137794256210327,-21.471731185913086
+Baseline (with projection head),5974,9,truck,6.202829360961914,-15.28083324432373
+Baseline (with projection head),2679,0,airplane,1.851367473602295,-44.3623046875
+Baseline (with projection head),5398,8,ship,-23.760255813598633,-21.550350189208984
+Baseline (with projection head),3581,4,deer,15.356518745422363,13.31250286102295
+Baseline (with projection head),462,1,automobile,-14.172786712646484,-11.894164085388184
+Baseline (with projection head),118,2,bird,-7.27502965927124,32.79701232910156
+Baseline (with projection head),4688,7,horse,29.546672821044922,-8.07390022277832
+Baseline (with projection head),4601,2,bird,-19.211063385009766,26.308034896850586
+Baseline (with projection head),3965,0,airplane,15.683856964111328,-11.711177825927734
+Baseline (with projection head),9745,3,cat,23.333337783813477,-15.307208061218262
+Baseline (with projection head),2470,7,horse,-2.6272380352020264,19.443708419799805
+Baseline (with projection head),6665,4,deer,15.340262413024902,-28.275514602661133
+Baseline (with projection head),4307,3,cat,18.32854461669922,-22.14910888671875
+Baseline (with projection head),8913,8,ship,-7.590822696685791,-30.614181518554688
+Baseline (with projection head),6001,0,airplane,1.1391575336456299,-23.95833969116211
+Baseline (with projection head),365,4,deer,6.242401599884033,-24.69244384765625
+Baseline (with projection head),1899,7,horse,4.95704460144043,-2.9791221618652344
+Baseline (with projection head),273,3,cat,-14.957270622253418,14.106788635253906
+Baseline (with projection head),6462,0,airplane,-4.58877420425415,-36.86179733276367
+Baseline (with projection head),8269,8,ship,-0.18792052567005157,-45.36824417114258
+Baseline (with projection head),4296,8,ship,-27.026554107666016,-4.192254543304443
+Baseline (with projection head),8334,6,frog,3.8144073486328125,25.72710418701172
+Baseline (with projection head),5097,7,horse,18.930646896362305,-21.29610824584961
+Baseline (with projection head),8605,6,frog,5.953898906707764,7.344383239746094
+Baseline (with projection head),7042,8,ship,-21.786462783813477,-18.713056564331055
+Baseline (with projection head),8090,6,frog,0.04502052441239357,29.277549743652344
+Baseline (with projection head),6415,1,automobile,-13.658821105957031,-15.045369148254395
+Baseline (with projection head),787,9,truck,2.579106330871582,-13.453465461730957
+Baseline (with projection head),3839,5,dog,-14.539517402648926,29.80284309387207
+Baseline (with projection head),7740,4,deer,7.224415302276611,16.681690216064453
+Baseline (with projection head),3584,3,cat,-11.039379119873047,33.74235534667969
+Baseline (with projection head),281,0,airplane,-9.130003929138184,-2.1131081581115723
+Baseline (with projection head),8735,3,cat,-2.9148595333099365,11.626993179321289
+Baseline (with projection head),7686,9,truck,5.613148212432861,-22.62836265563965
+Baseline (with projection head),6770,1,automobile,-2.6521847248077393,2.0214531421661377
+Baseline (with projection head),4077,3,cat,-2.493333578109741,21.677406311035156
+Baseline (with projection head),2291,5,dog,-12.812894821166992,13.462506294250488
+Baseline (with projection head),8237,7,horse,-15.34863567352295,11.055553436279297
+Baseline (with projection head),5797,5,dog,7.065352439880371,7.303971767425537
+Baseline (with projection head),6168,3,cat,-14.629176139831543,-0.2813127934932709
+Baseline (with projection head),8488,9,truck,10.488181114196777,-24.854642868041992
+Baseline (with projection head),4976,5,dog,7.859333515167236,-22.751821517944336
+Baseline (with projection head),8437,7,horse,20.127626419067383,7.543606758117676
+Baseline (with projection head),3089,8,ship,-23.093965530395508,-24.154863357543945
+Baseline (with projection head),3532,5,dog,-15.707259178161621,18.836103439331055
+Baseline (with projection head),8631,2,bird,-0.49820059537887573,31.550106048583984
+Baseline (with projection head),7986,1,automobile,-15.505765914916992,-14.225127220153809
+Baseline (with projection head),8582,6,frog,7.502089023590088,24.923656463623047
+Baseline (with projection head),9248,0,airplane,-6.139682292938232,-15.584661483764648
+Baseline (with projection head),5212,5,dog,13.443482398986816,38.85858917236328
+Baseline (with projection head),6694,3,cat,-4.560652256011963,30.25554847717285
+Baseline (with projection head),6054,3,cat,19.25905418395996,-3.737290620803833
+Baseline (with projection head),95,6,frog,-17.451122283935547,21.63778305053711
+Baseline (with projection head),5581,6,frog,2.040041208267212,27.951862335205078
+Baseline (with projection head),8353,7,horse,-15.686389923095703,9.993696212768555
+Baseline (with projection head),9239,8,ship,-9.446333885192871,-24.53894805908203
+Baseline (with projection head),4732,2,bird,-6.549618721008301,-37.40049743652344
+Baseline (with projection head),5030,4,deer,11.395665168762207,37.05413055419922
+Baseline (with projection head),7661,9,truck,-23.507400512695312,-10.977383613586426
+Baseline (with projection head),3246,1,automobile,11.337986946105957,3.8268661499023438
+Baseline (with projection head),7031,0,airplane,-13.618831634521484,-26.200119018554688
+Baseline (with projection head),9498,3,cat,9.080649375915527,30.814640045166016
+Baseline (with projection head),2663,7,horse,11.03979206085205,-23.73754119873047
+Baseline (with projection head),1813,3,cat,17.0313777923584,33.15594482421875
+Baseline (with projection head),210,7,horse,-6.654082298278809,39.12863540649414
+Baseline (with projection head),6920,5,dog,18.576936721801758,19.834781646728516
+Baseline (with projection head),2619,7,horse,22.09653663635254,-16.40165901184082
+Baseline (with projection head),970,9,truck,8.085780143737793,-11.737801551818848
+Baseline (with projection head),5823,5,dog,-16.179771423339844,26.671464920043945
+Baseline (with projection head),3555,6,frog,27.977779388427734,7.2935919761657715
+Baseline (with projection head),4557,0,airplane,-6.767948627471924,-34.965885162353516
+Baseline (with projection head),6590,5,dog,24.582048416137695,-8.351266860961914
+Baseline (with projection head),9784,8,ship,-16.817630767822266,-23.042409896850586
+Baseline (with projection head),7407,9,truck,-19.05681037902832,-1.6964184045791626
+Baseline (with projection head),5024,1,automobile,-15.801637649536133,-13.301976203918457
+Baseline (with projection head),9119,4,deer,26.930089950561523,-1.8290563821792603
+Baseline (with projection head),6903,9,truck,11.637171745300293,-5.877252578735352
+Baseline (with projection head),8164,6,frog,6.500148773193359,20.598609924316406
+Baseline (with projection head),6893,3,cat,2.584188461303711,20.337060928344727
+Baseline (with projection head),9956,0,airplane,13.223994255065918,-25.614665985107422
+Baseline (with projection head),9624,2,bird,-8.977408409118652,-22.933183670043945
+Baseline (with projection head),5652,0,airplane,1.5009301900863647,-39.03667449951172
+Baseline (with projection head),8444,5,dog,-4.512409687042236,21.854293823242188
+Baseline (with projection head),3390,3,cat,-7.1570048332214355,15.345746994018555
+Baseline (with projection head),7711,6,frog,3.4978930950164795,-0.9142543077468872
+Baseline (with projection head),4004,0,airplane,13.509458541870117,-24.376937866210938
+Baseline (with projection head),8069,4,deer,-20.908193588256836,17.487255096435547
+Baseline (with projection head),9500,9,truck,-17.295366287231445,30.758974075317383
+Baseline (with projection head),1224,7,horse,3.4002747535705566,11.979338645935059
+Baseline (with projection head),199,8,ship,-20.730745315551758,-7.883913993835449
+Baseline (with projection head),3807,8,ship,-20.366073608398438,-16.453859329223633
+Baseline (with projection head),5677,7,horse,-16.25621223449707,6.194231033325195
+Baseline (with projection head),1388,5,dog,-8.660354614257812,24.0642032623291
+Baseline (with projection head),1501,2,bird,1.5263824462890625,32.144866943359375
+Baseline (with projection head),6082,0,airplane,-0.9706389307975769,-24.045194625854492
+Baseline (with projection head),4672,6,frog,8.094786643981934,18.65227508544922
+Baseline (with projection head),9427,1,automobile,12.803732872009277,6.677430152893066
+Baseline (with projection head),9887,5,dog,-19.865995407104492,30.846656799316406
+Baseline (with projection head),5106,6,frog,10.050898551940918,31.770734786987305
+Baseline (with projection head),2536,5,dog,-11.034468650817871,8.79946517944336
+Baseline (with projection head),7713,5,dog,10.942206382751465,-9.231725692749023
+Baseline (with projection head),1174,1,automobile,-11.964216232299805,-18.385730743408203
+Baseline (with projection head),1283,5,dog,-9.107995986938477,3.5068888664245605
+Baseline (with projection head),6265,4,deer,-2.1982297897338867,4.846433162689209
+Baseline (with projection head),3525,2,bird,-8.4735746383667,7.5366339683532715
+Baseline (with projection head),5,6,frog,11.469897270202637,22.23788070678711
+Baseline (with projection head),1196,2,bird,-11.562546730041504,9.672537803649902
+Baseline (with projection head),6719,2,bird,-32.794097900390625,-28.959945678710938
+Baseline (with projection head),258,0,airplane,-10.64305305480957,-12.161470413208008
+Baseline (with projection head),5357,0,airplane,-1.6145970821380615,-41.08085632324219
+Baseline (with projection head),7966,7,horse,-18.751728057861328,2.681138277053833
+Baseline (with projection head),3771,2,bird,-0.7438451051712036,-39.432899475097656
+Baseline (with projection head),1868,2,bird,5.076471328735352,39.208797454833984
+Baseline (with projection head),4874,9,truck,3.55513072013855,-9.976078987121582
+Baseline (with projection head),5480,1,automobile,-6.230959415435791,-1.5421535968780518
+Baseline (with projection head),1609,4,deer,-12.087664604187012,11.652162551879883
+Baseline (with projection head),1522,4,deer,-8.49991512298584,12.129390716552734
+Baseline (with projection head),6104,1,automobile,-26.229171752929688,-12.406530380249023
+Baseline (with projection head),3389,1,automobile,-25.424755096435547,-8.165350914001465
+Baseline (with projection head),406,0,airplane,-2.244270086288452,-43.98077392578125
+Baseline (with projection head),6715,2,bird,13.703571319580078,25.279796600341797
+Baseline (with projection head),8116,9,truck,-26.065933227539062,-14.211383819580078
+Baseline (with projection head),7298,4,deer,31.536893844604492,7.081299304962158
+Baseline (with projection head),3672,0,airplane,-25.506877899169922,11.358210563659668
+Baseline (with projection head),5844,0,airplane,-1.8700600862503052,-36.327857971191406
+Baseline (with projection head),8965,4,deer,6.197146892547607,-2.981581687927246
+Baseline (with projection head),8458,5,dog,-17.83627700805664,32.74851989746094
+Baseline (with projection head),1393,4,deer,-11.300329208374023,17.026443481445312
+Baseline (with projection head),4691,2,bird,9.272286415100098,22.06834602355957
+Baseline (with projection head),9452,2,bird,-18.100759506225586,-10.126962661743164
+Baseline (with projection head),4005,5,dog,11.612905502319336,-3.6680965423583984
+Baseline (with projection head),5074,0,airplane,-9.363724708557129,42.314579010009766
+Baseline (with projection head),3950,8,ship,-6.702354907989502,-27.6273136138916
+Baseline (with projection head),5641,4,deer,27.2371826171875,25.73067283630371
+Baseline (with projection head),468,7,horse,-8.519540786743164,15.466150283813477
+Baseline (with projection head),1405,1,automobile,-22.368473052978516,6.195199012756348
+Baseline (with projection head),2584,6,frog,13.759838104248047,28.23661994934082
+Baseline (with projection head),2533,8,ship,20.600008010864258,-16.16438865661621
+Baseline (with projection head),9184,7,horse,23.637493133544922,-5.568286418914795
+Baseline (with projection head),1649,5,dog,-2.6070566177368164,33.51111602783203
+Baseline (with projection head),5315,9,truck,10.934293746948242,-13.72685718536377
+Baseline (with projection head),2330,0,airplane,-17.724456787109375,-27.999570846557617
+Baseline (with projection head),7727,6,frog,18.83174705505371,27.830657958984375
+Baseline (with projection head),8866,1,automobile,-17.627952575683594,-8.06812858581543
+Baseline (with projection head),3345,7,horse,24.77996063232422,-6.31729793548584
+Baseline (with projection head),4165,8,ship,5.707385063171387,-17.796428680419922
+Baseline (with projection head),6861,8,ship,-13.107278823852539,-24.8178768157959
+Baseline (with projection head),9616,5,dog,2.0730819702148438,6.3482184410095215
+Baseline (with projection head),6203,3,cat,-7.411744117736816,31.37813949584961
+Baseline (with projection head),7066,6,frog,9.240921974182129,27.45051383972168
+Baseline (with projection head),7350,9,truck,6.641793727874756,-11.105704307556152
+Baseline (with projection head),1449,6,frog,7.767248630523682,23.404525756835938
+Baseline (with projection head),633,8,ship,-22.939847946166992,20.817394256591797
+Baseline (with projection head),3324,3,cat,21.641597747802734,12.221800804138184
+Baseline (with projection head),354,2,bird,15.613868713378906,29.344417572021484
+Baseline (with projection head),544,5,dog,-25.663822174072266,16.432817459106445
+Baseline (with projection head),906,1,automobile,-5.76994514465332,-12.58041763305664
+Baseline (with projection head),2876,9,truck,-3.8614258766174316,-16.329545974731445
+Baseline (with projection head),8634,6,frog,29.043237686157227,24.387134552001953
+Baseline (with projection head),9644,0,airplane,5.269526481628418,-19.923614501953125
+Baseline (with projection head),3602,3,cat,4.287854194641113,6.980057716369629
+Baseline (with projection head),8881,6,frog,7.199052810668945,43.439247131347656
+Baseline (with projection head),9708,9,truck,-7.790699005126953,-9.4046630859375
+Baseline (with projection head),8281,3,cat,-17.862709045410156,14.846161842346191
+Baseline (with projection head),5203,6,frog,-1.1273680925369263,7.489266395568848
+Baseline (with projection head),1300,4,deer,-7.818272590637207,34.093727111816406
+Baseline (with projection head),1059,8,ship,-17.923749923706055,-11.563600540161133
+Baseline (with projection head),9978,7,horse,20.990703582763672,5.731961250305176
+Baseline (with projection head),6535,5,dog,-13.994295120239258,12.665061950683594
+Baseline (with projection head),5841,6,frog,2.379189968109131,23.952173233032227
+Baseline (with projection head),1402,7,horse,25.515335083007812,8.413630485534668
+Baseline (with projection head),4440,2,bird,-10.634432792663574,12.329931259155273
+Baseline (with projection head),8260,1,automobile,-21.44059944152832,-5.794339179992676
+Baseline (with projection head),4559,3,cat,5.241118907928467,14.634053230285645
+Baseline (with projection head),5971,1,automobile,-18.10574722290039,-14.01018238067627
+Baseline (with projection head),1967,7,horse,5.095086097717285,16.94182777404785
+Baseline (with projection head),8614,8,ship,-14.27646255493164,-8.905606269836426
+Baseline (with projection head),4484,4,deer,18.23857879638672,18.129793167114258
+Baseline (with projection head),7489,3,cat,10.653118133544922,40.174530029296875
+Baseline (with projection head),9321,4,deer,20.29265022277832,19.27117347717285
+Baseline (with projection head),3762,1,automobile,-18.892065048217773,-7.286266326904297
+Baseline (with projection head),9704,2,bird,-30.995790481567383,16.18693733215332
+Baseline (with projection head),2468,0,airplane,4.788722515106201,-34.23762893676758
+Baseline (with projection head),7114,1,automobile,-24.379486083984375,-3.249959945678711
+Baseline (with projection head),2897,3,cat,6.144306182861328,29.3647403717041
+Baseline (with projection head),3500,1,automobile,-14.885570526123047,-16.983068466186523
+Baseline (with projection head),211,4,deer,-8.556696891784668,-14.0828857421875
+Baseline (with projection head),6041,7,horse,-20.417678833007812,7.131821155548096
+Baseline (with projection head),5341,6,frog,-1.630374550819397,22.10321617126465
+Baseline (with projection head),7336,5,dog,-20.151256561279297,17.694231033325195
+Baseline (with projection head),3696,4,deer,-7.363673210144043,-38.14276123046875
+Baseline (with projection head),9917,2,bird,22.079988479614258,-17.13459587097168
+Baseline (with projection head),5082,6,frog,4.17197847366333,1.868456244468689
+Baseline (with projection head),6791,7,horse,24.38483238220215,-7.837305068969727
+Baseline (with projection head),5611,5,dog,-30.170923233032227,17.655237197875977
+Baseline (with projection head),5682,5,dog,-14.660706520080566,20.104143142700195
+Baseline (with projection head),5152,9,truck,16.345182418823242,-7.913668632507324
+Baseline (with projection head),7850,0,airplane,-2.310662031173706,-22.807907104492188
+Baseline (with projection head),2683,5,dog,-7.94583797454834,7.231074810028076
+Baseline (with projection head),2439,1,automobile,-8.371153831481934,-5.748285293579102
+Baseline (with projection head),3452,5,dog,-9.232780456542969,37.194149017333984
+Baseline (with projection head),8013,8,ship,-17.619661331176758,-23.76871681213379
+Baseline (with projection head),3127,4,deer,18.211450576782227,20.936107635498047
+Baseline (with projection head),6252,2,bird,14.583279609680176,35.84947204589844
+Baseline (with projection head),7155,9,truck,1.2767947912216187,-9.544017791748047
+Baseline (with projection head),4264,2,bird,-7.980555534362793,34.32168197631836
+Baseline (with projection head),9241,6,frog,7.094186305999756,23.09502601623535
+Baseline (with projection head),229,6,frog,9.071215629577637,12.282187461853027
+Baseline (with projection head),4342,3,cat,-9.587661743164062,24.084386825561523
+Baseline (with projection head),3679,0,airplane,-0.2338191568851471,-25.13802719116211
+Baseline (with projection head),8185,0,airplane,-11.502182960510254,-33.324180603027344
+Baseline (with projection head),4348,8,ship,-4.223964691162109,-23.235431671142578
+Baseline (with projection head),8678,1,automobile,4.473956108093262,-28.974834442138672
+Baseline (with projection head),2177,9,truck,5.0757551193237305,15.731324195861816
+Baseline (with projection head),4060,6,frog,11.121710777282715,18.336002349853516
+Baseline (with projection head),2388,0,airplane,-25.789775848388672,-19.263784408569336
+Baseline (with projection head),7815,0,airplane,-15.447181701660156,-6.963339805603027
+Baseline (with projection head),335,9,truck,-8.649401664733887,-14.163745880126953
+Baseline (with projection head),8041,8,ship,-2.6638758182525635,0.08494336158037186
+Baseline (with projection head),7156,1,automobile,-9.069113731384277,-6.188546180725098
+Baseline (with projection head),8135,7,horse,9.135823249816895,-19.472553253173828
+Baseline (with projection head),2846,6,frog,2.017408847808838,33.07229995727539
+Baseline (with projection head),5443,6,frog,13.114435195922852,22.674705505371094
+Baseline (with projection head),8138,1,automobile,2.932678461074829,-18.644668579101562
+Baseline (with projection head),851,9,truck,7.0736494064331055,-8.555134773254395
+Baseline (with projection head),4114,4,deer,10.507010459899902,33.20755386352539
+Baseline (with projection head),79,8,ship,7.0072431564331055,-20.667724609375
+Baseline (with projection head),6615,7,horse,10.412135124206543,-23.024694442749023
+Baseline (with projection head),5100,3,cat,-3.3346431255340576,33.79389190673828
+Baseline (with projection head),5135,1,automobile,-18.246875762939453,-16.82436752319336
+Baseline (with projection head),8531,8,ship,14.486976623535156,-5.537586688995361
+Baseline (with projection head),3802,7,horse,-23.689369201660156,13.417076110839844
+Baseline (with projection head),6991,1,automobile,12.485547065734863,-12.311885833740234
+Baseline (with projection head),1409,0,airplane,-10.01414680480957,-35.380645751953125
+Baseline (with projection head),3237,9,truck,-20.214067459106445,-1.784426212310791
+Baseline (with projection head),2005,5,dog,-20.593996047973633,23.417016983032227
+Baseline (with projection head),2036,5,dog,12.664937973022461,36.56057357788086
+Baseline (with projection head),5086,3,cat,-11.23279094696045,34.84053039550781
+Baseline (with projection head),2033,2,bird,-4.2995123863220215,18.90336036682129
+Baseline (with projection head),889,4,deer,10.32864761352539,24.612398147583008
+Baseline (with projection head),5226,1,automobile,-3.197784423828125,1.1506295204162598
+Baseline (with projection head),9592,1,automobile,-13.059332847595215,-3.1627583503723145
+Baseline (with projection head),8236,5,dog,-25.2501220703125,9.697978973388672
+Baseline (with projection head),5090,1,automobile,-5.986780166625977,-13.854806900024414
+Baseline (with projection head),7932,9,truck,-0.7716464996337891,-16.49825096130371
+Baseline (with projection head),8130,6,frog,6.69807243347168,30.245779037475586
+Baseline (with projection head),5003,4,deer,27.185609817504883,10.6393404006958
+Baseline (with projection head),8533,6,frog,8.14858341217041,28.81394386291504
+Baseline (with projection head),9537,6,frog,-5.8981242179870605,-1.0110138654708862
+Baseline (with projection head),5869,7,horse,-27.17800521850586,-0.03657270222902298
+Baseline (with projection head),8872,8,ship,3.7128100395202637,-4.843190670013428
+Baseline (with projection head),9038,2,bird,15.770161628723145,21.629175186157227
+Baseline (with projection head),3599,7,horse,32.49846649169922,-3.782825231552124
+Baseline (with projection head),5011,3,cat,-19.87173080444336,14.458329200744629
+Baseline (with projection head),3569,9,truck,9.683056831359863,-17.147098541259766
+Baseline (with projection head),4886,3,cat,-6.633354187011719,32.39080047607422
+Baseline (with projection head),2535,0,airplane,9.975432395935059,18.133268356323242
+Baseline (with projection head),6257,5,dog,-30.32379722595215,17.0389461517334
+Baseline (with projection head),7208,1,automobile,12.135318756103516,8.716843605041504
+Baseline (with projection head),9980,0,airplane,1.61594557762146,-37.14318084716797
+Baseline (with projection head),3027,1,automobile,-17.168745040893555,-6.918891906738281
+Baseline (with projection head),1975,6,frog,7.446221828460693,38.4771842956543
+Baseline (with projection head),3340,6,frog,15.56991195678711,28.033784866333008
+Baseline (with projection head),3865,7,horse,27.877544403076172,13.447378158569336
+Baseline (with projection head),6989,7,horse,-2.760822057723999,-6.34442663192749
+Baseline (with projection head),7864,1,automobile,-14.422929763793945,-5.623471736907959
+Baseline (with projection head),5874,3,cat,-1.8313021659851074,15.3305025100708
+Baseline (with projection head),5385,2,bird,-9.53024673461914,22.641881942749023
+Baseline (with projection head),9467,2,bird,8.218596458435059,-5.80463171005249
+Baseline (with projection head),6429,8,ship,12.34589672088623,9.072762489318848
+Baseline (with projection head),3112,0,airplane,30.074323654174805,-7.67095422744751
+Baseline (with projection head),7694,9,truck,5.545376300811768,-8.278334617614746
+Baseline (with projection head),3484,4,deer,5.291914463043213,33.18033981323242
+Baseline (with projection head),6722,3,cat,-3.0318570137023926,35.1367073059082
+Baseline (with projection head),3537,8,ship,-22.396211624145508,-27.49806022644043
+Baseline (with projection head),8806,3,cat,-4.508132457733154,22.301485061645508
+Baseline (with projection head),9802,0,airplane,0.5286296606063843,-39.39744186401367
+Baseline (with projection head),6423,5,dog,27.6174373626709,25.469919204711914
+Baseline (with projection head),7160,5,dog,19.975908279418945,28.390827178955078
+Baseline (with projection head),7796,8,ship,-1.3119012117385864,-21.66608238220215
+Baseline (with projection head),123,2,bird,20.309465408325195,-4.53547477722168
+Baseline (with projection head),459,6,frog,-6.867979526519775,-19.220823287963867
+Baseline (with projection head),1777,4,deer,17.761892318725586,7.279049396514893
+Baseline (with projection head),5860,0,airplane,-18.790437698364258,-23.881898880004883
+Baseline (with projection head),7557,5,dog,12.895864486694336,-6.673226356506348
+Baseline (with projection head),8379,8,ship,-5.635434627532959,-26.853181838989258
+Baseline (with projection head),9242,7,horse,11.599870681762695,12.337992668151855
+Baseline (with projection head),3367,7,horse,1.859934687614441,-4.3470845222473145
+Baseline (with projection head),151,9,truck,2.8105788230895996,-24.00118064880371
+Baseline (with projection head),2464,2,bird,-17.105066299438477,-9.420056343078613
+Baseline (with projection head),9491,8,ship,-10.378716468811035,-29.12636947631836
+Baseline (with projection head),9176,8,ship,-9.94284439086914,-27.32903480529785
+Baseline (with projection head),9587,7,horse,-2.4700851440429688,-13.962886810302734
+Baseline (with projection head),4144,1,automobile,-24.31635284423828,-4.603931903839111
+Baseline (with projection head),1026,0,airplane,2.5310750007629395,17.822223663330078
+Baseline (with projection head),1918,2,bird,-0.8188488483428955,35.55064010620117
+Baseline (with projection head),7016,3,cat,7.1493682861328125,1.1739583015441895
+Baseline (with projection head),8310,3,cat,-11.263984680175781,22.014463424682617
+Baseline (with projection head),3727,9,truck,3.7519538402557373,-24.459636688232422
+Baseline (with projection head),1964,3,cat,-12.840462684631348,22.423681259155273
+Baseline (with projection head),7842,5,dog,-24.841644287109375,-28.426250457763672
+Baseline (with projection head),419,7,horse,3.9232583045959473,-2.530799150466919
+Baseline (with projection head),4211,4,deer,-30.5632266998291,-19.02241325378418
+Baseline (with projection head),6255,6,frog,5.066568374633789,28.641843795776367
+Baseline (with projection head),3626,9,truck,4.23720645904541,-11.695734024047852
+Baseline (with projection head),240,1,automobile,-19.77648162841797,-5.027771949768066
+Baseline (with projection head),5757,4,deer,26.096406936645508,2.1680541038513184
+Baseline (with projection head),740,2,bird,-11.214958190917969,14.503589630126953
+Baseline (with projection head),1172,2,bird,32.54888153076172,17.509836196899414
+Baseline (with projection head),4644,7,horse,27.031404495239258,5.714806079864502
+Baseline (with projection head),6680,3,cat,-13.671250343322754,24.411258697509766
+Baseline (with projection head),681,6,frog,4.489168167114258,25.5836181640625
+Baseline (with projection head),8448,4,deer,-8.216438293457031,30.585800170898438
+Baseline (with projection head),8639,7,horse,15.948100090026855,-28.465137481689453
+Baseline (with projection head),3561,7,horse,-17.517993927001953,33.523651123046875
+Baseline (with projection head),4245,1,automobile,15.139966011047363,-8.672395706176758
+Baseline (with projection head),9963,8,ship,-7.179516792297363,-30.246917724609375
+Baseline (with projection head),5715,6,frog,-6.550640106201172,27.786853790283203
+Baseline (with projection head),3174,2,bird,19.624313354492188,-5.8766889572143555
+Baseline (with projection head),5464,7,horse,-2.5012948513031006,-2.600778341293335
+Baseline (with projection head),9842,6,frog,2.732595682144165,24.40176010131836
+Baseline (with projection head),5914,1,automobile,-21.025686264038086,-1.2056770324707031
+Baseline (with projection head),4317,8,ship,-5.034242630004883,-28.241592407226562
+Baseline (with projection head),8161,5,dog,24.230064392089844,-13.842506408691406
+Baseline (with projection head),9153,2,bird,16.473262786865234,31.531103134155273
+Baseline (with projection head),5147,3,cat,-3.755805253982544,33.39268493652344
+Baseline (with projection head),565,3,cat,-21.541528701782227,25.43517303466797
+Baseline (with projection head),2582,5,dog,-19.799470901489258,20.67287254333496
+Baseline (with projection head),1089,6,frog,11.584546089172363,24.077104568481445
+Baseline (with projection head),4898,6,frog,4.733462333679199,24.047245025634766
+Baseline (with projection head),7362,9,truck,6.973073959350586,10.141361236572266
+Baseline (with projection head),6735,9,truck,-29.487895965576172,-14.673579216003418
+Baseline (with projection head),4787,8,ship,-10.656596183776855,-29.75874137878418
+Baseline (with projection head),5613,5,dog,-0.17214712500572205,6.8392252922058105
+Baseline (with projection head),175,9,truck,4.552470684051514,-15.278999328613281
+Baseline (with projection head),7065,2,bird,-8.54928970336914,39.999324798583984
+Baseline (with projection head),3194,3,cat,12.026350021362305,40.647640228271484
+Baseline (with projection head),6904,5,dog,-11.482097625732422,20.26848793029785
+Baseline (with projection head),6932,9,truck,-21.67396354675293,7.166852951049805
+Baseline (with projection head),8105,0,airplane,-12.650055885314941,-1.9927570819854736
+Baseline (with projection head),505,4,deer,28.322250366210938,1.1883559226989746
+Baseline (with projection head),2415,6,frog,7.614840030670166,28.633329391479492
+Baseline (with projection head),5801,9,truck,12.844645500183105,-11.969078063964844
+Baseline (with projection head),6060,3,cat,-29.687145233154297,-3.3799588680267334
+Baseline (with projection head),6212,7,horse,9.37729263305664,-4.660667896270752
+Baseline (with projection head),8450,9,truck,-20.253103256225586,-13.178460121154785
+Baseline (with projection head),2921,8,ship,-6.851624011993408,-28.806184768676758
+Baseline (with projection head),3716,3,cat,12.006082534790039,32.629600524902344
+Baseline (with projection head),1479,2,bird,-17.417932510375977,7.663647174835205
+Baseline (with projection head),2973,0,airplane,-15.447198867797852,-30.154064178466797
+Baseline (with projection head),5986,3,cat,-8.8884916305542,41.2136344909668
+Baseline (with projection head),6760,5,dog,-6.727481842041016,16.53268814086914
+Baseline (with projection head),7534,6,frog,5.291255950927734,21.362186431884766
+Baseline (with projection head),7003,7,horse,13.05927562713623,40.08165740966797
+Baseline (with projection head),6503,6,frog,9.574015617370605,16.58184242248535
+Baseline (with projection head),2254,8,ship,-9.006646156311035,-27.6916446685791
+Baseline (with projection head),2585,3,cat,-14.037734031677246,7.673442363739014
+Baseline (with projection head),4953,0,airplane,-16.67255401611328,-25.249544143676758
+Baseline (with projection head),8712,1,automobile,-21.99854850769043,-16.761157989501953
+Baseline (with projection head),2955,2,bird,-14.483393669128418,5.618030071258545
+Baseline (with projection head),5610,8,ship,7.009528160095215,-0.35201141238212585
+Baseline (with projection head),3019,5,dog,19.419506072998047,-25.484210968017578
+Baseline (with projection head),8022,2,bird,-3.716928005218506,36.378875732421875
+Baseline (with projection head),9874,2,bird,-0.06820446252822876,10.96591854095459
+Baseline (with projection head),8503,1,automobile,-26.513282775878906,-11.416868209838867
+Baseline (with projection head),6148,4,deer,13.730616569519043,30.540250778198242
+Baseline (with projection head),5179,5,dog,-13.067530632019043,29.369150161743164
+Baseline (with projection head),3829,8,ship,-16.05143928527832,-32.50052261352539
+Baseline (with projection head),5627,9,truck,6.816268444061279,11.333409309387207
+Baseline (with projection head),3642,1,automobile,-19.582691192626953,-19.686487197875977
+Baseline (with projection head),6256,9,truck,13.570775985717773,-10.086453437805176
+Baseline (with projection head),2902,9,truck,-19.22981834411621,-22.704111099243164
+Baseline (with projection head),2151,5,dog,-21.67734146118164,23.288711547851562
+Baseline (with projection head),5126,0,airplane,15.45299243927002,-6.658171653747559
+Baseline (with projection head),2025,4,deer,24.164718627929688,19.183191299438477
+Baseline (with projection head),7936,1,automobile,-11.898714065551758,-6.310752868652344
+Baseline (with projection head),5863,4,deer,-8.051887512207031,-38.14441680908203
+Baseline (with projection head),6179,8,ship,-22.254985809326172,-15.046493530273438
+Baseline (with projection head),8538,7,horse,24.471908569335938,11.812887191772461
+Baseline (with projection head),6691,8,ship,-7.864831924438477,-18.131488800048828
+Baseline (with projection head),3956,3,cat,26.267459869384766,29.631322860717773
+Baseline (with projection head),4572,2,bird,20.99507713317871,-4.2624311447143555
+Baseline (with projection head),4895,1,automobile,-11.837909698486328,-4.803414821624756
+Baseline (with projection head),2129,9,truck,-2.4693500995635986,-7.245429992675781
+Baseline (with projection head),7310,3,cat,-14.806303977966309,22.258512496948242
+Baseline (with projection head),8600,3,cat,-4.880270481109619,5.0153303146362305
+Baseline (with projection head),973,1,automobile,14.00861644744873,8.37078857421875
+Baseline (with projection head),2715,0,airplane,-5.371868133544922,-29.564298629760742
+Baseline (with projection head),8098,1,automobile,14.482298851013184,0.14193342626094818
+Baseline (with projection head),7679,6,frog,16.0465087890625,20.44574737548828
+Baseline (with projection head),9811,1,automobile,24.46575164794922,4.423440456390381
+Baseline (with projection head),1859,2,bird,-6.499763488769531,39.02820587158203
+Baseline (with projection head),3810,3,cat,0.28527137637138367,3.6447501182556152
+Baseline (with projection head),3069,4,deer,2.6219778060913086,1.7400715351104736
+Baseline (with projection head),7664,2,bird,25.580554962158203,-3.1599559783935547
+Baseline (with projection head),5320,7,horse,20.16548728942871,-21.91575813293457
+Baseline (with projection head),4524,4,deer,11.215132713317871,26.251197814941406
+Baseline (with projection head),3987,1,automobile,0.6167914867401123,-16.977310180664062
+Baseline (with projection head),918,8,ship,-22.86379051208496,-14.057645797729492
+Baseline (with projection head),6384,7,horse,13.410796165466309,30.149415969848633
+Baseline (with projection head),3675,4,deer,-15.567410469055176,8.91218376159668
+Baseline (with projection head),6798,8,ship,-12.390471458435059,-8.820276260375977
+Baseline (with projection head),5306,3,cat,4.392115592956543,2.9977223873138428
+Baseline (with projection head),3450,9,truck,13.847734451293945,7.7059326171875
+Baseline (with projection head),7212,3,cat,-21.352275848388672,9.98606014251709
+Baseline (with projection head),7631,1,automobile,-3.404151439666748,-16.04522132873535
+Baseline (with projection head),89,9,truck,-6.91899299621582,-17.865711212158203
+Baseline (with projection head),336,3,cat,12.794251441955566,34.52056884765625
+Baseline (with projection head),7870,6,frog,5.328553199768066,24.629838943481445
+Baseline (with projection head),3436,4,deer,-7.212954998016357,11.286663055419922
+Baseline (with projection head),1547,2,bird,1.884744644165039,-40.25593566894531
+Baseline (with projection head),4195,3,cat,24.130258560180664,35.279354095458984
+Baseline (with projection head),7714,3,cat,14.640763282775879,11.849288940429688
+Baseline (with projection head),3326,4,deer,16.078752517700195,7.872986793518066
+Baseline (with projection head),2027,9,truck,18.298084259033203,-3.1633145809173584
+Baseline (with projection head),5772,9,truck,-24.859355926513672,-13.759041786193848
+Baseline (with projection head),5759,9,truck,4.408771514892578,-9.545209884643555
+Baseline (with projection head),309,6,frog,0.17308016121387482,13.04590892791748
+Baseline (with projection head),7455,1,automobile,12.738082885742188,-7.887485504150391
+Baseline (with projection head),4084,7,horse,5.112545967102051,-4.455718040466309
+Baseline (with projection head),9214,9,truck,-2.367025136947632,11.483429908752441
+Baseline (with projection head),4807,8,ship,-7.778804302215576,-27.121082305908203
+Baseline (with projection head),4606,0,airplane,9.638355255126953,7.302121639251709
+Baseline (with projection head),1049,4,deer,-24.46053695678711,-1.6832964420318604
+Baseline (with projection head),1444,1,automobile,-13.397171974182129,2.1144909858703613
+Baseline (with projection head),6282,6,frog,16.83954429626465,23.18617057800293
+Baseline (with projection head),2286,3,cat,-10.131628036499023,29.116474151611328
+Baseline (with projection head),2210,2,bird,-10.855663299560547,-33.08603286743164
+Baseline (with projection head),4280,8,ship,-16.19416618347168,-24.2109375
+Baseline (with projection head),1541,4,deer,31.271757125854492,10.192936897277832
+Baseline (with projection head),2356,8,ship,1.2271449565887451,-27.97410774230957
+Baseline (with projection head),6358,7,horse,12.075052261352539,14.883209228515625
+Baseline (with projection head),8706,7,horse,24.53877067565918,0.9229192137718201
+Baseline (with projection head),7333,6,frog,17.95274543762207,27.547922134399414
+Baseline (with projection head),1051,2,bird,9.431878089904785,12.627263069152832
+Baseline (with projection head),5360,9,truck,8.936596870422363,-6.641816139221191
+Baseline (with projection head),2054,3,cat,-14.405659675598145,17.82777976989746
+Baseline (with projection head),7547,9,truck,3.751868486404419,-13.575594902038574
+Baseline (with projection head),8636,6,frog,-5.03546667098999,25.791963577270508
+Baseline (with projection head),2626,7,horse,0.6846516132354736,-2.9852190017700195
+Baseline (with projection head),7811,0,airplane,-0.35251370072364807,-32.1626091003418
+Baseline (with projection head),7424,9,truck,-15.315905570983887,-5.540428638458252
+Baseline (with projection head),7382,9,truck,1.6956993341445923,-14.495487213134766
+Baseline (with projection head),2389,6,frog,14.648571968078613,21.158132553100586
+Baseline (with projection head),2705,8,ship,-8.979948997497559,-32.59253692626953
+Baseline (with projection head),5905,1,automobile,-8.286235809326172,-12.926715850830078
+Baseline (with projection head),6979,5,dog,22.175365447998047,6.583165645599365
+Baseline (with projection head),8469,5,dog,-2.4133143424987793,-5.158483028411865
+Baseline (with projection head),7364,5,dog,3.1219522953033447,-26.6175594329834
+Baseline (with projection head),5622,1,automobile,14.274620056152344,6.863068580627441
+Baseline (with projection head),7401,3,cat,18.04431915283203,36.817779541015625
+Baseline (with projection head),8523,6,frog,5.380265235900879,26.461524963378906
+Baseline (with projection head),4057,7,horse,-23.342071533203125,24.31730079650879
+Baseline (with projection head),9057,8,ship,1.0295510292053223,-9.747856140136719
+Baseline (with projection head),2811,2,bird,22.143117904663086,-18.487926483154297
+Baseline (with projection head),8826,8,ship,-2.9499969482421875,-28.942733764648438
+Baseline (with projection head),3995,7,horse,-26.107383728027344,-9.870490074157715
+Baseline (with projection head),5283,4,deer,-14.985939025878906,4.896734237670898
+Baseline (with projection head),2390,1,automobile,-11.063902854919434,22.042306900024414
+Baseline (with projection head),4671,6,frog,18.344316482543945,28.74505615234375
+Baseline (with projection head),5552,5,dog,-18.936647415161133,18.967981338500977
+Baseline (with projection head),370,4,deer,-4.529913902282715,-5.621785640716553
+Baseline (with projection head),2052,8,ship,-21.796995162963867,-14.750280380249023
+Baseline (with projection head),577,9,truck,3.1909916400909424,-6.831494331359863
+Baseline (with projection head),3773,2,bird,-16.26195526123047,32.471763610839844
+Baseline (with projection head),282,6,frog,22.96990966796875,33.99001693725586
+Baseline (with projection head),149,2,bird,-19.888341903686523,29.646892547607422
+Baseline (with projection head),5787,0,airplane,28.5922908782959,8.988387107849121
+Baseline (with projection head),8263,5,dog,-19.631147384643555,33.799644470214844
+Baseline (with projection head),5168,7,horse,30.108379364013672,-2.198073387145996
+Baseline (with projection head),5775,7,horse,17.744091033935547,14.398946762084961
+Baseline (with projection head),4375,3,cat,29.717294692993164,23.945226669311523
+Baseline (with projection head),8923,6,frog,21.120521545410156,21.946083068847656
+Baseline (with projection head),2757,1,automobile,5.3455071449279785,-10.049612045288086
+Baseline (with projection head),3661,1,automobile,11.135374069213867,2.499889850616455
+Baseline (with projection head),2087,0,airplane,16.386371612548828,-17.772001266479492
+Baseline (with projection head),3879,7,horse,15.289487838745117,-13.744084358215332
+Baseline (with projection head),3887,2,bird,20.01227569580078,25.368621826171875
+Baseline (with projection head),9187,4,deer,-10.025294303894043,33.483245849609375
+Baseline (with projection head),6870,7,horse,-9.158547401428223,4.092089653015137
+Baseline (with projection head),9640,5,dog,-21.292890548706055,-0.7766662240028381
+Baseline (with projection head),1080,6,frog,-7.766495704650879,26.535619735717773
+Baseline (with projection head),456,3,cat,-10.512665748596191,27.77452278137207
+Baseline (with projection head),8736,3,cat,7.559194564819336,1.698235034942627
+Baseline (with projection head),8857,0,airplane,-18.361467361450195,-36.00297927856445
+Baseline (with projection head),2373,0,airplane,-0.9376747608184814,-36.30390930175781
+Baseline (with projection head),2094,5,dog,-7.158895492553711,16.98975944519043
+Baseline (with projection head),9357,9,truck,-13.455084800720215,-5.650665283203125
+Baseline (with projection head),9868,9,truck,-5.869362831115723,-2.6633174419403076
+Baseline (with projection head),1717,7,horse,-15.48286247253418,11.667598724365234
+Baseline (with projection head),9291,8,ship,-19.117399215698242,-29.79080581665039
+Baseline (with projection head),1489,6,frog,4.83196496963501,22.48349952697754
+Baseline (with projection head),8449,1,automobile,-4.422652721405029,30.010055541992188
+Baseline (with projection head),1213,8,ship,-16.95511245727539,-11.18505859375
+Baseline (with projection head),3177,0,airplane,3.557279348373413,-41.27751159667969
+Baseline (with projection head),6222,0,airplane,-1.1601923704147339,-44.98790740966797
+Baseline (with projection head),1581,2,bird,12.632534980773926,-15.785694122314453
+Baseline (with projection head),4561,3,cat,-6.7311906814575195,18.116992950439453
+Baseline (with projection head),5815,3,cat,-9.332433700561523,20.20807647705078
+Baseline (with projection head),8226,8,ship,-27.838048934936523,1.658383846282959
+Baseline (with projection head),1302,6,frog,2.9679129123687744,2.9850292205810547
+Baseline (with projection head),496,0,airplane,-13.951055526733398,-8.668500900268555
+Baseline (with projection head),683,8,ship,-4.726569652557373,-9.831755638122559
+Baseline (with projection head),3747,9,truck,0.15107011795043945,-18.030187606811523
+Baseline (with projection head),5171,2,bird,16.811620712280273,-6.967115879058838
+Baseline (with projection head),874,3,cat,-9.775229454040527,19.352577209472656
+Baseline (with projection head),6884,0,airplane,-15.302435874938965,-28.338623046875
+Baseline (with projection head),4905,7,horse,2.3324644565582275,-4.620887756347656
+Baseline (with projection head),8463,1,automobile,-28.865249633789062,-9.862585067749023
+Baseline (with projection head),7881,3,cat,-2.794245958328247,8.763738632202148
+Baseline (with projection head),8608,8,ship,-15.600841522216797,-2.2010231018066406
+Baseline (with projection head),5948,0,airplane,-0.43560099601745605,-34.352516174316406
+Baseline (with projection head),5285,1,automobile,-14.651677131652832,-11.170309066772461
+Baseline (with projection head),3379,5,dog,29.17535400390625,9.275321006774902
+Baseline (with projection head),1809,8,ship,-9.615677833557129,-22.258777618408203
+Baseline (with projection head),5661,4,deer,19.304332733154297,7.2376532554626465
+Baseline (with projection head),3801,2,bird,-0.6368113160133362,-40.622920989990234
+Baseline (with projection head),28,9,truck,9.726011276245117,-13.570487976074219
+Baseline (with projection head),6763,2,bird,4.557703971862793,34.35200881958008
+Baseline (with projection head),1397,0,airplane,0.23165330290794373,-35.56219482421875
+Baseline (with projection head),1760,0,airplane,-16.322877883911133,-31.494279861450195
+Baseline (with projection head),4725,9,truck,7.315846920013428,-12.313765525817871
+Baseline (with projection head),6617,4,deer,-20.73186683654785,2.742814540863037
+Baseline (with projection head),9829,5,dog,-18.665712356567383,33.02658462524414
+Baseline (with projection head),5958,9,truck,10.4179105758667,-9.991774559020996
+Baseline (with projection head),8364,7,horse,-4.197082042694092,-19.634235382080078
+Baseline (with projection head),2809,4,deer,7.860325813293457,34.6553840637207
+Baseline (with projection head),8312,9,truck,-19.545846939086914,-22.931114196777344
+Baseline (with projection head),4702,6,frog,4.2715959548950195,24.19293212890625
+Baseline (with projection head),953,1,automobile,-25.15235137939453,-2.7726545333862305
+Baseline (with projection head),6318,7,horse,-5.679643154144287,-21.17620086669922
+Baseline (with projection head),187,3,cat,0.30857381224632263,3.1212573051452637
+Baseline (with projection head),4959,7,horse,9.769542694091797,-24.719711303710938
+Baseline (with projection head),1900,8,ship,-6.412137985229492,-28.092805862426758
+Baseline (with projection head),5659,2,bird,33.94080352783203,16.781095504760742
+Baseline (with projection head),2732,7,horse,25.66635513305664,-7.0430779457092285
+Baseline (with projection head),109,7,horse,-16.29724884033203,18.637866973876953
+Baseline (with projection head),9273,0,airplane,-22.98183822631836,9.638383865356445
+Baseline (with projection head),4471,5,dog,-4.930380821228027,20.99287986755371
+Baseline (with projection head),2889,7,horse,-18.86043930053711,18.786075592041016
+Baseline (with projection head),2323,8,ship,-17.9780216217041,-8.579898834228516
+Baseline (with projection head),7744,4,deer,6.488618850708008,32.60688400268555
+Baseline (with projection head),3382,2,bird,1.822701334953308,5.552618503570557
+Baseline (with projection head),6402,8,ship,7.651723384857178,-17.437543869018555
+Baseline (with projection head),7354,0,airplane,-17.961589813232422,-25.459516525268555
+Baseline (with projection head),2023,5,dog,13.841169357299805,33.9476432800293
+Baseline (with projection head),2043,8,ship,-17.153066635131836,-19.244800567626953
+Baseline (with projection head),3896,7,horse,-7.763249397277832,20.267662048339844
+Baseline (with projection head),6994,3,cat,25.540925979614258,29.572057723999023
+Baseline (with projection head),891,6,frog,7.8026227951049805,18.285526275634766
+Baseline (with projection head),9030,2,bird,11.852983474731445,-34.08765411376953
+Baseline (with projection head),7981,5,dog,-8.762206077575684,5.721932888031006
+Baseline (with projection head),2175,3,cat,-12.776395797729492,21.63747787475586
+Baseline (with projection head),5523,6,frog,20.65999412536621,22.289321899414062
+Baseline (with projection head),8257,3,cat,-1.4030132293701172,38.607242584228516
+Baseline (with projection head),3280,3,cat,-25.832115173339844,16.233125686645508
+Baseline (with projection head),844,1,automobile,-23.059656143188477,-1.9757875204086304
+Baseline (with projection head),8010,2,bird,21.996191024780273,-1.5908654928207397
+Baseline (with projection head),6199,5,dog,-16.0203800201416,16.31423568725586
+Baseline (with projection head),5084,3,cat,-11.66395378112793,24.493316650390625
+Baseline (with projection head),1407,8,ship,-23.474153518676758,-3.9592063426971436
+Baseline (with projection head),8652,9,truck,-6.691614151000977,-18.12003517150879
+Baseline (with projection head),7877,0,airplane,-29.64291763305664,-4.162784099578857
+Baseline (with projection head),7950,9,truck,10.554611206054688,-11.081594467163086
+Baseline (with projection head),6550,1,automobile,-0.9341496229171753,-19.3714656829834
+Baseline (with projection head),5515,4,deer,6.615442752838135,38.86931610107422
+Baseline (with projection head),3930,1,automobile,-23.381175994873047,-6.4792962074279785
+Baseline (with projection head),4909,0,airplane,5.388012409210205,-36.400062561035156
+Baseline (with projection head),5503,8,ship,-20.09371566772461,-8.771370887756348
+Baseline (with projection head),4181,0,airplane,26.701335906982422,-13.536161422729492
+Baseline (with projection head),7468,8,ship,-4.978559494018555,-32.21707534790039
+Baseline (with projection head),9872,0,airplane,4.938138961791992,-21.095592498779297
+Baseline (with projection head),7622,9,truck,4.102832794189453,-17.09966468811035
+Baseline (with projection head),7795,5,dog,7.083993911743164,6.801720142364502
+Baseline (with projection head),4530,5,dog,-26.25194549560547,15.41896915435791
+Baseline (with projection head),8702,0,airplane,-1.9264024496078491,-23.83247184753418
+Baseline (with projection head),7338,5,dog,-15.146490097045898,15.114522933959961
+Baseline (with projection head),2697,0,airplane,-16.674747467041016,21.502246856689453
+Baseline (with projection head),5829,4,deer,0.3572089970111847,-1.8408920764923096
+Baseline (with projection head),4282,3,cat,-0.18482543528079987,19.283567428588867
+Baseline (with projection head),9411,7,horse,-0.7221230268478394,-5.644181728363037
+Baseline (with projection head),715,3,cat,-8.457741737365723,22.737836837768555
+Baseline (with projection head),8498,1,automobile,-4.938071250915527,-12.461740493774414
+Baseline (with projection head),950,3,cat,17.17920684814453,31.830318450927734
+Baseline (with projection head),2847,8,ship,30.91969108581543,-5.8263654708862305
+Baseline (with projection head),7838,0,airplane,16.486953735351562,-13.177205085754395
+Baseline (with projection head),3710,2,bird,28.056230545043945,-3.995029926300049
+Baseline (with projection head),4500,3,cat,-11.103361129760742,35.765113830566406
+Baseline (with projection head),9204,9,truck,14.852519035339355,-10.911027908325195
+Baseline (with projection head),7200,4,deer,2.663278579711914,16.096471786499023
+Baseline (with projection head),3180,3,cat,4.943262577056885,2.6628568172454834
+Baseline (with projection head),2794,0,airplane,27.064435958862305,-13.990715980529785
+Baseline (with projection head),4292,1,automobile,14.421114921569824,1.7075860500335693
+Baseline (with projection head),7968,8,ship,-21.683259963989258,-20.996135711669922
+Baseline (with projection head),921,9,truck,-10.996784210205078,-12.621683120727539
+Baseline (with projection head),154,0,airplane,13.536938667297363,37.265586853027344
+Baseline (with projection head),1571,5,dog,-8.614620208740234,21.925207138061523
+Baseline (with projection head),2848,6,frog,10.537256240844727,-5.003206253051758
+Baseline (with projection head),4337,1,automobile,-10.547721862792969,0.6387065052986145
+Baseline (with projection head),2742,2,bird,-15.43886661529541,33.74088668823242
+Baseline (with projection head),6264,6,frog,-10.105714797973633,27.31188201904297
+Baseline (with projection head),1814,9,truck,-6.465525150299072,-11.836221694946289
+Baseline (with projection head),3553,1,automobile,-1.9003163576126099,-10.537703514099121
+Baseline (with projection head),4252,9,truck,14.073594093322754,-0.2889387309551239
+Baseline (with projection head),1325,2,bird,3.534071683883667,13.003495216369629
+Baseline (with projection head),3513,3,cat,21.893890380859375,12.183917045593262
+Baseline (with projection head),9314,6,frog,16.539308547973633,27.93233299255371
+Baseline (with projection head),1685,8,ship,10.273937225341797,13.175539016723633
+Baseline (with projection head),2067,7,horse,-29.49371337890625,-19.378734588623047
+Baseline (with projection head),7963,7,horse,-12.997391700744629,16.4543514251709
+Baseline (with projection head),9690,4,deer,10.126823425292969,29.311891555786133
+Baseline (with projection head),2336,9,truck,6.419406414031982,-5.481419563293457
+Baseline (with projection head),6418,0,airplane,11.4645414352417,-34.08204650878906
+Baseline (with projection head),7143,4,deer,-26.90866470336914,-21.1946964263916
+Baseline (with projection head),4694,7,horse,21.055744171142578,-16.286823272705078
+Baseline (with projection head),5139,6,frog,-6.769848346710205,28.25926971435547
+Baseline (with projection head),5729,8,ship,-9.373184204101562,-11.379481315612793
+Baseline (with projection head),2042,1,automobile,-16.306718826293945,-15.342245101928711
+Baseline (with projection head),8246,8,ship,-1.8166735172271729,-32.86239242553711
+Baseline (with projection head),2790,8,ship,-3.2950737476348877,-31.562273025512695
+Baseline (with projection head),4321,5,dog,-15.850970268249512,21.767141342163086
+Baseline (with projection head),3558,5,dog,-13.398823738098145,14.653600692749023
+Baseline (with projection head),7457,2,bird,31.54390525817871,5.065941333770752
+Baseline (with projection head),3307,9,truck,5.949898719787598,-11.523334503173828
+Baseline (with projection head),9034,2,bird,6.854421138763428,15.279247283935547
+Baseline (with projection head),3900,3,cat,24.120222091674805,34.82972717285156
+Baseline (with projection head),3076,2,bird,1.9496896266937256,16.809091567993164
+Baseline (with projection head),2449,4,deer,-11.910460472106934,27.0523624420166
+Baseline (with projection head),8925,0,airplane,2.2916572093963623,-26.347431182861328
+Baseline (with projection head),9786,6,frog,-2.5533106327056885,-41.484397888183594
+Baseline (with projection head),2952,3,cat,5.265833377838135,35.517398834228516
+Baseline (with projection head),6422,4,deer,27.42395782470703,29.037275314331055
+Baseline (with projection head),1288,1,automobile,-23.1948184967041,-5.91802453994751
+Baseline (with projection head),4361,8,ship,-11.933382034301758,-12.814648628234863
+Baseline (with projection head),3132,5,dog,-28.377363204956055,17.20894432067871
+Baseline (with projection head),1658,4,deer,-28.219892501831055,-19.627140045166016
+Baseline (with projection head),5761,6,frog,15.803808212280273,24.33600616455078
+Baseline (with projection head),1043,2,bird,4.7036662101745605,-38.004249572753906
+Baseline (with projection head),4420,5,dog,-17.948543548583984,23.976192474365234
+Baseline (with projection head),5472,1,automobile,-4.314093112945557,-17.906190872192383
+Baseline (with projection head),9506,4,deer,-12.010147094726562,6.2282328605651855
+Baseline (with projection head),6089,7,horse,32.33659362792969,-4.259471416473389
+Baseline (with projection head),9186,7,horse,-12.757821083068848,9.748509407043457
+Baseline (with projection head),2939,2,bird,13.998784065246582,38.8075065612793
+Baseline (with projection head),2015,4,deer,23.22297477722168,14.286078453063965
+Baseline (with projection head),907,6,frog,5.8334503173828125,31.359621047973633
+Baseline (with projection head),3975,7,horse,22.565698623657227,1.7203071117401123
+Baseline (with projection head),323,3,cat,17.292545318603516,38.91488265991211
+Baseline (with projection head),5102,5,dog,31.255451202392578,4.726919651031494
+Baseline (with projection head),99,7,horse,12.99282455444336,-22.230384826660156
+Baseline (with projection head),2906,1,automobile,9.041791915893555,-12.057329177856445
+Baseline (with projection head),6741,9,truck,1.352088212966919,-21.443984985351562
+Baseline (with projection head),1630,9,truck,-25.099746704101562,-20.781360626220703
+Baseline (with projection head),5393,4,deer,23.248512268066406,-2.7941367626190186
+Baseline (with projection head),8769,0,airplane,-0.8022729754447937,-35.53413009643555
+Baseline (with projection head),8613,6,frog,9.942720413208008,23.098331451416016
+Baseline (with projection head),1916,9,truck,-4.719268798828125,31.878402709960938
+Baseline (with projection head),278,4,deer,22.954023361206055,-5.627168655395508
+Baseline (with projection head),7907,6,frog,-3.085946559906006,23.8282470703125
+Baseline (with projection head),7965,7,horse,2.7029941082000732,-3.347766637802124
+Baseline (with projection head),444,5,dog,-13.10212230682373,19.23424530029297
+Baseline (with projection head),3054,4,deer,-24.024465560913086,-27.892578125
+Baseline (with projection head),7608,5,dog,28.33072853088379,12.85734748840332
+Baseline (with projection head),7787,5,dog,-17.819299697875977,15.034281730651855
+Baseline (with projection head),8191,6,frog,15.550599098205566,14.305813789367676
+Baseline (with projection head),3470,7,horse,-24.906347274780273,23.737749099731445
+Baseline (with projection head),4459,8,ship,-12.94751262664795,-29.679170608520508
+Baseline (with projection head),4216,0,airplane,0.9043058156967163,-34.77839660644531
+Baseline (with projection head),666,9,truck,-21.248775482177734,-4.275326728820801
+Baseline (with projection head),5096,7,horse,-17.284832000732422,13.05306339263916
+Baseline (with projection head),9912,0,airplane,-17.94741439819336,-26.308992385864258
+Baseline (with projection head),8040,2,bird,6.919766426086426,11.731555938720703
+Baseline (with projection head),9445,9,truck,8.79932975769043,-23.94934844970703
+Baseline (with projection head),9468,7,horse,10.878686904907227,-22.604665756225586
+Baseline (with projection head),8030,2,bird,19.2122745513916,-22.213050842285156
+Baseline (with projection head),9796,9,truck,-23.148454666137695,-12.770899772644043
+Baseline (with projection head),1001,0,airplane,-15.748934745788574,-2.9318554401397705
+Baseline (with projection head),7601,8,ship,-24.042917251586914,-23.855443954467773
+Baseline (with projection head),7895,4,deer,-10.827751159667969,0.46182507276535034
+Baseline (with projection head),731,2,bird,1.1341198682785034,-44.08430862426758
+Baseline (with projection head),623,2,bird,-3.9591500759124756,41.5285758972168
+Baseline (with projection head),181,5,dog,15.661185264587402,-21.46457290649414
+Baseline (with projection head),3097,0,airplane,-10.962183952331543,-15.782814979553223
+Baseline (with projection head),8841,2,bird,4.928420543670654,-36.63657760620117
+Baseline (with projection head),6185,5,dog,-12.67140007019043,14.380110740661621
+Baseline (with projection head),7313,3,cat,-4.839948654174805,5.568429470062256
+Baseline (with projection head),9990,7,horse,-9.450042724609375,15.173660278320312
+Baseline (with projection head),7632,0,airplane,12.680816650390625,-4.359541893005371
+Baseline (with projection head),7948,1,automobile,12.119897842407227,5.145089626312256
+Baseline (with projection head),5064,5,dog,-20.13707160949707,29.701026916503906
+Baseline (with projection head),1217,4,deer,24.144411087036133,3.8199682235717773
+Baseline (with projection head),3094,2,bird,5.560157299041748,-35.0883674621582
+Baseline (with projection head),6297,5,dog,-14.016700744628906,29.217872619628906
+Baseline (with projection head),2713,8,ship,-9.10974407196045,-24.56354331970215
+Baseline (with projection head),2194,8,ship,-8.142555236816406,-23.850204467773438
+Baseline (with projection head),3576,4,deer,-18.866985321044922,11.882400512695312
+Baseline (with projection head),9586,5,dog,-8.688820838928223,36.837310791015625
+Baseline (with projection head),5901,5,dog,-4.936059951782227,25.80628204345703
+Baseline (with projection head),1852,2,bird,-21.322036743164062,32.36983108520508
+Baseline (with projection head),8421,2,bird,-0.9023120403289795,36.444068908691406
+Baseline (with projection head),5790,9,truck,-3.5779001712799072,-10.27706241607666
+Baseline (with projection head),8235,7,horse,27.25431251525879,-6.715485095977783
+Baseline (with projection head),3947,2,bird,33.14474105834961,-8.282779693603516
+Baseline (with projection head),6838,1,automobile,-22.08587646484375,-16.719728469848633
+Baseline (with projection head),5077,0,airplane,6.7754998207092285,-35.93075180053711
+Baseline (with projection head),9354,0,airplane,0.747721791267395,-39.721012115478516
+Baseline (with projection head),5739,2,bird,14.42294692993164,23.347585678100586
+Baseline (with projection head),4094,3,cat,-15.678191184997559,24.257387161254883
+Baseline (with projection head),9671,7,horse,-5.296773910522461,17.18335723876953
+Baseline (with projection head),8893,6,frog,8.173567771911621,32.556766510009766
+Baseline (with projection head),7279,5,dog,-15.542169570922852,27.974824905395508
+Baseline (with projection head),4085,8,ship,6.965954303741455,40.45765686035156
+Baseline (with projection head),8,3,cat,-11.44904899597168,29.794992446899414
+Baseline (with projection head),6465,3,cat,20.110233306884766,-27.195531845092773
+Baseline (with projection head),9151,0,airplane,16.36141014099121,-13.259466171264648
+Baseline (with projection head),7456,7,horse,3.909528970718384,-6.442846298217773
+Baseline (with projection head),6394,0,airplane,5.276228427886963,-19.837772369384766
+Baseline (with projection head),7586,2,bird,-0.14128001034259796,29.220312118530273
+Baseline (with projection head),9531,6,frog,9.353650093078613,0.534257173538208
+Baseline (with projection head),7996,7,horse,26.83218002319336,-8.34084701538086
+Baseline (with projection head),8157,1,automobile,-17.44676399230957,-1.832334280014038
+Baseline (with projection head),9791,9,truck,1.6590591669082642,38.630340576171875
+Baseline (with projection head),9764,2,bird,20.840030670166016,-12.867796897888184
+Baseline (with projection head),7868,8,ship,-15.571099281311035,-23.40233039855957
+Baseline (with projection head),2235,2,bird,-13.720718383789062,5.129957675933838
+Baseline (with projection head),9347,8,ship,-4.695395469665527,-33.01875305175781
+Baseline (with projection head),8203,3,cat,-9.189157485961914,32.762454986572266
+Baseline (with projection head),8474,4,deer,26.499412536621094,15.785274505615234
+Baseline (with projection head),2993,0,airplane,-18.068140029907227,-28.835506439208984
+Baseline (with projection head),9408,6,frog,-6.22408390045166,0.5776553153991699
+Baseline (with projection head),5498,9,truck,14.36186695098877,1.5601627826690674
+Baseline (with projection head),3590,7,horse,27.58185386657715,-6.287289619445801
+Baseline (with projection head),5471,6,frog,6.151756286621094,22.819244384765625
+Baseline (with projection head),1277,2,bird,5.248993396759033,42.132450103759766
+Baseline (with projection head),7371,6,frog,7.240495204925537,25.41439437866211
+Baseline (with projection head),2799,8,ship,3.250521421432495,-19.47806739807129
+Baseline (with projection head),6953,0,airplane,-18.359102249145508,-35.99838638305664
+Baseline (with projection head),5055,0,airplane,0.19337168335914612,-36.56365203857422
+Baseline (with projection head),7059,4,deer,10.966642379760742,23.31842803955078
+Baseline (with projection head),137,7,horse,18.04488754272461,11.370668411254883
+Baseline (with projection head),4774,6,frog,5.350181579589844,43.16000747680664
+Baseline (with projection head),6733,5,dog,-19.272804260253906,15.094411849975586
+Baseline (with projection head),2397,5,dog,15.374224662780762,33.23182678222656
+Baseline (with projection head),9474,8,ship,1.3399595022201538,-15.085198402404785
+Baseline (with projection head),3690,9,truck,-20.276844024658203,-15.40611457824707
+Baseline (with projection head),2801,5,dog,-12.882222175598145,20.724205017089844
+Baseline (with projection head),7773,4,deer,9.463385581970215,20.671171188354492
+Baseline (with projection head),3582,6,frog,0.09626511484384537,24.1257381439209
+Baseline (with projection head),2735,2,bird,2.1212687492370605,14.445294380187988
+Baseline (with projection head),7335,4,deer,29.157079696655273,-3.1330533027648926
+Baseline (with projection head),4563,7,horse,-22.287559509277344,21.07074546813965
+Baseline (with projection head),8973,5,dog,-6.423702239990234,24.008108139038086
+Baseline (with projection head),2539,8,ship,2.105215549468994,-16.8726749420166
+Baseline (with projection head),4657,7,horse,-23.192832946777344,1.84515380859375
+Baseline (with projection head),2011,2,bird,31.60106658935547,9.519831657409668
+Baseline (with projection head),5317,4,deer,24.722497940063477,0.5759603381156921
+Baseline (with projection head),2028,7,horse,7.159160614013672,-24.504520416259766
+Baseline (with projection head),8208,8,ship,17.41206932067871,-22.559452056884766
+Baseline (with projection head),4323,5,dog,-20.695358276367188,29.29619026184082
+Baseline (with projection head),3578,7,horse,-14.87746810913086,12.205224990844727
+Baseline (with projection head),4112,4,deer,-2.4371471405029297,26.61554718017578
+Baseline (with projection head),3419,4,deer,28.676692962646484,-1.8122148513793945
+Baseline (with projection head),7813,3,cat,14.675498962402344,-18.638450622558594
+Baseline (with projection head),6466,8,ship,-21.336442947387695,28.277790069580078
+Baseline (with projection head),7461,9,truck,11.233268737792969,-18.528764724731445
+Baseline (with projection head),9464,4,deer,25.989391326904297,8.532726287841797
+Baseline (with projection head),2895,7,horse,-19.26227569580078,32.536102294921875
+Baseline (with projection head),780,9,truck,-14.762349128723145,-17.105207443237305
+Baseline (with projection head),1332,1,automobile,-14.048250198364258,-18.16505241394043
+Baseline (with projection head),2648,4,deer,27.3466796875,0.9482164978981018
+Baseline (with projection head),2696,2,bird,-0.1878708302974701,-5.150496959686279
+Baseline (with projection head),5843,6,frog,1.9724828004837036,33.099212646484375
+Baseline (with projection head),6727,6,frog,14.530549049377441,32.311607360839844
+Baseline (with projection head),7460,5,dog,-14.955228805541992,28.680696487426758
+Baseline (with projection head),9424,2,bird,-30.144237518310547,10.685429573059082
+Baseline (with projection head),6274,9,truck,-27.670324325561523,1.347091794013977
+Baseline (with projection head),4552,5,dog,18.063365936279297,34.29330825805664
+Baseline (with projection head),578,7,horse,26.40279769897461,-1.0840227603912354
+Baseline (with projection head),3388,6,frog,3.233081102371216,28.949234008789062
+Baseline (with projection head),3521,8,ship,-4.029585361480713,-31.91798210144043
+Baseline (with projection head),7235,2,bird,0.6046004891395569,15.388653755187988
+Baseline (with projection head),1730,4,deer,7.271434783935547,-18.482088088989258
+Baseline (with projection head),4833,2,bird,0.40615978837013245,23.364322662353516
+Baseline (with projection head),6832,1,automobile,1.7060006856918335,-19.2462100982666
+Baseline (with projection head),7797,3,cat,12.602723121643066,28.427703857421875
+Baseline (with projection head),3032,2,bird,9.21105670928955,17.795942306518555
+Baseline (with projection head),911,3,cat,-2.789919376373291,24.303241729736328
+Baseline (with projection head),6956,6,frog,13.343600273132324,24.99927520751953
+Baseline (with projection head),1375,4,deer,30.51038932800293,-5.6461181640625
+Baseline (with projection head),76,9,truck,11.095097541809082,-20.204923629760742
+Baseline (with projection head),10,0,airplane,-23.92721939086914,13.804101943969727
+Baseline (with projection head),6700,6,frog,-9.113842010498047,-1.991896629333496
+Baseline (with projection head),5654,4,deer,-1.8865565061569214,8.036099433898926
+Baseline (with projection head),1123,3,cat,4.109722137451172,4.099161148071289
+Baseline (with projection head),6820,1,automobile,-2.3328490257263184,-11.053980827331543
+Baseline (with projection head),7543,9,truck,-5.627516746520996,-13.766127586364746
+Baseline (with projection head),7077,0,airplane,-15.339070320129395,-33.53249740600586
+Baseline (with projection head),9298,1,automobile,-5.8064374923706055,-8.781576156616211
+Baseline (with projection head),5111,6,frog,14.056640625,19.592208862304688
+Baseline (with projection head),5387,3,cat,-2.742133378982544,17.21932029724121
+Baseline (with projection head),9703,4,deer,-25.988391876220703,-17.207834243774414
+Baseline (with projection head),1145,4,deer,10.860398292541504,12.835968017578125
+Baseline (with projection head),6867,6,frog,21.68332290649414,10.8685302734375
+Baseline (with projection head),8566,4,deer,-3.8925893306732178,-21.38937759399414
+Baseline (with projection head),3090,4,deer,-7.398478031158447,11.626907348632812
+Baseline (with projection head),3005,0,airplane,-15.487606048583984,2.2891440391540527
+Baseline (with projection head),5943,3,cat,22.994525909423828,-2.814352512359619
+Baseline (with projection head),778,0,airplane,-13.384749412536621,-30.84969139099121
+Baseline (with projection head),7141,5,dog,7.8290486335754395,35.23727035522461
+Baseline (with projection head),8321,4,deer,26.92870330810547,11.00885009765625
+Baseline (with projection head),7780,3,cat,-21.619447708129883,6.44011116027832
+Baseline (with projection head),5433,3,cat,-17.110820770263672,32.43474578857422
+Baseline (with projection head),4684,1,automobile,-23.095834732055664,-8.771800994873047
+Baseline (with projection head),2189,2,bird,20.717788696289062,-12.184045791625977
+Baseline (with projection head),7502,8,ship,-28.0222225189209,-9.703116416931152
+Baseline (with projection head),3688,5,dog,23.941471099853516,-14.216559410095215
+Baseline (with projection head),4423,6,frog,13.931266784667969,40.039154052734375
+Baseline (with projection head),1006,1,automobile,11.632540702819824,7.756062030792236
+Baseline (with projection head),1843,8,ship,2.2655999660491943,-16.411766052246094
+Baseline (with projection head),8914,4,deer,-0.20374542474746704,20.372041702270508
+Baseline (with projection head),3117,0,airplane,8.051525115966797,-20.608375549316406
+Baseline (with projection head),830,1,automobile,-18.67000961303711,-6.954038143157959
+Baseline (with projection head),8765,2,bird,10.490728378295898,35.415035247802734
+Baseline (with projection head),3199,6,frog,8.18717098236084,24.624595642089844
+Baseline (with projection head),1924,9,truck,7.702515602111816,-14.090121269226074
+Baseline (with projection head),2399,8,ship,-11.612098693847656,-29.304166793823242
+Baseline (with projection head),659,1,automobile,9.590039253234863,39.16038131713867
+Baseline (with projection head),3770,9,truck,-7.265323162078857,-11.070188522338867
+Random initialization,1604,1,automobile,33.038063049316406,-11.213446617126465
+Random initialization,5143,9,truck,16.94644546508789,-25.740198135375977
+Random initialization,5835,3,cat,20.81608772277832,-32.349464416503906
+Random initialization,1578,6,frog,-3.4220921993255615,13.259278297424316
+Random initialization,218,8,ship,34.655067443847656,-9.614956855773926
+Random initialization,6315,6,frog,-29.09231948852539,2.0007712841033936
+Random initialization,9458,7,horse,3.6908349990844727,-25.772445678710938
+Random initialization,1865,7,horse,16.191390991210938,2.8371243476867676
+Random initialization,5781,0,airplane,-1.4232605695724487,10.091219902038574
+Random initialization,8924,2,bird,-6.97762393951416,20.997150421142578
+Random initialization,8331,3,cat,0.9605404138565063,14.600439071655273
+Random initialization,5123,7,horse,-1.2997698783874512,12.178120613098145
+Random initialization,330,1,automobile,-25.29448890686035,4.073892116546631
+Random initialization,6210,4,deer,4.293272972106934,16.409740447998047
+Random initialization,1558,4,deer,-39.168556213378906,12.348255157470703
+Random initialization,9442,4,deer,-3.1958439350128174,10.500199317932129
+Random initialization,2270,2,bird,26.788930892944336,-7.055634498596191
+Random initialization,7662,5,dog,5.209252834320068,-21.612438201904297
+Random initialization,3122,1,automobile,-18.237764358520508,2.4345755577087402
+Random initialization,115,3,cat,8.204716682434082,0.544580340385437
+Random initialization,3329,3,cat,20.668827056884766,-32.84612274169922
+Random initialization,9919,4,deer,6.635357856750488,-15.417744636535645
+Random initialization,1431,4,deer,-36.52170181274414,13.923477172851562
+Random initialization,6907,6,frog,-29.08662223815918,6.337485313415527
+Random initialization,4279,6,frog,35.49308776855469,-10.29716968536377
+Random initialization,7373,0,airplane,23.875633239746094,-0.46551698446273804
+Random initialization,2324,0,airplane,25.199174880981445,-21.48472023010254
+Random initialization,5493,3,cat,-25.368087768554688,10.375043869018555
+Random initialization,7919,6,frog,26.19843292236328,-17.502853393554688
+Random initialization,5946,8,ship,23.425535202026367,11.103743553161621
+Random initialization,4788,6,frog,-37.20084762573242,9.984591484069824
+Random initialization,6583,0,airplane,17.248275756835938,-6.991386890411377
+Random initialization,2672,0,airplane,31.197601318359375,-16.488372802734375
+Random initialization,4314,1,automobile,-18.65294647216797,4.004421710968018
+Random initialization,9364,5,dog,-16.74675750732422,-6.9035844802856445
+Random initialization,1880,1,automobile,-33.03732681274414,8.376508712768555
+Random initialization,569,2,bird,0.8602738976478577,6.718657493591309
+Random initialization,5376,5,dog,-16.757465362548828,-7.0147223472595215
+Random initialization,9426,2,bird,4.521536350250244,-2.8708152770996094
+Random initialization,3509,3,cat,-18.800966262817383,-7.709095001220703
+Random initialization,8307,4,deer,3.2384579181671143,10.770431518554688
+Random initialization,8132,8,ship,14.589608192443848,-21.583202362060547
+Random initialization,1631,1,automobile,-12.844132423400879,0.18355591595172882
+Random initialization,5108,1,automobile,-7.849604606628418,4.317230701446533
+Random initialization,7526,9,truck,19.370519638061523,-10.391098022460938
+Random initialization,7899,7,horse,-41.109718322753906,-0.9694705009460449
+Random initialization,3319,2,bird,-2.9379234313964844,-17.10763931274414
+Random initialization,8012,3,cat,40.13545227050781,-0.006092095281928778
+Random initialization,9470,9,truck,14.863907814025879,-24.097532272338867
+Random initialization,2326,7,horse,-16.097036361694336,20.642972946166992
+Random initialization,8604,6,frog,2.0333778858184814,-17.381494522094727
+Random initialization,5906,4,deer,-3.1484010219573975,16.32490348815918
+Random initialization,7286,2,bird,28.28411102294922,1.569551706314087
+Random initialization,720,4,deer,-10.369139671325684,14.772625923156738
+Random initialization,7232,9,truck,-30.743906021118164,8.166069030761719
+Random initialization,1529,4,deer,-35.17634582519531,-1.9636541604995728
+Random initialization,4202,0,airplane,34.90517807006836,-7.527808666229248
+Random initialization,794,7,horse,11.031421661376953,-21.682601928710938
+Random initialization,3079,8,ship,27.195600509643555,-22.901424407958984
+Random initialization,7832,8,ship,31.312192916870117,0.23434199392795563
+Random initialization,6050,2,bird,2.9061028957366943,1.1469590663909912
+Random initialization,1170,7,horse,22.837060928344727,-5.79183292388916
+Random initialization,6037,5,dog,-20.043621063232422,18.588289260864258
+Random initialization,5818,7,horse,1.8022500276565552,-8.964096069335938
+Random initialization,9111,0,airplane,24.015230178833008,4.160306930541992
+Random initialization,209,9,truck,34.74884033203125,-14.11488151550293
+Random initialization,3948,1,automobile,41.510128021240234,-13.273628234863281
+Random initialization,5770,8,ship,24.261676788330078,-9.519761085510254
+Random initialization,7419,0,airplane,2.0134072303771973,13.316070556640625
+Random initialization,7735,4,deer,32.16644287109375,-7.3702192306518555
+Random initialization,1870,2,bird,20.42196273803711,-21.87933921813965
+Random initialization,2040,0,airplane,-12.048285484313965,5.632444381713867
+Random initialization,7107,2,bird,-8.911877632141113,6.881644248962402
+Random initialization,3020,1,automobile,-16.971637725830078,1.5665007829666138
+Random initialization,6671,5,dog,12.031304359436035,-6.109157562255859
+Random initialization,9940,4,deer,-42.08302307128906,18.194766998291016
+Random initialization,8525,3,cat,-11.108003616333008,11.86011028289795
+Random initialization,3288,9,truck,35.03937911987305,-4.334660053253174
+Random initialization,2953,8,ship,31.605926513671875,-14.406094551086426
+Random initialization,8732,8,ship,-20.039213180541992,4.657053470611572
+Random initialization,8459,9,truck,36.30074691772461,-14.808355331420898
+Random initialization,7417,3,cat,-24.703474044799805,1.332805871963501
+Random initialization,373,4,deer,12.241829872131348,-13.298439979553223
+Random initialization,3373,6,frog,10.862639427185059,-16.3364315032959
+Random initialization,7282,1,automobile,6.439338684082031,-19.476318359375
+Random initialization,6476,0,airplane,27.02944564819336,-15.119142532348633
+Random initialization,5585,0,airplane,-11.30714225769043,-1.5553810596466064
+Random initialization,3120,4,deer,-44.81584167480469,8.475727081298828
+Random initialization,3658,2,bird,-38.922542572021484,-4.176712989807129
+Random initialization,3881,7,horse,23.156391143798828,-30.04332160949707
+Random initialization,233,8,ship,-31.86481285095215,12.492639541625977
+Random initialization,5709,2,bird,-9.55094051361084,26.736265182495117
+Random initialization,178,5,dog,-5.108181953430176,18.160791397094727
+Random initialization,1570,4,deer,-25.605545043945312,-3.917614698410034
+Random initialization,1815,9,truck,-20.40756607055664,0.8810675144195557
+Random initialization,2628,0,airplane,32.063106536865234,-12.26020622253418
+Random initialization,7954,9,truck,14.034659385681152,3.424328088760376
+Random initialization,7788,6,frog,10.434964179992676,-0.14254091680049896
+Random initialization,1542,5,dog,-18.683435440063477,21.76544189453125
+Random initialization,8679,8,ship,-21.37107276916504,2.8125107288360596
+Random initialization,3336,0,airplane,30.697486877441406,-14.33800983428955
+Random initialization,7326,4,deer,-40.982303619384766,11.796172142028809
+Random initialization,8005,1,automobile,17.243213653564453,-7.060237407684326
+Random initialization,9513,6,frog,-37.537445068359375,13.44666576385498
+Random initialization,3874,6,frog,3.5093307495117188,0.16692619025707245
+Random initialization,8504,1,automobile,-5.014786720275879,9.28780460357666
+Random initialization,3109,8,ship,31.44135856628418,-23.34547233581543
+Random initialization,241,1,automobile,16.911672592163086,-15.4680757522583
+Random initialization,3207,0,airplane,10.338333129882812,-0.09705530107021332
+Random initialization,7697,5,dog,29.457015991210938,-6.900486946105957
+Random initialization,2910,8,ship,-45.24785614013672,4.308417797088623
+Random initialization,5887,1,automobile,-5.7647318840026855,5.598019123077393
+Random initialization,9783,2,bird,-45.18877029418945,10.579483032226562
+Random initialization,8432,5,dog,-37.2786865234375,17.983800888061523
+Random initialization,3460,1,automobile,-1.6576248407363892,7.156416893005371
+Random initialization,2722,5,dog,-22.34412956237793,18.30057716369629
+Random initialization,8209,2,bird,4.46534538269043,20.08001136779785
+Random initialization,4125,8,ship,16.271827697753906,-9.975610733032227
+Random initialization,3939,9,truck,31.99050521850586,-20.562938690185547
+Random initialization,7840,1,automobile,-23.35259437561035,0.11798769980669022
+Random initialization,4019,7,horse,12.467242240905762,-27.633514404296875
+Random initialization,4681,9,truck,-22.062721252441406,5.411972999572754
+Random initialization,5270,1,automobile,-24.289594650268555,1.6952000856399536
+Random initialization,2266,8,ship,-2.9079930782318115,-4.8523712158203125
+Random initialization,1175,9,truck,-41.042964935302734,0.30242565274238586
+Random initialization,1464,1,automobile,7.056654453277588,10.240734100341797
+Random initialization,392,6,frog,4.064682960510254,1.3343415260314941
+Random initialization,2650,5,dog,22.433155059814453,-28.436527252197266
+Random initialization,3507,4,deer,-27.56418800354004,14.619071960449219
+Random initialization,8682,5,dog,3.7830541133880615,12.829617500305176
+Random initialization,1155,9,truck,19.4929141998291,-16.860618591308594
+Random initialization,6164,7,horse,-15.707600593566895,17.100116729736328
+Random initialization,6712,0,airplane,24.061603546142578,2.991783857345581
+Random initialization,654,9,truck,20.17583656311035,0.7010087966918945
+Random initialization,2785,4,deer,-2.342838764190674,13.708166122436523
+Random initialization,9403,9,truck,-34.62687301635742,7.781546115875244
+Random initialization,9853,5,dog,-33.90735626220703,9.54395866394043
+Random initialization,6441,5,dog,-32.05076599121094,2.293936252593994
+Random initialization,3152,1,automobile,1.1363153457641602,-2.003678560256958
+Random initialization,2532,0,airplane,-16.780073165893555,-3.6028788089752197
+Random initialization,2236,5,dog,-32.23162841796875,5.354161739349365
+Random initialization,6202,3,cat,-27.643964767456055,8.963968276977539
+Random initialization,2622,0,airplane,30.729467391967773,-2.0020833015441895
+Random initialization,9139,4,deer,-28.540924072265625,3.5250637531280518
+Random initialization,6758,8,ship,24.65928077697754,8.381318092346191
+Random initialization,4373,0,airplane,30.979934692382812,-0.7848649621009827
+Random initialization,7414,8,ship,32.06426239013672,-17.014474868774414
+Random initialization,4638,6,frog,-12.012588500976562,20.8843936920166
+Random initialization,8565,7,horse,4.320467472076416,-19.909099578857422
+Random initialization,8127,9,truck,-3.9147562980651855,-12.024449348449707
+Random initialization,5148,3,cat,-16.33344841003418,18.479896545410156
+Random initialization,1637,5,dog,39.789581298828125,-9.32585620880127
+Random initialization,1403,6,frog,-20.972061157226562,11.201173782348633
+Random initialization,8578,2,bird,-23.656557083129883,-7.536530494689941
+Random initialization,2127,2,bird,-33.41346740722656,18.57355308532715
+Random initialization,3779,3,cat,-7.3406982421875,-11.906041145324707
+Random initialization,3990,4,deer,-47.46837615966797,10.709648132324219
+Random initialization,7343,7,horse,-38.90392303466797,9.01730728149414
+Random initialization,2831,3,cat,1.9068621397018433,6.1103339195251465
+Random initialization,7581,9,truck,7.324768543243408,-3.4897732734680176
+Random initialization,8773,6,frog,-2.1723952293395996,15.135525703430176
+Random initialization,5969,5,dog,-13.513317108154297,8.919071197509766
+Random initialization,8494,1,automobile,-8.882984161376953,-0.9324450492858887
+Random initialization,6902,4,deer,-44.62602615356445,11.78616714477539
+Random initialization,8275,3,cat,-2.59183931350708,-17.040307998657227
+Random initialization,5494,9,truck,37.030757904052734,1.2029469013214111
+Random initialization,3154,9,truck,26.500078201293945,-12.591800689697266
+Random initialization,2537,1,automobile,-19.62754249572754,-6.973937034606934
+Random initialization,4633,1,automobile,-15.670721054077148,-4.356025695800781
+Random initialization,5438,7,horse,-24.139911651611328,15.030224800109863
+Random initialization,5247,7,horse,25.050039291381836,-25.00494956970215
+Random initialization,6484,8,ship,27.664438247680664,-25.43874168395996
+Random initialization,5974,9,truck,7.3732147216796875,-25.006452560424805
+Random initialization,2679,0,airplane,18.001771926879883,-5.974579334259033
+Random initialization,5398,8,ship,-3.388742685317993,3.9634037017822266
+Random initialization,3581,4,deer,-26.549667358398438,19.49747085571289
+Random initialization,462,1,automobile,6.0401201248168945,-4.452676773071289
+Random initialization,118,2,bird,-35.22760009765625,13.661925315856934
+Random initialization,4688,7,horse,0.3006427586078644,-13.567790985107422
+Random initialization,4601,2,bird,-28.226274490356445,19.764644622802734
+Random initialization,3965,0,airplane,33.23088073730469,-3.785411834716797
+Random initialization,9745,3,cat,-10.534107208251953,14.960495948791504
+Random initialization,2470,7,horse,1.7259941101074219,-21.041351318359375
+Random initialization,6665,4,deer,36.093017578125,-6.933835029602051
+Random initialization,4307,3,cat,22.72833824157715,-13.826918601989746
+Random initialization,8913,8,ship,28.211027145385742,-13.085887908935547
+Random initialization,6001,0,airplane,25.599361419677734,-27.089815139770508
+Random initialization,365,4,deer,30.657024383544922,-21.51085662841797
+Random initialization,1899,7,horse,10.830475807189941,-22.989816665649414
+Random initialization,273,3,cat,-26.679100036621094,-3.369938373565674
+Random initialization,6462,0,airplane,19.807523727416992,-4.25598669052124
+Random initialization,8269,8,ship,27.134931564331055,7.594287872314453
+Random initialization,4296,8,ship,-14.602864265441895,-4.512914180755615
+Random initialization,8334,6,frog,-15.912591934204102,13.387940406799316
+Random initialization,5097,7,horse,27.686019897460938,-19.224956512451172
+Random initialization,8605,6,frog,12.288263320922852,8.865612983703613
+Random initialization,7042,8,ship,29.953857421875,2.875363349914551
+Random initialization,8090,6,frog,-9.681635856628418,4.872218132019043
+Random initialization,6415,1,automobile,-15.836058616638184,-1.7703144550323486
+Random initialization,787,9,truck,29.089082717895508,-22.38795280456543
+Random initialization,3839,5,dog,-25.869455337524414,-6.301951885223389
+Random initialization,7740,4,deer,-0.9280688762664795,6.9620041847229
+Random initialization,3584,3,cat,-30.521883010864258,11.47187614440918
+Random initialization,281,0,airplane,-14.874590873718262,14.558534622192383
+Random initialization,8735,3,cat,-21.59927749633789,21.34708595275879
+Random initialization,7686,9,truck,20.578475952148438,-12.081991195678711
+Random initialization,6770,1,automobile,0.665264368057251,25.92008399963379
+Random initialization,4077,3,cat,-22.034669876098633,17.220869064331055
+Random initialization,2291,5,dog,-9.580885887145996,-11.577473640441895
+Random initialization,8237,7,horse,0.856992781162262,-8.418611526489258
+Random initialization,5797,5,dog,-3.9014358520507812,6.109409332275391
+Random initialization,6168,3,cat,15.237957000732422,-17.834949493408203
+Random initialization,8488,9,truck,9.486808776855469,-23.565467834472656
+Random initialization,4976,5,dog,11.124470710754395,-11.399277687072754
+Random initialization,8437,7,horse,-17.111936569213867,19.737388610839844
+Random initialization,3089,8,ship,24.14399528503418,15.27753734588623
+Random initialization,3532,5,dog,-20.671863555908203,-4.8904805183410645
+Random initialization,8631,2,bird,-28.503538131713867,19.320058822631836
+Random initialization,7986,1,automobile,24.845809936523438,-19.166446685791016
+Random initialization,8582,6,frog,-38.52008819580078,4.466955184936523
+Random initialization,9248,0,airplane,32.90467071533203,-8.864232063293457
+Random initialization,5212,5,dog,8.319657325744629,21.16304588317871
+Random initialization,6694,3,cat,-25.453685760498047,18.4896240234375
+Random initialization,6054,3,cat,0.6296466588973999,17.84528160095215
+Random initialization,95,6,frog,18.036277770996094,14.147953987121582
+Random initialization,5581,6,frog,-30.495399475097656,1.1759506464004517
+Random initialization,8353,7,horse,-3.3916590213775635,-13.06153678894043
+Random initialization,9239,8,ship,34.770381927490234,-12.307188987731934
+Random initialization,4732,2,bird,11.021637916564941,1.789475917816162
+Random initialization,5030,4,deer,-11.01392650604248,8.072836875915527
+Random initialization,7661,9,truck,20.283836364746094,4.956573486328125
+Random initialization,3246,1,automobile,-22.9387149810791,4.273837089538574
+Random initialization,7031,0,airplane,6.595988750457764,9.724603652954102
+Random initialization,9498,3,cat,-32.84352111816406,3.040933132171631
+Random initialization,2663,7,horse,3.1605587005615234,-23.270315170288086
+Random initialization,1813,3,cat,-27.527503967285156,14.864031791687012
+Random initialization,210,7,horse,-1.4329701662063599,18.073837280273438
+Random initialization,6920,5,dog,25.52296257019043,-5.906401634216309
+Random initialization,2619,7,horse,18.65083122253418,-19.353919982910156
+Random initialization,970,9,truck,5.32357120513916,5.769960880279541
+Random initialization,5823,5,dog,39.403587341308594,-0.5451546907424927
+Random initialization,3555,6,frog,1.5894848108291626,8.648431777954102
+Random initialization,4557,0,airplane,19.442167282104492,12.023043632507324
+Random initialization,6590,5,dog,14.03144359588623,-12.940949440002441
+Random initialization,9784,8,ship,-2.346074104309082,-4.802679061889648
+Random initialization,7407,9,truck,0.729949951171875,-20.43459129333496
+Random initialization,5024,1,automobile,4.203803062438965,-3.5337038040161133
+Random initialization,9119,4,deer,1.3497276306152344,-12.063807487487793
+Random initialization,6903,9,truck,-13.174982070922852,13.357322692871094
+Random initialization,8164,6,frog,-25.595430374145508,7.76410436630249
+Random initialization,6893,3,cat,3.8398635387420654,-22.697223663330078
+Random initialization,9956,0,airplane,30.671499252319336,-8.755699157714844
+Random initialization,9624,2,bird,28.545495986938477,-4.658829689025879
+Random initialization,5652,0,airplane,25.195514678955078,2.8288912773132324
+Random initialization,8444,5,dog,26.706947326660156,6.216485023498535
+Random initialization,3390,3,cat,-2.5824506282806396,22.788103103637695
+Random initialization,7711,6,frog,30.36952781677246,-27.9213924407959
+Random initialization,4004,0,airplane,20.07166290283203,-23.892337799072266
+Random initialization,8069,4,deer,-43.89744567871094,9.95395565032959
+Random initialization,9500,9,truck,-20.121030807495117,-12.044093132019043
+Random initialization,1224,7,horse,-45.432613372802734,4.592733860015869
+Random initialization,199,8,ship,29.27762794494629,12.094840049743652
+Random initialization,3807,8,ship,40.4875602722168,-6.328510284423828
+Random initialization,5677,7,horse,-27.838695526123047,16.452863693237305
+Random initialization,1388,5,dog,-35.6095085144043,9.801806449890137
+Random initialization,1501,2,bird,-30.735960006713867,5.813886642456055
+Random initialization,6082,0,airplane,24.993627548217773,-22.051042556762695
+Random initialization,4672,6,frog,-21.062931060791016,-8.616426467895508
+Random initialization,9427,1,automobile,-12.513927459716797,18.954437255859375
+Random initialization,9887,5,dog,-25.082345962524414,-7.371411323547363
+Random initialization,5106,6,frog,-28.419477462768555,11.185320854187012
+Random initialization,2536,5,dog,-9.390168190002441,0.3599259853363037
+Random initialization,7713,5,dog,40.39741516113281,-12.972677230834961
+Random initialization,1174,1,automobile,25.003652572631836,-22.966278076171875
+Random initialization,1283,5,dog,16.437402725219727,3.318664312362671
+Random initialization,6265,4,deer,-38.43796920776367,4.072035312652588
+Random initialization,3525,2,bird,40.3621826171875,-3.563662052154541
+Random initialization,5,6,frog,-2.380244731903076,8.739200592041016
+Random initialization,1196,2,bird,-34.954246520996094,7.794922351837158
+Random initialization,6719,2,bird,-24.58808708190918,21.642269134521484
+Random initialization,258,0,airplane,29.325103759765625,-18.222017288208008
+Random initialization,5357,0,airplane,25.6763973236084,-3.932401657104492
+Random initialization,7966,7,horse,-30.179229736328125,4.056297302246094
+Random initialization,3771,2,bird,19.80853271484375,-1.4524797201156616
+Random initialization,1868,2,bird,3.6444547176361084,-12.092289924621582
+Random initialization,4874,9,truck,12.109908103942871,-24.543907165527344
+Random initialization,5480,1,automobile,11.038272857666016,-9.053877830505371
+Random initialization,1609,4,deer,-27.692237854003906,22.40812110900879
+Random initialization,1522,4,deer,-24.794208526611328,4.7241716384887695
+Random initialization,6104,1,automobile,-16.698101043701172,-1.2673428058624268
+Random initialization,3389,1,automobile,-9.796788215637207,1.3894712924957275
+Random initialization,406,0,airplane,24.274473190307617,16.209701538085938
+Random initialization,6715,2,bird,-21.959861755371094,14.966144561767578
+Random initialization,8116,9,truck,2.0335328578948975,-7.357869625091553
+Random initialization,7298,4,deer,-1.053048014640808,15.057228088378906
+Random initialization,3672,0,airplane,30.580900192260742,0.7227538228034973
+Random initialization,5844,0,airplane,22.547677993774414,-3.2362120151519775
+Random initialization,8965,4,deer,30.359643936157227,-27.42300033569336
+Random initialization,8458,5,dog,-26.38272476196289,-4.958223342895508
+Random initialization,1393,4,deer,-7.536441326141357,3.355621814727783
+Random initialization,4691,2,bird,-19.204713821411133,-0.9490891695022583
+Random initialization,9452,2,bird,-29.666032791137695,18.712966918945312
+Random initialization,4005,5,dog,6.648498058319092,-21.336061477661133
+Random initialization,5074,0,airplane,38.961490631103516,-15.699363708496094
+Random initialization,3950,8,ship,29.306997299194336,-14.393680572509766
+Random initialization,5641,4,deer,-20.866310119628906,6.709615230560303
+Random initialization,468,7,horse,6.783985137939453,-26.25799560546875
+Random initialization,1405,1,automobile,-3.429421901702881,-0.7905550599098206
+Random initialization,2584,6,frog,-33.08540344238281,16.70869255065918
+Random initialization,2533,8,ship,35.01471710205078,-10.821086883544922
+Random initialization,9184,7,horse,3.770463466644287,-18.35015296936035
+Random initialization,1649,5,dog,-34.56842803955078,16.778409957885742
+Random initialization,5315,9,truck,20.526222229003906,-19.77952766418457
+Random initialization,2330,0,airplane,36.93922424316406,-0.7881455421447754
+Random initialization,7727,6,frog,-12.432974815368652,21.54773712158203
+Random initialization,8866,1,automobile,-18.503236770629883,2.8044042587280273
+Random initialization,3345,7,horse,12.484042167663574,-16.820768356323242
+Random initialization,4165,8,ship,36.545047760009766,-17.77936363220215
+Random initialization,6861,8,ship,3.859215021133423,2.488387107849121
+Random initialization,9616,5,dog,2.9975833892822266,10.549554824829102
+Random initialization,6203,3,cat,-38.97273635864258,16.929689407348633
+Random initialization,7066,6,frog,-38.189903259277344,3.1161153316497803
+Random initialization,7350,9,truck,8.303921699523926,-24.23563575744629
+Random initialization,1449,6,frog,-40.992149353027344,15.389872550964355
+Random initialization,633,8,ship,36.73880386352539,-2.7992966175079346
+Random initialization,3324,3,cat,-3.752549648284912,12.371085166931152
+Random initialization,354,2,bird,7.55228853225708,-12.77814769744873
+Random initialization,544,5,dog,-28.714031219482422,-7.321794033050537
+Random initialization,906,1,automobile,8.561107635498047,-20.092329025268555
+Random initialization,2876,9,truck,36.781368255615234,-14.745718002319336
+Random initialization,8634,6,frog,-14.871729850769043,-9.976001739501953
+Random initialization,9644,0,airplane,28.257068634033203,-24.89183807373047
+Random initialization,3602,3,cat,3.8586792945861816,7.608242034912109
+Random initialization,8881,6,frog,19.446081161499023,-16.958711624145508
+Random initialization,9708,9,truck,14.54455280303955,6.454177379608154
+Random initialization,8281,3,cat,-34.41813659667969,-1.5130385160446167
+Random initialization,5203,6,frog,7.335295677185059,-9.276238441467285
+Random initialization,1300,4,deer,-35.44037628173828,14.284466743469238
+Random initialization,1059,8,ship,-6.854461669921875,1.4955339431762695
+Random initialization,9978,7,horse,-34.54755783081055,12.986003875732422
+Random initialization,6535,5,dog,-8.250239372253418,-3.093892812728882
+Random initialization,5841,6,frog,-33.576873779296875,10.567365646362305
+Random initialization,1402,7,horse,-20.990331649780273,15.093893051147461
+Random initialization,4440,2,bird,-30.078845977783203,19.9324893951416
+Random initialization,8260,1,automobile,-3.8867180347442627,-2.904916524887085
+Random initialization,4559,3,cat,19.9116153717041,5.045769691467285
+Random initialization,5971,1,automobile,-10.398859024047852,1.9441877603530884
+Random initialization,1967,7,horse,-21.613603591918945,7.768682479858398
+Random initialization,8614,8,ship,26.474857330322266,10.272027969360352
+Random initialization,4484,4,deer,-47.68883514404297,11.364495277404785
+Random initialization,7489,3,cat,-12.483776092529297,21.426593780517578
+Random initialization,9321,4,deer,-1.8547654151916504,14.49380111694336
+Random initialization,3762,1,automobile,-23.774438858032227,2.855541706085205
+Random initialization,9704,2,bird,30.63266944885254,16.211429595947266
+Random initialization,2468,0,airplane,30.216142654418945,0.1490544080734253
+Random initialization,7114,1,automobile,-10.346946716308594,-3.805997371673584
+Random initialization,2897,3,cat,-33.56196594238281,-1.0577919483184814
+Random initialization,3500,1,automobile,-8.196096420288086,2.781028985977173
+Random initialization,211,4,deer,13.149940490722656,9.466866493225098
+Random initialization,6041,7,horse,11.577546119689941,2.2025341987609863
+Random initialization,5341,6,frog,-25.537385940551758,14.905913352966309
+Random initialization,7336,5,dog,-16.05489730834961,6.794511795043945
+Random initialization,3696,4,deer,-9.6463041305542,-11.611138343811035
+Random initialization,9917,2,bird,16.54422950744629,-18.00943946838379
+Random initialization,5082,6,frog,19.181608200073242,-21.74395751953125
+Random initialization,6791,7,horse,19.76186180114746,-23.067285537719727
+Random initialization,5611,5,dog,37.27559280395508,-17.862531661987305
+Random initialization,5682,5,dog,-21.37659454345703,-6.9670562744140625
+Random initialization,5152,9,truck,11.598724365234375,-22.944194793701172
+Random initialization,7850,0,airplane,30.010135650634766,-14.487597465515137
+Random initialization,2683,5,dog,-1.4240615367889404,-10.96402359008789
+Random initialization,2439,1,automobile,-12.697831153869629,19.25091552734375
+Random initialization,3452,5,dog,-27.334136962890625,26.024919509887695
+Random initialization,8013,8,ship,-13.810018539428711,4.559324264526367
+Random initialization,3127,4,deer,34.406349182128906,3.1535093784332275
+Random initialization,6252,2,bird,-14.384431838989258,-10.121877670288086
+Random initialization,7155,9,truck,20.995101928710938,-19.136056900024414
+Random initialization,4264,2,bird,-34.81846237182617,14.676749229431152
+Random initialization,9241,6,frog,-46.457366943359375,11.368551254272461
+Random initialization,229,6,frog,0.5165005922317505,13.557045936584473
+Random initialization,4342,3,cat,-24.406972885131836,-3.47399640083313
+Random initialization,3679,0,airplane,37.56741714477539,-11.885404586791992
+Random initialization,8185,0,airplane,-1.2666631937026978,-4.0949482917785645
+Random initialization,4348,8,ship,1.2313868999481201,-0.4799414575099945
+Random initialization,8678,1,automobile,-3.9255049228668213,9.739089012145996
+Random initialization,2177,9,truck,-20.184785842895508,13.613914489746094
+Random initialization,4060,6,frog,-22.154590606689453,12.408658027648926
+Random initialization,2388,0,airplane,-12.45787239074707,6.447845458984375
+Random initialization,7815,0,airplane,-10.582880020141602,4.329361438751221
+Random initialization,335,9,truck,-18.72159767150879,12.06664752960205
+Random initialization,8041,8,ship,7.4135308265686035,-13.395866394042969
+Random initialization,7156,1,automobile,-24.396427154541016,7.6963090896606445
+Random initialization,8135,7,horse,34.498619079589844,-18.441001892089844
+Random initialization,2846,6,frog,-41.06169128417969,2.7238152027130127
+Random initialization,5443,6,frog,-43.00012969970703,11.372766494750977
+Random initialization,8138,1,automobile,21.941022872924805,5.743719100952148
+Random initialization,851,9,truck,14.389602661132812,6.485737323760986
+Random initialization,4114,4,deer,-17.720489501953125,17.18305206298828
+Random initialization,79,8,ship,31.396137237548828,-15.640358924865723
+Random initialization,6615,7,horse,-4.230764865875244,-13.408519744873047
+Random initialization,5100,3,cat,-27.60997772216797,7.354387283325195
+Random initialization,5135,1,automobile,-4.74205207824707,1.8001867532730103
+Random initialization,8531,8,ship,28.723770141601562,-18.138080596923828
+Random initialization,3802,7,horse,22.702787399291992,-8.264318466186523
+Random initialization,6991,1,automobile,29.835145950317383,-16.442668914794922
+Random initialization,1409,0,airplane,26.149158477783203,2.3914849758148193
+Random initialization,3237,9,truck,0.24561548233032227,-6.346699237823486
+Random initialization,2005,5,dog,13.2269287109375,2.757492780685425
+Random initialization,2036,5,dog,-12.76228141784668,22.442554473876953
+Random initialization,5086,3,cat,-30.363460540771484,10.141007423400879
+Random initialization,2033,2,bird,6.392299652099609,20.529743194580078
+Random initialization,889,4,deer,-38.0258674621582,7.746801853179932
+Random initialization,5226,1,automobile,0.7688422203063965,9.659531593322754
+Random initialization,9592,1,automobile,18.815256118774414,3.102526903152466
+Random initialization,8236,5,dog,33.226463317871094,9.171211242675781
+Random initialization,5090,1,automobile,8.536881446838379,7.4465765953063965
+Random initialization,7932,9,truck,26.662734985351562,-23.853862762451172
+Random initialization,8130,6,frog,-29.696147918701172,24.768659591674805
+Random initialization,5003,4,deer,5.980358123779297,-16.736379623413086
+Random initialization,8533,6,frog,-36.24662399291992,12.34487533569336
+Random initialization,9537,6,frog,35.69923782348633,9.757062911987305
+Random initialization,5869,7,horse,-35.790340423583984,0.6932188272476196
+Random initialization,8872,8,ship,14.725608825683594,-29.989601135253906
+Random initialization,9038,2,bird,-47.68466567993164,9.96725082397461
+Random initialization,3599,7,horse,-34.298133850097656,-6.001196384429932
+Random initialization,5011,3,cat,-30.807296752929688,3.5364725589752197
+Random initialization,3569,9,truck,35.49289321899414,-19.73946189880371
+Random initialization,4886,3,cat,-33.110374450683594,2.327481508255005
+Random initialization,2535,0,airplane,12.1532621383667,12.459341049194336
+Random initialization,6257,5,dog,30.962547302246094,-6.599697589874268
+Random initialization,7208,1,automobile,-27.76784324645996,10.726570129394531
+Random initialization,9980,0,airplane,18.165035247802734,-3.6777119636535645
+Random initialization,3027,1,automobile,-16.3414306640625,2.0148887634277344
+Random initialization,1975,6,frog,-26.75339698791504,12.704794883728027
+Random initialization,3340,6,frog,-23.09623146057129,12.815191268920898
+Random initialization,3865,7,horse,28.730154037475586,-6.039886474609375
+Random initialization,6989,7,horse,-5.9285688400268555,-20.551782608032227
+Random initialization,7864,1,automobile,-14.939912796020508,-6.524279594421387
+Random initialization,5874,3,cat,-23.8601016998291,22.549144744873047
+Random initialization,5385,2,bird,-24.73971176147461,24.467939376831055
+Random initialization,9467,2,bird,8.94206428527832,-26.563941955566406
+Random initialization,6429,8,ship,-30.990503311157227,2.010021686553955
+Random initialization,3112,0,airplane,19.87357521057129,-0.19911353290081024
+Random initialization,7694,9,truck,6.56556510925293,-25.15159034729004
+Random initialization,3484,4,deer,-33.37704086303711,12.141495704650879
+Random initialization,6722,3,cat,-36.454532623291016,7.273338794708252
+Random initialization,3537,8,ship,35.52035903930664,-0.6850003004074097
+Random initialization,8806,3,cat,-1.893812656402588,24.607587814331055
+Random initialization,9802,0,airplane,24.074098587036133,-3.9460268020629883
+Random initialization,6423,5,dog,-26.800405502319336,27.01390266418457
+Random initialization,7160,5,dog,-18.534902572631836,15.308821678161621
+Random initialization,7796,8,ship,30.46575164794922,-19.853979110717773
+Random initialization,123,2,bird,0.7205671072006226,3.8235621452331543
+Random initialization,459,6,frog,24.84650230407715,-8.269001960754395
+Random initialization,1777,4,deer,-31.52972412109375,6.869449138641357
+Random initialization,5860,0,airplane,24.95966148376465,10.51229476928711
+Random initialization,7557,5,dog,2.3438451290130615,-17.61760902404785
+Random initialization,8379,8,ship,32.36618423461914,-15.396027565002441
+Random initialization,9242,7,horse,18.29216194152832,0.6400977373123169
+Random initialization,3367,7,horse,-42.475120544433594,0.7342481017112732
+Random initialization,151,9,truck,14.588403701782227,-19.677207946777344
+Random initialization,2464,2,bird,-35.43454360961914,8.05046272277832
+Random initialization,9491,8,ship,0.7983002662658691,0.618664026260376
+Random initialization,9176,8,ship,34.08201217651367,-0.3449718952178955
+Random initialization,9587,7,horse,22.469280242919922,-28.743696212768555
+Random initialization,4144,1,automobile,-10.87069034576416,-4.103577136993408
+Random initialization,1026,0,airplane,-6.791758060455322,14.07771110534668
+Random initialization,1918,2,bird,-29.23720359802246,-0.7997168302536011
+Random initialization,7016,3,cat,10.44289493560791,-27.620628356933594
+Random initialization,8310,3,cat,-33.48969650268555,1.0628386735916138
+Random initialization,3727,9,truck,5.159929275512695,-7.1367034912109375
+Random initialization,1964,3,cat,-32.23598098754883,0.34860578179359436
+Random initialization,7842,5,dog,31.646766662597656,-9.988014221191406
+Random initialization,419,7,horse,14.184357643127441,-29.077972412109375
+Random initialization,4211,4,deer,-26.203765869140625,12.046204566955566
+Random initialization,6255,6,frog,-36.894046783447266,15.237339973449707
+Random initialization,3626,9,truck,14.957718849182129,-27.22943687438965
+Random initialization,240,1,automobile,-19.867441177368164,3.2193989753723145
+Random initialization,5757,4,deer,-14.425158500671387,19.817747116088867
+Random initialization,740,2,bird,-10.388355255126953,0.3955160677433014
+Random initialization,1172,2,bird,-0.8679726123809814,-17.49128532409668
+Random initialization,4644,7,horse,-23.631412506103516,15.449295997619629
+Random initialization,6680,3,cat,1.8490592241287231,20.745859146118164
+Random initialization,681,6,frog,-39.30232620239258,13.129426956176758
+Random initialization,8448,4,deer,-36.732669830322266,10.100943565368652
+Random initialization,8639,7,horse,33.53123092651367,-5.1695756912231445
+Random initialization,3561,7,horse,-30.58083152770996,-6.24248743057251
+Random initialization,4245,1,automobile,17.8751220703125,-29.1372013092041
+Random initialization,9963,8,ship,27.199769973754883,-13.457194328308105
+Random initialization,5715,6,frog,-34.82193374633789,11.868147850036621
+Random initialization,3174,2,bird,4.720781326293945,6.591118812561035
+Random initialization,5464,7,horse,9.945460319519043,-27.931930541992188
+Random initialization,9842,6,frog,-35.368141174316406,13.037575721740723
+Random initialization,5914,1,automobile,-19.205421447753906,6.463414669036865
+Random initialization,4317,8,ship,33.11919403076172,-14.240011215209961
+Random initialization,8161,5,dog,4.479536056518555,19.783525466918945
+Random initialization,9153,2,bird,25.4049015045166,0.5460928082466125
+Random initialization,5147,3,cat,-23.26152229309082,18.818836212158203
+Random initialization,565,3,cat,-16.756132125854492,-6.07122278213501
+Random initialization,2582,5,dog,-21.60995101928711,-2.175462007522583
+Random initialization,1089,6,frog,-44.759395599365234,13.803023338317871
+Random initialization,4898,6,frog,-36.191165924072266,1.1094802618026733
+Random initialization,7362,9,truck,-42.58511734008789,1.1211729049682617
+Random initialization,6735,9,truck,32.517059326171875,13.76901626586914
+Random initialization,4787,8,ship,19.054590225219727,11.602020263671875
+Random initialization,5613,5,dog,5.021454334259033,-14.503453254699707
+Random initialization,175,9,truck,18.065940856933594,-23.291812896728516
+Random initialization,7065,2,bird,-19.76393699645996,20.11823272705078
+Random initialization,3194,3,cat,18.115755081176758,-19.172149658203125
+Random initialization,6904,5,dog,-24.67717170715332,2.8418846130371094
+Random initialization,6932,9,truck,-29.328035354614258,-6.93316125869751
+Random initialization,8105,0,airplane,-3.208881139755249,-5.574857711791992
+Random initialization,505,4,deer,26.79652976989746,-6.371596336364746
+Random initialization,2415,6,frog,-10.946352005004883,15.634278297424316
+Random initialization,5801,9,truck,20.670652389526367,-14.598760604858398
+Random initialization,6060,3,cat,-16.965499877929688,4.448200702667236
+Random initialization,6212,7,horse,12.760605812072754,-28.784311294555664
+Random initialization,8450,9,truck,-13.644224166870117,-1.893628716468811
+Random initialization,2921,8,ship,27.281877517700195,-14.051843643188477
+Random initialization,3716,3,cat,-17.084333419799805,16.338871002197266
+Random initialization,1479,2,bird,22.687849044799805,9.107407569885254
+Random initialization,2973,0,airplane,34.169803619384766,-1.3377090692520142
+Random initialization,5986,3,cat,1.2710537910461426,-23.518966674804688
+Random initialization,6760,5,dog,23.235206604003906,1.152774453163147
+Random initialization,7534,6,frog,-27.36665153503418,0.8204902410507202
+Random initialization,7003,7,horse,7.453703880310059,17.53304672241211
+Random initialization,6503,6,frog,-42.841060638427734,12.177083969116211
+Random initialization,2254,8,ship,20.828277587890625,8.578372955322266
+Random initialization,2585,3,cat,-18.5229434967041,-12.812652587890625
+Random initialization,4953,0,airplane,23.60873031616211,7.89453125
+Random initialization,8712,1,automobile,-3.2008233070373535,-0.38506296277046204
+Random initialization,2955,2,bird,-28.78081512451172,17.595195770263672
+Random initialization,5610,8,ship,11.530282020568848,-26.95393180847168
+Random initialization,3019,5,dog,9.253244400024414,-6.366170883178711
+Random initialization,8022,2,bird,21.28009605407715,-2.6418092250823975
+Random initialization,9874,2,bird,8.280320167541504,-14.912714004516602
+Random initialization,8503,1,automobile,-6.234755516052246,3.9888601303100586
+Random initialization,6148,4,deer,-35.46232986450195,16.85243797302246
+Random initialization,5179,5,dog,30.07931137084961,14.243934631347656
+Random initialization,3829,8,ship,32.54705810546875,-1.5939581394195557
+Random initialization,5627,9,truck,-28.232084274291992,6.2003583908081055
+Random initialization,3642,1,automobile,-20.1085262298584,0.7818247079849243
+Random initialization,6256,9,truck,16.430021286010742,-16.547216415405273
+Random initialization,2902,9,truck,19.77583885192871,9.667316436767578
+Random initialization,2151,5,dog,30.17763900756836,10.936542510986328
+Random initialization,5126,0,airplane,11.915739059448242,-18.886781692504883
+Random initialization,2025,4,deer,32.08274841308594,-9.108935356140137
+Random initialization,7936,1,automobile,34.446144104003906,7.783297538757324
+Random initialization,5863,4,deer,20.323444366455078,-26.00421714782715
+Random initialization,6179,8,ship,36.26176452636719,2.44557523727417
+Random initialization,8538,7,horse,-24.39723777770996,16.691829681396484
+Random initialization,6691,8,ship,36.6209831237793,-4.173656463623047
+Random initialization,3956,3,cat,-33.33299255371094,4.299979209899902
+Random initialization,4572,2,bird,11.18563175201416,-19.70941734313965
+Random initialization,4895,1,automobile,-14.819107055664062,0.3911599814891815
+Random initialization,2129,9,truck,17.036516189575195,-9.971606254577637
+Random initialization,7310,3,cat,32.182857513427734,8.421004295349121
+Random initialization,8600,3,cat,-4.049473762512207,19.831493377685547
+Random initialization,973,1,automobile,-36.7489128112793,11.216946601867676
+Random initialization,2715,0,airplane,30.325153350830078,-22.861942291259766
+Random initialization,8098,1,automobile,-34.02498245239258,19.43604278564453
+Random initialization,7679,6,frog,-3.929274320602417,12.184378623962402
+Random initialization,9811,1,automobile,6.561945915222168,13.079569816589355
+Random initialization,1859,2,bird,-19.43758201599121,18.467365264892578
+Random initialization,3810,3,cat,-23.2208251953125,12.398905754089355
+Random initialization,3069,4,deer,14.72886848449707,-15.748210906982422
+Random initialization,7664,2,bird,27.492286682128906,-4.949597358703613
+Random initialization,5320,7,horse,17.876323699951172,-22.475730895996094
+Random initialization,4524,4,deer,-14.02110767364502,8.26004695892334
+Random initialization,3987,1,automobile,6.40645170211792,-6.880903244018555
+Random initialization,918,8,ship,29.423337936401367,6.180412292480469
+Random initialization,6384,7,horse,-30.97419548034668,6.762609004974365
+Random initialization,3675,4,deer,-10.116166114807129,-12.30799388885498
+Random initialization,6798,8,ship,14.505154609680176,10.752289772033691
+Random initialization,5306,3,cat,7.282376766204834,-17.025646209716797
+Random initialization,3450,9,truck,-27.430593490600586,4.369056224822998
+Random initialization,7212,3,cat,-10.062593460083008,11.400132179260254
+Random initialization,7631,1,automobile,33.686363220214844,-6.050744533538818
+Random initialization,89,9,truck,25.632286071777344,-11.593522071838379
+Random initialization,336,3,cat,-5.032002925872803,21.421838760375977
+Random initialization,7870,6,frog,-39.47496032714844,14.500984191894531
+Random initialization,3436,4,deer,-13.596583366394043,10.039952278137207
+Random initialization,1547,2,bird,25.990848541259766,-4.242592811584473
+Random initialization,4195,3,cat,1.3092550039291382,17.110519409179688
+Random initialization,7714,3,cat,33.27391815185547,4.15785026550293
+Random initialization,3326,4,deer,-35.559303283691406,16.144128799438477
+Random initialization,2027,9,truck,0.9448525905609131,-24.730243682861328
+Random initialization,5772,9,truck,35.82600402832031,4.8061041831970215
+Random initialization,5759,9,truck,-41.0938835144043,-0.6119611859321594
+Random initialization,309,6,frog,-43.83845520019531,12.683314323425293
+Random initialization,7455,1,automobile,4.891465663909912,-23.979063034057617
+Random initialization,4084,7,horse,33.3041877746582,-24.467060089111328
+Random initialization,9214,9,truck,-10.026501655578613,8.606840133666992
+Random initialization,4807,8,ship,27.906572341918945,-10.59404182434082
+Random initialization,4606,0,airplane,30.147769927978516,-24.778886795043945
+Random initialization,1049,4,deer,-14.330337524414062,1.73563551902771
+Random initialization,1444,1,automobile,-26.009109497070312,-8.569843292236328
+Random initialization,6282,6,frog,-24.91219139099121,18.971637725830078
+Random initialization,2286,3,cat,-26.417661666870117,6.247328281402588
+Random initialization,2210,2,bird,33.66252136230469,-8.48331356048584
+Random initialization,4280,8,ship,13.67701530456543,-4.631450653076172
+Random initialization,1541,4,deer,-43.14326477050781,7.646495819091797
+Random initialization,2356,8,ship,28.484445571899414,-17.703022003173828
+Random initialization,6358,7,horse,0.8630346655845642,-21.863264083862305
+Random initialization,8706,7,horse,-18.44447135925293,15.52353572845459
+Random initialization,7333,6,frog,-1.934816598892212,17.497676849365234
+Random initialization,1051,2,bird,7.387033939361572,17.696828842163086
+Random initialization,5360,9,truck,6.207093715667725,-22.77231216430664
+Random initialization,2054,3,cat,30.523340225219727,8.88302230834961
+Random initialization,7547,9,truck,16.61298179626465,-26.512100219726562
+Random initialization,8636,6,frog,-36.30916976928711,5.6039137840271
+Random initialization,2626,7,horse,29.923931121826172,-26.995136260986328
+Random initialization,7811,0,airplane,31.46426773071289,-3.0350844860076904
+Random initialization,7424,9,truck,-16.138486862182617,-1.511323094367981
+Random initialization,7382,9,truck,30.973369598388672,-20.710376739501953
+Random initialization,2389,6,frog,-23.226882934570312,14.757105827331543
+Random initialization,2705,8,ship,36.413055419921875,-6.294589519500732
+Random initialization,5905,1,automobile,17.896936416625977,-0.41405704617500305
+Random initialization,6979,5,dog,-26.47635841369629,22.947002410888672
+Random initialization,8469,5,dog,-21.64145851135254,12.929678916931152
+Random initialization,7364,5,dog,-28.95123863220215,-10.27967357635498
+Random initialization,5622,1,automobile,-17.662309646606445,9.633978843688965
+Random initialization,7401,3,cat,-16.742671966552734,21.299009323120117
+Random initialization,8523,6,frog,-37.004981994628906,16.501920700073242
+Random initialization,4057,7,horse,33.79129409790039,9.20136833190918
+Random initialization,9057,8,ship,6.846020698547363,-9.409944534301758
+Random initialization,2811,2,bird,0.8948953747749329,17.831199645996094
+Random initialization,8826,8,ship,31.25260353088379,-13.00172233581543
+Random initialization,3995,7,horse,-16.37162208557129,13.86069107055664
+Random initialization,5283,4,deer,-33.49701690673828,-6.393266677856445
+Random initialization,2390,1,automobile,-33.60149383544922,14.584747314453125
+Random initialization,4671,6,frog,4.710609436035156,15.348015785217285
+Random initialization,5552,5,dog,-19.357162475585938,-8.228808403015137
+Random initialization,370,4,deer,33.80317687988281,12.882255554199219
+Random initialization,2052,8,ship,36.85112380981445,1.382145643234253
+Random initialization,577,9,truck,7.853674411773682,-28.59710693359375
+Random initialization,3773,2,bird,-29.598087310791016,8.254977226257324
+Random initialization,282,6,frog,23.70529556274414,-14.042742729187012
+Random initialization,149,2,bird,12.325494766235352,-5.664328098297119
+Random initialization,5787,0,airplane,16.77622413635254,-12.617568969726562
+Random initialization,8263,5,dog,20.730348587036133,3.889826536178589
+Random initialization,5168,7,horse,-20.581138610839844,10.110002517700195
+Random initialization,5775,7,horse,33.802772521972656,-26.103544235229492
+Random initialization,4375,3,cat,25.89185905456543,3.28739070892334
+Random initialization,8923,6,frog,17.13372039794922,-0.38483187556266785
+Random initialization,2757,1,automobile,7.7707061767578125,-22.06989860534668
+Random initialization,3661,1,automobile,7.171821594238281,-20.068511962890625
+Random initialization,2087,0,airplane,34.65608596801758,-7.710803985595703
+Random initialization,3879,7,horse,15.5116605758667,-2.9534592628479004
+Random initialization,3887,2,bird,11.722114562988281,12.756006240844727
+Random initialization,9187,4,deer,-33.556556701660156,13.546632766723633
+Random initialization,6870,7,horse,38.70172882080078,-11.537915229797363
+Random initialization,9640,5,dog,-16.110010147094727,6.80362606048584
+Random initialization,1080,6,frog,-39.55696487426758,6.453875541687012
+Random initialization,456,3,cat,-41.791255950927734,9.188089370727539
+Random initialization,8736,3,cat,6.907608509063721,-15.528380393981934
+Random initialization,8857,0,airplane,35.3868522644043,-14.234774589538574
+Random initialization,2373,0,airplane,30.704845428466797,-4.84177827835083
+Random initialization,2094,5,dog,-22.36014175415039,17.549829483032227
+Random initialization,9357,9,truck,-0.6058730483055115,-6.1770339012146
+Random initialization,9868,9,truck,12.643836975097656,-2.5762007236480713
+Random initialization,1717,7,horse,-12.661776542663574,2.2459707260131836
+Random initialization,9291,8,ship,33.442832946777344,0.9144984483718872
+Random initialization,1489,6,frog,-18.315319061279297,-4.84149169921875
+Random initialization,8449,1,automobile,-30.628704071044922,17.861257553100586
+Random initialization,1213,8,ship,25.950111389160156,8.460222244262695
+Random initialization,3177,0,airplane,26.731958389282227,-2.6935391426086426
+Random initialization,6222,0,airplane,30.961320877075195,1.1635935306549072
+Random initialization,1581,2,bird,22.196680068969727,-18.2974910736084
+Random initialization,4561,3,cat,-14.168074607849121,11.220048904418945
+Random initialization,5815,3,cat,-9.086666107177734,18.73573875427246
+Random initialization,8226,8,ship,22.043378829956055,11.912811279296875
+Random initialization,1302,6,frog,1.0405970811843872,11.5795316696167
+Random initialization,496,0,airplane,1.5893440246582031,-1.6157481670379639
+Random initialization,683,8,ship,9.8768892288208,-17.20396614074707
+Random initialization,3747,9,truck,7.359366416931152,-4.043571472167969
+Random initialization,5171,2,bird,9.496119499206543,-22.73428726196289
+Random initialization,874,3,cat,-25.98250961303711,2.1674320697784424
+Random initialization,6884,0,airplane,33.08425521850586,-1.4800642728805542
+Random initialization,4905,7,horse,3.5342466831207275,-25.593017578125
+Random initialization,8463,1,automobile,-6.91272497177124,11.932170867919922
+Random initialization,7881,3,cat,-30.817293167114258,15.122976303100586
+Random initialization,8608,8,ship,0.3701881468296051,-8.78754997253418
+Random initialization,5948,0,airplane,32.16657257080078,-3.436718225479126
+Random initialization,5285,1,automobile,-17.532752990722656,10.224784851074219
+Random initialization,3379,5,dog,-47.2655029296875,7.968078136444092
+Random initialization,1809,8,ship,30.466398239135742,-12.171393394470215
+Random initialization,5661,4,deer,-25.22447395324707,0.07768619060516357
+Random initialization,3801,2,bird,27.815723419189453,-1.6367943286895752
+Random initialization,28,9,truck,6.443325519561768,3.644753932952881
+Random initialization,6763,2,bird,-34.882476806640625,10.670706748962402
+Random initialization,1397,0,airplane,33.339630126953125,-2.693829298019409
+Random initialization,1760,0,airplane,35.39509582519531,0.8665189146995544
+Random initialization,4725,9,truck,23.605562210083008,-19.252288818359375
+Random initialization,6617,4,deer,14.82248306274414,1.4048820734024048
+Random initialization,9829,5,dog,-19.61166763305664,-12.41296672821045
+Random initialization,5958,9,truck,15.479116439819336,-21.1402587890625
+Random initialization,8364,7,horse,19.502986907958984,-9.73570442199707
+Random initialization,2809,4,deer,-21.89008140563965,2.0109105110168457
+Random initialization,8312,9,truck,-20.070362091064453,-1.154115080833435
+Random initialization,4702,6,frog,-31.88035011291504,9.775957107543945
+Random initialization,953,1,automobile,28.13743019104004,10.27978801727295
+Random initialization,6318,7,horse,30.327247619628906,-13.205121040344238
+Random initialization,187,3,cat,14.427963256835938,-15.781124114990234
+Random initialization,4959,7,horse,15.034849166870117,-25.274696350097656
+Random initialization,1900,8,ship,29.172897338867188,-13.385692596435547
+Random initialization,5659,2,bird,12.422136306762695,-2.3098933696746826
+Random initialization,2732,7,horse,-3.945169448852539,-12.084240913391113
+Random initialization,109,7,horse,-23.54929542541504,-6.173942565917969
+Random initialization,9273,0,airplane,-20.821998596191406,-2.3824524879455566
+Random initialization,4471,5,dog,-0.8412391543388367,-22.827232360839844
+Random initialization,2889,7,horse,-27.05506134033203,-1.449332594871521
+Random initialization,2323,8,ship,-20.698022842407227,3.4077086448669434
+Random initialization,7744,4,deer,-32.174564361572266,13.572465896606445
+Random initialization,3382,2,bird,-22.782852172851562,22.230161666870117
+Random initialization,6402,8,ship,34.94828414916992,-19.014854431152344
+Random initialization,7354,0,airplane,29.36045265197754,9.658390045166016
+Random initialization,2023,5,dog,-33.81869125366211,3.1332435607910156
+Random initialization,2043,8,ship,23.09674644470215,-19.950075149536133
+Random initialization,3896,7,horse,-0.10552211850881577,13.578624725341797
+Random initialization,6994,3,cat,-23.3046817779541,6.927024841308594
+Random initialization,891,6,frog,-25.001306533813477,16.145614624023438
+Random initialization,9030,2,bird,26.558765411376953,-0.5982300639152527
+Random initialization,7981,5,dog,17.597196578979492,8.057001113891602
+Random initialization,2175,3,cat,-32.335323333740234,1.1251276731491089
+Random initialization,5523,6,frog,3.930420398712158,0.2121448516845703
+Random initialization,8257,3,cat,11.132058143615723,-16.237308502197266
+Random initialization,3280,3,cat,30.416688919067383,9.521500587463379
+Random initialization,844,1,automobile,-22.22134780883789,-0.8482884168624878
+Random initialization,8010,2,bird,-21.366140365600586,25.19040870666504
+Random initialization,6199,5,dog,-31.458789825439453,-4.753699779510498
+Random initialization,5084,3,cat,-31.991975784301758,-0.18138760328292847
+Random initialization,1407,8,ship,24.34961700439453,15.224502563476562
+Random initialization,8652,9,truck,32.73316192626953,-13.776047706604004
+Random initialization,7877,0,airplane,-33.035762786865234,10.640790939331055
+Random initialization,7950,9,truck,33.91519546508789,-16.087539672851562
+Random initialization,6550,1,automobile,24.332538604736328,-2.2896816730499268
+Random initialization,5515,4,deer,10.519450187683105,-15.097925186157227
+Random initialization,3930,1,automobile,-36.45271682739258,2.9572606086730957
+Random initialization,4909,0,airplane,30.25577735900879,-1.0583055019378662
+Random initialization,5503,8,ship,7.6681623458862305,10.934784889221191
+Random initialization,4181,0,airplane,23.467580795288086,-2.3356423377990723
+Random initialization,7468,8,ship,27.808792114257812,-23.5963191986084
+Random initialization,9872,0,airplane,6.923491477966309,-5.406203269958496
+Random initialization,7622,9,truck,8.846925735473633,-5.8109211921691895
+Random initialization,7795,5,dog,10.754048347473145,6.933174133300781
+Random initialization,4530,5,dog,35.33561325073242,-2.8502347469329834
+Random initialization,8702,0,airplane,28.820432662963867,-14.171794891357422
+Random initialization,7338,5,dog,-29.516206741333008,-3.0187342166900635
+Random initialization,2697,0,airplane,36.90906524658203,2.640324831008911
+Random initialization,5829,4,deer,-45.891456604003906,16.80461311340332
+Random initialization,4282,3,cat,-3.424537181854248,23.228870391845703
+Random initialization,9411,7,horse,19.56461524963379,-26.200532913208008
+Random initialization,715,3,cat,-20.22328758239746,17.351341247558594
+Random initialization,8498,1,automobile,9.127983093261719,-20.837865829467773
+Random initialization,950,3,cat,30.48820686340332,3.8296806812286377
+Random initialization,2847,8,ship,12.843816757202148,-21.544673919677734
+Random initialization,7838,0,airplane,20.184282302856445,-7.115507125854492
+Random initialization,3710,2,bird,33.407981872558594,-21.217655181884766
+Random initialization,4500,3,cat,-32.53424072265625,22.993921279907227
+Random initialization,9204,9,truck,23.274639129638672,-21.159137725830078
+Random initialization,7200,4,deer,-18.73195457458496,-6.622631549835205
+Random initialization,3180,3,cat,17.768146514892578,-22.747018814086914
+Random initialization,2794,0,airplane,21.174144744873047,-17.291166305541992
+Random initialization,4292,1,automobile,6.234959125518799,14.714548110961914
+Random initialization,7968,8,ship,31.556049346923828,1.5640968084335327
+Random initialization,921,9,truck,23.926504135131836,-18.999292373657227
+Random initialization,154,0,airplane,-12.687396049499512,8.625378608703613
+Random initialization,1571,5,dog,-28.96474838256836,13.196751594543457
+Random initialization,2848,6,frog,28.467151641845703,-21.019323348999023
+Random initialization,4337,1,automobile,11.118188858032227,-9.288634300231934
+Random initialization,2742,2,bird,-6.305278301239014,-0.8951877951622009
+Random initialization,6264,6,frog,-41.340248107910156,9.906351089477539
+Random initialization,1814,9,truck,7.231137275695801,4.534918308258057
+Random initialization,3553,1,automobile,14.20162582397461,-18.853330612182617
+Random initialization,4252,9,truck,-7.4107513427734375,-2.2475779056549072
+Random initialization,1325,2,bird,-7.107511520385742,15.079378128051758
+Random initialization,3513,3,cat,-46.63744354248047,7.096112251281738
+Random initialization,9314,6,frog,-46.56871032714844,9.255661010742188
+Random initialization,1685,8,ship,-1.8145774602890015,10.184191703796387
+Random initialization,2067,7,horse,-25.550918579101562,13.070465087890625
+Random initialization,7963,7,horse,-30.40467643737793,10.713013648986816
+Random initialization,9690,4,deer,-37.909698486328125,14.106051445007324
+Random initialization,2336,9,truck,14.715279579162598,-27.248071670532227
+Random initialization,6418,0,airplane,25.782304763793945,-2.16038179397583
+Random initialization,7143,4,deer,-40.7283821105957,4.2602386474609375
+Random initialization,4694,7,horse,23.555368423461914,-14.304374694824219
+Random initialization,5139,6,frog,-35.531551361083984,11.640603065490723
+Random initialization,5729,8,ship,35.35594177246094,-8.868524551391602
+Random initialization,2042,1,automobile,-3.9126572608947754,5.898308277130127
+Random initialization,8246,8,ship,36.13522720336914,-12.622438430786133
+Random initialization,2790,8,ship,27.604442596435547,-21.953142166137695
+Random initialization,4321,5,dog,29.546775817871094,12.199053764343262
+Random initialization,3558,5,dog,-20.494300842285156,-6.850482940673828
+Random initialization,7457,2,bird,-22.451021194458008,24.55034828186035
+Random initialization,3307,9,truck,9.66857624053955,-24.477731704711914
+Random initialization,9034,2,bird,-4.719396114349365,15.45569896697998
+Random initialization,3900,3,cat,33.57451629638672,-10.101646423339844
+Random initialization,3076,2,bird,-37.95856857299805,15.785537719726562
+Random initialization,2449,4,deer,-14.488592147827148,-3.2195372581481934
+Random initialization,8925,0,airplane,31.924991607666016,-7.239652633666992
+Random initialization,9786,6,frog,-15.357276916503906,12.571880340576172
+Random initialization,2952,3,cat,-17.20110321044922,22.850879669189453
+Random initialization,6422,4,deer,-24.41511344909668,-1.3545241355895996
+Random initialization,1288,1,automobile,-15.130528450012207,3.2294228076934814
+Random initialization,4361,8,ship,9.612024307250977,-17.862794876098633
+Random initialization,3132,5,dog,37.22299575805664,-8.091026306152344
+Random initialization,1658,4,deer,24.63562774658203,12.024500846862793
+Random initialization,5761,6,frog,38.58937454223633,-2.8507137298583984
+Random initialization,1043,2,bird,21.419771194458008,-10.493160247802734
+Random initialization,4420,5,dog,36.03417205810547,4.095503330230713
+Random initialization,5472,1,automobile,28.662792205810547,-11.704487800598145
+Random initialization,9506,4,deer,-27.60028839111328,17.163686752319336
+Random initialization,6089,7,horse,-43.534873962402344,13.570150375366211
+Random initialization,9186,7,horse,-35.112003326416016,5.845963478088379
+Random initialization,2939,2,bird,-41.67387771606445,12.689559936523438
+Random initialization,2015,4,deer,-23.97993278503418,21.233966827392578
+Random initialization,907,6,frog,-35.61140823364258,14.659956932067871
+Random initialization,3975,7,horse,-12.749188423156738,2.6205670833587646
+Random initialization,323,3,cat,-17.260866165161133,18.866533279418945
+Random initialization,5102,5,dog,-34.586490631103516,18.11518096923828
+Random initialization,99,7,horse,21.915687561035156,-23.0966796875
+Random initialization,2906,1,automobile,0.6507115960121155,20.010391235351562
+Random initialization,6741,9,truck,15.013687133789062,-21.328828811645508
+Random initialization,1630,9,truck,0.7395876049995422,25.953855514526367
+Random initialization,5393,4,deer,-6.017952919006348,7.594474792480469
+Random initialization,8769,0,airplane,18.652082443237305,-3.3590924739837646
+Random initialization,8613,6,frog,25.946046829223633,6.118058204650879
+Random initialization,1916,9,truck,-36.405860900878906,11.597919464111328
+Random initialization,278,4,deer,3.3515658378601074,-18.21759033203125
+Random initialization,7907,6,frog,-22.916465759277344,11.11270809173584
+Random initialization,7965,7,horse,12.667797088623047,-28.22834587097168
+Random initialization,444,5,dog,26.625530242919922,15.12545394897461
+Random initialization,3054,4,deer,34.21505355834961,-2.4303505420684814
+Random initialization,7608,5,dog,-20.213159561157227,24.565898895263672
+Random initialization,7787,5,dog,31.45937156677246,11.922074317932129
+Random initialization,8191,6,frog,-27.645328521728516,18.881519317626953
+Random initialization,3470,7,horse,33.092472076416016,9.96367359161377
+Random initialization,4459,8,ship,9.181724548339844,8.615078926086426
+Random initialization,4216,0,airplane,23.226465225219727,0.9038988351821899
+Random initialization,666,9,truck,-20.519094467163086,9.275593757629395
+Random initialization,5096,7,horse,28.799434661865234,0.6877968907356262
+Random initialization,9912,0,airplane,21.697254180908203,11.807313919067383
+Random initialization,8040,2,bird,-25.286623001098633,9.468565940856934
+Random initialization,9445,9,truck,25.381431579589844,-17.10939598083496
+Random initialization,9468,7,horse,17.52322006225586,-28.545469284057617
+Random initialization,8030,2,bird,20.51346778869629,-21.60114288330078
+Random initialization,9796,9,truck,23.137704849243164,6.706486701965332
+Random initialization,1001,0,airplane,-31.70762062072754,15.445701599121094
+Random initialization,7601,8,ship,13.390035629272461,12.014598846435547
+Random initialization,7895,4,deer,32.43325424194336,11.25633430480957
+Random initialization,731,2,bird,26.950693130493164,-3.153127670288086
+Random initialization,623,2,bird,28.335857391357422,-0.8654974102973938
+Random initialization,181,5,dog,22.90175437927246,-17.31270408630371
+Random initialization,3097,0,airplane,8.216842651367188,-23.74410057067871
+Random initialization,8841,2,bird,20.29222869873047,-2.234339952468872
+Random initialization,6185,5,dog,-29.421384811401367,-3.1568377017974854
+Random initialization,7313,3,cat,-16.903390884399414,21.949949264526367
+Random initialization,9990,7,horse,-3.445513963699341,23.122133255004883
+Random initialization,7632,0,airplane,11.168737411499023,-11.569568634033203
+Random initialization,7948,1,automobile,-28.92215347290039,4.355638027191162
+Random initialization,5064,5,dog,-22.79194450378418,-10.133435249328613
+Random initialization,1217,4,deer,16.516170501708984,4.4256272315979
+Random initialization,3094,2,bird,-11.717723846435547,7.40756893157959
+Random initialization,6297,5,dog,-28.146869659423828,-7.505945205688477
+Random initialization,2713,8,ship,33.61244201660156,-13.452093124389648
+Random initialization,2194,8,ship,26.978126525878906,-10.32514476776123
+Random initialization,3576,4,deer,-7.814772129058838,12.704423904418945
+Random initialization,9586,5,dog,-32.9884147644043,18.203094482421875
+Random initialization,5901,5,dog,-36.44335174560547,3.5334312915802
+Random initialization,1852,2,bird,37.52244186401367,-9.318955421447754
+Random initialization,8421,2,bird,-34.983489990234375,-5.086622714996338
+Random initialization,5790,9,truck,5.947777271270752,-22.072542190551758
+Random initialization,8235,7,horse,12.505270004272461,-21.412885665893555
+Random initialization,3947,2,bird,11.80737018585205,-13.588844299316406
+Random initialization,6838,1,automobile,39.58546829223633,-3.144648551940918
+Random initialization,5077,0,airplane,-11.737627029418945,7.499825477600098
+Random initialization,9354,0,airplane,31.359962463378906,-4.815309047698975
+Random initialization,5739,2,bird,-6.865476608276367,11.373945236206055
+Random initialization,4094,3,cat,32.21327590942383,3.834143877029419
+Random initialization,9671,7,horse,4.308172702789307,19.364370346069336
+Random initialization,8893,6,frog,18.064250946044922,-20.481077194213867
+Random initialization,7279,5,dog,-26.048381805419922,-6.726840019226074
+Random initialization,4085,8,ship,5.314586639404297,-26.95486068725586
+Random initialization,8,3,cat,-31.32489013671875,-8.284703254699707
+Random initialization,6465,3,cat,32.412044525146484,-4.519853115081787
+Random initialization,9151,0,airplane,20.318256378173828,-3.9321401119232178
+Random initialization,7456,7,horse,16.82514762878418,-27.266971588134766
+Random initialization,6394,0,airplane,28.224966049194336,-24.87281608581543
+Random initialization,7586,2,bird,-12.410211563110352,0.20705638825893402
+Random initialization,9531,6,frog,12.738005638122559,-25.7758846282959
+Random initialization,7996,7,horse,2.741889238357544,-23.79836082458496
+Random initialization,8157,1,automobile,21.498186111450195,0.6162587404251099
+Random initialization,9791,9,truck,12.503602981567383,-23.752567291259766
+Random initialization,9764,2,bird,23.977720260620117,-16.18785285949707
+Random initialization,7868,8,ship,25.968870162963867,10.94769287109375
+Random initialization,2235,2,bird,-29.231111526489258,20.582412719726562
+Random initialization,9347,8,ship,7.789662837982178,4.260411262512207
+Random initialization,8203,3,cat,-32.76445770263672,5.3843464851379395
+Random initialization,8474,4,deer,-1.3195630311965942,2.4693706035614014
+Random initialization,2993,0,airplane,36.35719680786133,-0.82567298412323
+Random initialization,9408,6,frog,-5.4261908531188965,1.853257656097412
+Random initialization,5498,9,truck,-22.562915802001953,6.901205539703369
+Random initialization,3590,7,horse,14.06068229675293,-12.967910766601562
+Random initialization,5471,6,frog,-36.784908294677734,4.9222259521484375
+Random initialization,1277,2,bird,4.3530592918396,-19.956378936767578
+Random initialization,7371,6,frog,-35.2022819519043,3.36026930809021
+Random initialization,2799,8,ship,28.878894805908203,-23.127811431884766
+Random initialization,6953,0,airplane,23.783531188964844,-11.196427345275879
+Random initialization,5055,0,airplane,18.80076789855957,-5.318196773529053
+Random initialization,7059,4,deer,-45.24290466308594,12.833845138549805
+Random initialization,137,7,horse,34.810699462890625,-22.392850875854492
+Random initialization,4774,6,frog,5.959968566894531,-27.816675186157227
+Random initialization,6733,5,dog,-24.04587745666504,-5.633861064910889
+Random initialization,2397,5,dog,-2.0714969635009766,18.896127700805664
+Random initialization,9474,8,ship,29.60275650024414,-20.886470794677734
+Random initialization,3690,9,truck,-9.765756607055664,-7.098573207855225
+Random initialization,2801,5,dog,-11.32279109954834,-5.842374801635742
+Random initialization,7773,4,deer,-19.130407333374023,2.1905760765075684
+Random initialization,3582,6,frog,-36.67851257324219,8.538589477539062
+Random initialization,2735,2,bird,-48.593017578125,8.606579780578613
+Random initialization,7335,4,deer,17.498003005981445,-3.041404962539673
+Random initialization,4563,7,horse,31.00042724609375,6.587555408477783
+Random initialization,8973,5,dog,-36.667510986328125,-2.1350793838500977
+Random initialization,2539,8,ship,17.90338897705078,-24.51161003112793
+Random initialization,4657,7,horse,23.32982635498047,-28.574565887451172
+Random initialization,2011,2,bird,-4.97226095199585,21.687564849853516
+Random initialization,5317,4,deer,-35.17099380493164,19.594579696655273
+Random initialization,2028,7,horse,8.442469596862793,3.5340938568115234
+Random initialization,8208,8,ship,27.77938461303711,-19.6524658203125
+Random initialization,4323,5,dog,-23.330657958984375,-8.075199127197266
+Random initialization,3578,7,horse,7.25183629989624,5.933707237243652
+Random initialization,4112,4,deer,-31.340526580810547,3.5880093574523926
+Random initialization,3419,4,deer,0.8952488303184509,8.037285804748535
+Random initialization,7813,3,cat,34.84833908081055,-9.919238090515137
+Random initialization,6466,8,ship,28.01997184753418,14.695975303649902
+Random initialization,7461,9,truck,19.00293731689453,-14.299159049987793
+Random initialization,9464,4,deer,-39.45009994506836,15.219376564025879
+Random initialization,2895,7,horse,-30.748083114624023,-6.501984596252441
+Random initialization,780,9,truck,19.445022583007812,8.31260871887207
+Random initialization,1332,1,automobile,19.372011184692383,8.726670265197754
+Random initialization,2648,4,deer,12.190978050231934,0.40889623761177063
+Random initialization,2696,2,bird,29.450469970703125,-21.64333724975586
+Random initialization,5843,6,frog,-29.366357803344727,22.83151626586914
+Random initialization,6727,6,frog,4.44857120513916,15.04926586151123
+Random initialization,7460,5,dog,31.89334487915039,12.111865997314453
+Random initialization,9424,2,bird,25.713546752929688,0.8904359340667725
+Random initialization,6274,9,truck,-0.5282787084579468,3.1913015842437744
+Random initialization,4552,5,dog,-9.846686363220215,19.06692123413086
+Random initialization,578,7,horse,22.46125030517578,-10.771655082702637
+Random initialization,3388,6,frog,-28.89238929748535,4.889866352081299
+Random initialization,3521,8,ship,33.42747497558594,-25.22850227355957
+Random initialization,7235,2,bird,2.4079253673553467,8.619515419006348
+Random initialization,1730,4,deer,31.7302188873291,-25.3281192779541
+Random initialization,4833,2,bird,-29.997314453125,18.390338897705078
+Random initialization,6832,1,automobile,15.016229629516602,-9.5989408493042
+Random initialization,7797,3,cat,-37.895782470703125,11.91013240814209
+Random initialization,3032,2,bird,-28.528608322143555,7.3203630447387695
+Random initialization,911,3,cat,-31.542343139648438,11.621058464050293
+Random initialization,6956,6,frog,-40.93240737915039,3.8082704544067383
+Random initialization,1375,4,deer,16.730449676513672,-13.70706558227539
+Random initialization,76,9,truck,23.728174209594727,-26.106101989746094
+Random initialization,10,0,airplane,27.553194046020508,7.947995662689209
+Random initialization,6700,6,frog,-1.2536492347717285,1.3410046100616455
+Random initialization,5654,4,deer,-8.71106243133545,6.026962757110596
+Random initialization,1123,3,cat,6.67921781539917,-18.443161010742188
+Random initialization,6820,1,automobile,31.048524856567383,-17.440330505371094
+Random initialization,7543,9,truck,21.438871383666992,-5.241055965423584
+Random initialization,7077,0,airplane,27.806865692138672,-8.5538330078125
+Random initialization,9298,1,automobile,15.563098907470703,-28.168806076049805
+Random initialization,5111,6,frog,-42.17945861816406,11.72095775604248
+Random initialization,5387,3,cat,30.686168670654297,16.547199249267578
+Random initialization,9703,4,deer,-5.2790727615356445,-2.844092607498169
+Random initialization,1145,4,deer,0.05673503875732422,-13.54056167602539
+Random initialization,6867,6,frog,-13.74319076538086,16.772764205932617
+Random initialization,8566,4,deer,14.130851745605469,-4.50809907913208
+Random initialization,3090,4,deer,-27.67375946044922,25.55750274658203
+Random initialization,3005,0,airplane,28.67824935913086,3.6399738788604736
+Random initialization,5943,3,cat,0.5959953665733337,20.015941619873047
+Random initialization,778,0,airplane,2.4584567546844482,2.007066249847412
+Random initialization,7141,5,dog,-21.22479248046875,17.509092330932617
+Random initialization,8321,4,deer,-0.007505187764763832,3.4324920177459717
+Random initialization,7780,3,cat,27.82662010192871,4.284245491027832
+Random initialization,5433,3,cat,-18.261993408203125,-12.923625946044922
+Random initialization,4684,1,automobile,3.052933692932129,-6.402419090270996
+Random initialization,2189,2,bird,24.035953521728516,-6.538660526275635
+Random initialization,7502,8,ship,-32.883262634277344,7.781468391418457
+Random initialization,3688,5,dog,11.909940719604492,-17.956497192382812
+Random initialization,4423,6,frog,-35.634803771972656,15.174654006958008
+Random initialization,1006,1,automobile,-26.081003189086914,19.98223114013672
+Random initialization,1843,8,ship,31.85847282409668,-21.681163787841797
+Random initialization,8914,4,deer,7.444985866546631,14.74423885345459
+Random initialization,3117,0,airplane,32.854244232177734,-9.967074394226074
+Random initialization,830,1,automobile,-6.309197425842285,3.3719887733459473
+Random initialization,8765,2,bird,-6.688105583190918,7.63352108001709
+Random initialization,3199,6,frog,-39.48647689819336,10.81400203704834
+Random initialization,1924,9,truck,22.726205825805664,-16.482358932495117
+Random initialization,2399,8,ship,20.020614624023438,11.168533325195312
+Random initialization,659,1,automobile,-23.38102149963379,23.8295955657959
+Random initialization,3770,9,truck,-4.281466960906982,-10.490761756896973
