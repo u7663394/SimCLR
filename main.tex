@@ -23,7 +23,7 @@
 \definecolor{figRed}{HTML}{DC2626}
 \definecolor{figOlive}{HTML}{65A30D}
 
-\title{COMP3242 Group Project Report\\SimCLR}
+\title{COMP3242 Group Project Report\\Ablation Study of SimCLR Components}
 
 \author{
 Chengbo Yan \\ \texttt{uxxxxxxx}
@@ -84,91 +84,231 @@ Short statement on individual contributions:
 
 \section{Introduction}
 
-xxxxxx
+This project studies the key design choices in SimCLR for visual representation learning. Instead of training a new supervised classifier from labels only, SimCLR first learns an encoder from unlabeled images. Two random views are generated from each image, and the model is trained to make the two views of the same image close while pushing views from different images apart. After pretraining, the encoder is frozen and a simple linear classifier is trained on top of its features. If the linear classifier performs well, the encoder has learned useful
+visual representations.
 
-\begin{table}[h]
+According to our project plan, the main goal is not to build a more complex model, but to understand which SimCLR components matter. The planned components are data augmentation, projection head, batch size, and low-label evaluation.
+
+\section{Method}
+
+\subsection{Baseline SimCLR}
+
+Our baseline uses CIFAR-10 and a ResNet-18 backbone as encoder. During contrastive pretraining, each input image is transformed twice to produce two augmented views. The implementation uses random resized crop, horizontal flip, color jitter, random grayscale, and Gaussian blur. For a batch of $B$ original images, there are $2B$ views. For each anchor view, its positive example is the other view from the same original image, while the other $2B-2$ views are negatives.
+
+The contrastive loss follows the NT-Xent form used by SimCLR:
+\[
+\ell_{i,j} =
+-\log
+\frac{\exp(\operatorname{sim}(z_i,z_j)/\tau)}
+{\sum_{k=1}^{2B} \mathbf{1}_{k \ne i}
+\exp(\operatorname{sim}(z_i,z_k)/\tau)} ,
+\]
+where $z$ is the normalized output used by the contrastive loss, $\operatorname{sim}$ is cosine similarity, and $\tau$ is the temperature. In our code the temperature is set to 0.07. The model is optimized with Adam and weight decay during pretraining.
+
+\subsection{Projection Head}
+
+The encoder output of ResNet-18 is a 512-dimensional feature vector. With the projection head enabled, this vector is passed through a two-layer MLP:
+\[
+512 \rightarrow 512 \rightarrow 128.
+\]
+The contrastive loss is applied to the projected vector. During linear
+evaluation, however, the projection head is removed and the frozen
+512-dimensional encoder feature is used. Without the projection head, the
+contrastive loss is applied directly to the 512-dimensional encoder output. This comparison tests whether the extra nonlinear head helps the encoder learn better features for later classification.
+
+\subsection{Linear Evaluation}
+
+We use linear evaluation as the main metric. The pretrained encoder is frozen, features are extracted for CIFAR-10 train and test images, and a single linear layer is trained for 100 epochs. The classifier uses Adam with learning rate 0.001 and no weight decay. Accuracy on the CIFAR-10 test set is reported. This protocol is useful because it measures representation quality without allowing the encoder to change during evaluation.
+
+\begin{table}[H]
 \centering
+\small
 \begin{tabular}{ll}
 \toprule
 \textbf{File} & \textbf{Main purpose} \\
 \midrule
-\texttt{xxx.py} & Description of this file. \\
-\texttt{xxx.py} & Description of this file. \\
-\texttt{xxx.py} & Description of this file. \\
-\texttt{xxx.py} & Description of this file. \\
-\texttt{xxx.py} & Description of this file. \\
-\texttt{xxx.py} & Description of this file. \\
-\texttt{xxx.py} & Description of this file. \\
+\texttt{run.py} & Parses arguments and starts SimCLR pretraining. \\
+\texttt{simclr.py} & Implements NT-Xent logits, training loop, and checkpoint saving. \\
+\texttt{models/resnet\_simclr.py} & Builds ResNet-18/50 with or without projection head. \\
+\texttt{data\_aug/} & Builds two augmented views for contrastive learning. \\
+\texttt{feature\_eval/linear\_eval.py} & Runs frozen-encoder linear evaluation on CIFAR-10. \\
 \bottomrule
 \end{tabular}
-\caption{Main source code for the project.}
+\caption{Main source files used in the project.}
 \label{tab:modules}
 \end{table}
 
-\section{TODO1}
+\section{Experiments and Results}
 
-\subsection{TODO1-1}
-
-xxxxxx.
-
-\subsection{TODO1-2}
-
-xxx.
-
-\subsection{TODO1-3}
-
-xxx.
-
-\section{TODO2}
-
-\subsection{TODO2-1}
-
-xxx.
-
-\subsection{TODO2-2}
-
-xxx.
-
-
-\subsection{TODO2-3}
-
-xxx.
-
-\section{TODO3}
-
-\subsection{TODO3-1}
-
-xxx.
-
-\subsection{TODO3-2}
+\subsection{Data Augmentation Ablation}
 
 xxxxxx.
 
-\subsection{TODO3-3}
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{llll}
+\toprule
+\textbf{Setting} & \textbf{Augmentations} & \textbf{Best acc.} & \textbf{Observation} \\
+\midrule
+Setting1 & xxxxxx & xxxxxx & xxxxxx \\
+Setting2 & xxxxxx & xxxxxx & xxxxxx \\
+Setting3 & xxxxxx & xxxxxx & xxxxxx \\
+\bottomrule
+\end{tabular}
+\caption{Placeholder structure for the data augmentation ablation.}
+\label{tab:augmentation-placeholder}
+\end{table}
 
-xxx.
+\subsection{Projection Head Ablation}
+
+In this experiment, the intended variable is whether the model uses the nonlinear projection head during SimCLR pretraining. Other settings are kept the same as far as possible, including CIFAR-10, ResNet-18, 100-epoch pretraining checkpoints, and the same 100-epoch linear evaluation protocol.
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+\textbf{Setting} & \textbf{Encoder dim.} & \textbf{Best acc. (\%)} & \textbf{Final acc. (\%)} \\
+\midrule
+With projection head & 512 & \textbf{63.59} & \textbf{62.84} \\
+Without projection head & 512 & 62.16 & 61.40 \\
+\bottomrule
+\end{tabular}
+\caption{Linear evaluation result for the projection head ablation.}
+\label{tab:projection-head}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{head_figures/accuracy_curve.png}
+    \caption{Linear-evaluation accuracy over epochs.}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{head_figures/loss_curve.png}
+    \caption{Linear-evaluation training loss over epochs.}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{head_figures/accuracy_bar.png}
+    \caption{Best and final test accuracy.}
+\end{subfigure}
+\caption{Projection head ablation results.}
+\label{fig:projection-head}
+\end{figure}
+
+The model with the projection head reaches 63.59\% best test accuracy, while the model without the projection head reaches 62.16\%. This is an improvement of 1.43 percentage points. The final accuracy also improves from 61.40\% to 62.84\%, which is a 1.44 percentage point gain. The result supports the SimCLR idea that the projection head can absorb transformations needed by the contrastive objective, while the encoder output keeps more useful information for downstream classification.
+
+The improvement is not extremely large, but it is consistent across best and final accuracy. Also, the model with the projection head reaches its best result later in linear evaluation. This suggests that its frozen features may contain slightly richer information that the linear classifier can use after more training.
+
+\subsection{Batch Size Ablation}
+
+Batch size changes the number of negatives in the contrastive loss. With two views per image, the number of negatives for each anchor is $2B-2$. We compare batch sizes 128, 256, and 512. The projection head is enabled for this ablation, and the same linear evaluation protocol is used for all three runs.
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{ccccc}
+\toprule
+\textbf{Batch size} & \textbf{Negatives/anchor} & \textbf{Best acc. (\%)} & \textbf{Final acc. (\%)} \\
+\midrule
+128 & 254 & 62.54 & 62.10 \\
+256 & 510 & \textbf{63.59} & \textbf{62.84} \\
+512 & 1022 & 60.03 & 59.79 \\
+\bottomrule
+\end{tabular}
+\caption{Linear evaluation result for the batch size ablation.}
+\label{tab:batch-size}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{batch_figures/accuracy_curve.png}
+    \caption{Linear-evaluation accuracy over epochs.}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{head_figures/accuracy_bar.png}
+    \caption{Best and final test accuracy.}
+\end{subfigure}
+\label{fig:batch-size}
+\end{figure}
+
+The best result is obtained at batch size 256, with 510 negatives per anchor and 63.59\% best test accuracy. Batch size 128 is slightly lower at 62.54\%. The largest batch size, 512, performs worst with 60.03\% best accuracy. Therefore, the result does not show a simple rule that larger batch size always gives better features.
+
+This is an important observation. A larger batch gives more negative samples, which should make the contrastive task stronger. However, it also changes the optimization setting. With a fixed number of epochs, a larger batch has fewer parameter updates per epoch. It may also need a different learning rate schedule or longer pretraining. In our runs, batch size 256 gives the best balance between having enough negatives and still maintaining stable optimization.
+
+\subsection{Low-Label Evaluation}
+
+xxxxxx.
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+\textbf{Method} & \textbf{1\% labels} & \textbf{10\% labels} & \textbf{100\% labels} \\
+\midrule
+xxxxxx & xxxxxx & xxxxxx & xxxxxx \\
+xxxxxx & xxxxxx & xxxxxx & xxxxxx \\
+\bottomrule
+\end{tabular}
+\caption{Placeholder structure for the low-label evaluation.}
+\label{tab:low-label-placeholder}
+\end{table}
+
+\section{Discussion}
+
+The data augmentation xxxxxx.
+
+The projection head ablation gives a clear result: using the projection head improves the final representation. It agrees with the motivation of SimCLR. The contrastive objective may require invariances that are useful for matching augmented views, but not all of these changes should be forced directly onto the encoder feature used by the downstream task. The projection head gives the model an extra space for optimizing the pretext task.
+
+The batch size ablation gives a more mixed result. The medium batch size is best, while the largest batch is worse. This does not mean negative samples are unimportant. Rather, it shows that batch size is tied to optimization details. If batch size changes, the number of updates, learning rate behavior, memory pressure, and training stability can also change. Therefore, batch size should not be interpreted as only a 'negative sample count' variable.
+
+The low-label evaluation xxxxxx.
+
+\section{Shortcomings}
+
+There are several limitations in the current experiments. First, xxxxxx, so the result may include random variation. Second, the batch size experiment does not retune the learning rate or schedule for each
+batch size. This makes the comparison practical but not fully isolated. Third, the experiments use CIFAR-10 and ResNet-18 only, so the conclusions may not transfer directly to larger datasets or architectures. Finally, xxxxxx.
+
+\section{Future Work}
+
+Future work should run each setting with multiple seeds and report mean and standard deviation. The batch size ablation should also test learning-rate scaling, longer pretraining, and schedules that are matched by number of optimization steps rather than only by epochs. After the low-label experiments are completed, we can compare SimCLR pretraining against direct supervised training under 1\%, 10\%, and 100\% label fractions. It would also be useful to add k-nearest-neighbor evaluation and feature-space visualization as supporting evidence.
 
 \section{Conclusion}
 
-xxxxxx.
-
-\section{Discussion of Shortcoming}
-
-xxxxxx.
-
-\section{Ideas for Future Work}
-
-xxxxxx.
+This project studies SimCLR through controlled ablation experiments. For the completed parts, the projection head improves CIFAR-10 linear evaluation accuracy from 62.16\% to 63.59\%, showing that the nonlinear head is useful for learning transferable encoder features. The batch size ablation shows that batch size 256 performs best among 128, 256, and 512. The result suggests that more negatives are helpful only when optimization remains stable. Overall, SimCLR performance depends on both representation design and training details, so ablation studies are necessary for understanding why the method works.
 
 \begin{thebibliography}{9}
 
+\bibitem{simclr}
+T. Chen, S. Kornblith, M. Norouzi, and G. Hinton.
+\textit{A Simple Framework for Contrastive Learning of Visual Representations}.
+ICML, 2020.
+
+\bibitem{cifar10}
+A. Krizhevsky.
+\textit{Learning Multiple Layers of Features from Tiny Images}.
+Technical report, 2009.
+\url{https://www.cs.toronto.edu/~kriz/cifar.html}
+
+\bibitem{sthalles}
+S. Thalles. PyTorch SimCLR implementation.
+\url{https://github.com/sthalles/SimCLR}
+
+\bibitem{pytorch}
+PyTorch Documentation. \url{https://docs.pytorch.org/docs/2.11/index.html}
+
 \bibitem{course}
-COMP3242/COMP6242, ANU, 2026.
-
-\bibitem{opencv}
-Pytorch Documentation. \url{https://docs.pytorch.org/docs/2.11/index.html}
-
-\colorbox{yellow}{TODO: Add or Modify References Here.}
+COMP3242 Week 9 Lab, ANU, 2026.
 
 \end{thebibliography}
 
