@@ -1,0 +1,175 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper, margin=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{ulem}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{figBlue}{HTML}{2563EB}
+\definecolor{figGreen}{HTML}{16A34A}
+\definecolor{figAmber}{HTML}{D97706}
+\definecolor{figPink}{HTML}{DB2777}
+\definecolor{figIndigo}{HTML}{4F46E5}
+\definecolor{figCyan}{HTML}{0284C7}
+\definecolor{figOrange}{HTML}{EA580C}
+\definecolor{figRed}{HTML}{DC2626}
+\definecolor{figOlive}{HTML}{65A30D}
+
+\title{COMP3242 Group Project Report\\SimCLR}
+
+\author{
+Chengbo Yan \\ \texttt{uxxxxxxx}
+\and
+Weiyi Jiang \\ \texttt{uxxxxxxx}
+\and
+Guochen Wang \\ \texttt{u7663394}
+}
+
+\date{May 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Declaration of Originality}
+
+\vspace{0.8em}
+
+We, \underline{Chengbo Yan} (UID: \underline{uxxxxxxx}), \underline{Weiyi Jiang} (UID: \underline{uxxxxxxx}), and \underline{Guochen Wang} (UID: \underline{u7663394}), here declare that the code and report submitted for this assignment are our own work. The programs and results presented in this report were developed and written
+independently by our group.
+
+\vspace{0.8em}
+
+We confirm that we have \textbf{not copied code, text, or results from other
+students or external sources}, except where properly acknowledged. We understand
+that plagiarism or any form of academic dishonesty is not permitted.
+
+\vspace{1em}
+
+\textbf{AI Use: In completing this assignment, we declare that we:}
+
+\fbox{\rule{0pt}{1.1ex}\rule{1.1ex}{0pt}}~\textbf{Have not used any AI tools}
+
+\fbox{\scriptsize X}~\textbf{Have used AI tools} (e.g., ChatGPT, DeepSeek, or similar AI systems)
+
+\vspace{1em}
+
+Description of AI use: \uline{We used AI as a support tool for debugging, language editing, report organisation, wording polishing, and concept explanation. For example, in xxxxxx. We asked AI to help debug this issue and learned that the problem was caused by xxxxxx. Therefore, we xxxxxx. As a result, xxxxxx. AI also helped us discuss possible design ideas, sketch small example code structures for understanding implementation ideas, locate possible bugs, improve code quality, code comments, and assist with literature search. The final implementation, testing, design decisions, report wording, code comments, and submitted results were completed, checked, and accepted by our group.}
+\vspace{1em}
+
+Short statement on individual contributions: 
+\begin{itemize}[leftmargin=2.2em]
+    \item Chengbo Yan (uxxxxxxx): xxxxxx
+    \item Weiyi Jiang (uxxxxxxx): xxxxxx
+    \item Guochen Wang (u7663394): xxxxxx
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Student Signatures:}
+\underline{\hspace{0.5em}Chengbo Yan, Weiyi Jiang, Guochen Wang\hspace{0.5em}}
+
+\vspace{3em}
+\hrule
+
+\newpage
+
+\section{Introduction}
+
+xxxxxx
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ll}
+\toprule
+\textbf{File} & \textbf{Main purpose} \\
+\midrule
+\texttt{xxx.py} & Description of this file. \\
+\texttt{xxx.py} & Description of this file. \\
+\texttt{xxx.py} & Description of this file. \\
+\texttt{xxx.py} & Description of this file. \\
+\texttt{xxx.py} & Description of this file. \\
+\texttt{xxx.py} & Description of this file. \\
+\texttt{xxx.py} & Description of this file. \\
+\bottomrule
+\end{tabular}
+\caption{Main source code for the project.}
+\label{tab:modules}
+\end{table}
+
+\section{TODO1}
+
+\subsection{TODO1-1}
+
+xxxxxx.
+
+\subsection{TODO1-2}
+
+xxx.
+
+\subsection{TODO1-3}
+
+xxx.
+
+\section{TODO2}
+
+\subsection{TODO2-1}
+
+xxx.
+
+\subsection{TODO2-2}
+
+xxx.
+
+
+\subsection{TODO2-3}
+
+xxx.
+
+\section{TODO3}
+
+\subsection{TODO3-1}
+
+xxx.
+
+\subsection{TODO3-2}
+
+xxxxxx.
+
+\subsection{TODO3-3}
+
+xxx.
+
+\section{Conclusion}
+
+xxxxxx.
+
+\section{Discussion of Shortcoming}
+
+xxxxxx.
+
+\section{Ideas for Future Work}
+
+xxxxxx.
+
+\begin{thebibliography}{9}
+
+\bibitem{course}
+COMP3242/COMP6242, ANU, 2026.
+
+\bibitem{opencv}
+Pytorch Documentation. \url{https://docs.pytorch.org/docs/2.11/index.html}
+
+\colorbox{yellow}{TODO: Add or Modify References Here.}
+
+\end{thebibliography}
+
+\end{document}
