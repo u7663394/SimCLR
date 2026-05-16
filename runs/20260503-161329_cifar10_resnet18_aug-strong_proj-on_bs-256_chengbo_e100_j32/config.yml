@@ -1,0 +1,26 @@
+!!python/object:argparse.Namespace
+arch: resnet18
+aug_strength: strong
+batch_size: 256
+data: ./datasets_local
+dataset_name: cifar10
+device: !!python/object/apply:torch.device
+- cuda
+disable_cuda: false
+disable_projection_head: false
+epochs: 100
+experiment_name: chengbo_e100_j32
+fp16_precision: true
+gpu_index: 0
+log_every_n_steps: 100
+lr: 0.0003
+n_views: 2
+out_dim: 128
+run_base_dir: runs
+run_dir: runs/20260503-161329_cifar10_resnet18_aug-strong_proj-on_bs-256_chengbo_e100_j32
+run_name: cifar10_resnet18_aug-strong_proj-on_bs-256_chengbo_e100_j32
+seed: 0
+temperature: 0.07
+use_projection_head: true
+weight_decay: 0.0001
+workers: 32

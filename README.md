@@ -36,6 +36,33 @@ Feature evaluation is done using a linear model protocol.
 
 First, we learned features using SimCLR on the ```STL10 unsupervised``` set. Then, we train a linear classifier on top of the frozen features from SimCLR. The linear model is trained on features extracted from the ```STL10 train``` set and evaluated on the ```STL10 test``` set. 
 
+For the local training/evaluation workflow in this repo, you can run frozen-encoder low-label evaluation directly with `linear_eval.py`. The `linear` mode freezes the encoder parameters and keeps encoder BatchNorm statistics fixed, so only the final classifier is updated.
+
+```bash
+python linear_eval.py \
+  --data ./datasets_local \
+  --dataset-name cifar10 \
+  --arch resnet18 \
+  --checkpoint-path runs/<run_name>/checkpoint_0100.pth.tar \
+  --train-mode linear \
+  --label-fraction 0.1 \
+  --epochs 20
+```
+
+You can change `--label-fraction` to values such as `0.01`, `0.1`, or `1.0` to compare 1%, 10%, and full-label settings. If you want a full-network supervised baseline instead, use `--train-mode finetune`.
+
+## Local CIFAR-10 Results
+
+The following experiments were run on CIFAR-10 with `ResNet-18`, `strong` augmentation, projection head enabled during pretraining, `out_dim=128`, `temperature=0.07`, and `100` pretraining epochs.
+
+| Pretrain Batch Size | Frozen Encoder Top-1 | Fine-tuned Top-1 |
+|---------------------|----------------------|------------------|
+| 256                 | 68.18                | 75.64            |
+| 512                 | 64.70                | 75.31            |
+| 1024                | 61.68                | 72.08            |
+
+These results show that fine-tuning consistently outperformed frozen linear evaluation, while increasing the pretraining batch size from 256 to 1024 reduced downstream accuracy under the current optimization setup.
+
 Check the [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/sthalles/SimCLR/blob/simclr-refactor/feature_eval/mini_batch_logistic_regression_evaluator.ipynb) notebook for reproducibility.
 
 Note that SimCLR benefits from **longer training**.

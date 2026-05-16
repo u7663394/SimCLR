@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*/__pycache__/
+
+datasets_local/
+nohup.out
+*.log
+
+runs/*/events.out.tfevents.*
+runs/*/training.log
+runs/*/checkpoint_*.pth.tar

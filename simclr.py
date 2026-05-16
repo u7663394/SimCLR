@@ -1,13 +1,18 @@
 import logging
 import os
-import sys
 
 import torch
 import torch.nn.functional as F
 from torch.cuda.amp import GradScaler, autocast
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
-from utils import save_config_file, accuracy, save_checkpoint
+from utils import (
+    accuracy,
+    save_checkpoint,
+    save_config_file,
+    save_json,
+    save_simclr_history_plot,
+)
 
 torch.manual_seed(0)
 
@@ -57,6 +62,7 @@ class SimCLR(object):
     def train(self, train_loader):
 
         scaler = GradScaler(enabled=self.args.fp16_precision)
+        history = []
 
         # save config file
         save_config_file(self.writer.log_dir, self.args)
@@ -66,7 +72,12 @@ class SimCLR(object):
         logging.info(f"Training with gpu: {self.args.disable_cuda}.")
 
         for epoch_counter in range(self.args.epochs):
-            for images, _ in tqdm(train_loader):
+            total_loss = 0.0
+            total_top1 = 0.0
+            total_top5 = 0.0
+            num_batches = 0
+
+            for images, _ in tqdm(train_loader, desc=f"SimCLR epoch {epoch_counter + 1}/{self.args.epochs}"):
                 images = torch.cat(images, dim=0)
 
                 images = images.to(self.args.device)
@@ -83,12 +94,17 @@ class SimCLR(object):
                 scaler.step(self.optimizer)
                 scaler.update()
 
+                top1, top5 = accuracy(logits, labels, topk=(1, 5))
+                total_loss += loss.item()
+                total_top1 += top1[0].item()
+                total_top5 += top5[0].item()
+                num_batches += 1
+
                 if n_iter % self.args.log_every_n_steps == 0:
-                    top1, top5 = accuracy(logits, labels, topk=(1, 5))
                     self.writer.add_scalar('loss', loss, global_step=n_iter)
                     self.writer.add_scalar('acc/top1', top1[0], global_step=n_iter)
                     self.writer.add_scalar('acc/top5', top5[0], global_step=n_iter)
-                    self.writer.add_scalar('learning_rate', self.scheduler.get_lr()[0], global_step=n_iter)
+                    self.writer.add_scalar('learning_rate', self.scheduler.get_last_lr()[0], global_step=n_iter)
                     self.writer.add_scalar('feature_dim', float(self.model.feature_dim), global_step=n_iter)
                     self.writer.add_scalar('projection_dim', float(self.model.projection_dim), global_step=n_iter)
 
@@ -97,7 +113,32 @@ class SimCLR(object):
             # warmup for the first 10 epochs
             if epoch_counter >= 10:
                 self.scheduler.step()
-            logging.debug(f"Epoch: {epoch_counter}\tLoss: {loss}\tTop1 accuracy: {top1[0]}")
+
+            epoch_metrics = {
+                "epoch": epoch_counter + 1,
+                "train_loss": total_loss / num_batches,
+                "train_top1": total_top1 / num_batches,
+                "train_top5": total_top5 / num_batches,
+                "learning_rate": self.scheduler.get_last_lr()[0],
+            }
+            history.append(epoch_metrics)
+
+            self.writer.add_scalar("epoch/loss", epoch_metrics["train_loss"], global_step=epoch_counter + 1)
+            self.writer.add_scalar("epoch/top1", epoch_metrics["train_top1"], global_step=epoch_counter + 1)
+            self.writer.add_scalar("epoch/top5", epoch_metrics["train_top5"], global_step=epoch_counter + 1)
+            self.writer.add_scalar("epoch/learning_rate", epoch_metrics["learning_rate"], global_step=epoch_counter + 1)
+            logging.debug(
+                f"Epoch: {epoch_counter + 1}\t"
+                f"Loss: {epoch_metrics['train_loss']:.4f}\t"
+                f"Top1 accuracy: {epoch_metrics['train_top1']:.2f}\t"
+                f"Top5 accuracy: {epoch_metrics['train_top5']:.2f}"
+            )
+            print(
+                f"Epoch {epoch_counter + 1}\t"
+                f"Train Loss {epoch_metrics['train_loss']:.4f}\t"
+                f"Train Top1 {epoch_metrics['train_top1']:.2f}\t"
+                f"Train Top5 {epoch_metrics['train_top5']:.2f}"
+            )
 
         logging.info("Training has finished.")
         # save model checkpoints
@@ -112,4 +153,25 @@ class SimCLR(object):
             'state_dict': self.model.state_dict(),
             'optimizer': self.optimizer.state_dict(),
         }, is_best=False, filename=os.path.join(self.writer.log_dir, checkpoint_name))
+
+        history_payload = {
+            "run_name": self.args.run_name,
+            "run_dir": os.path.abspath(self.writer.log_dir),
+            "epochs": self.args.epochs,
+            "arch": self.args.arch,
+            "dataset_name": self.args.dataset_name,
+            "history": history,
+        }
+        history_path = os.path.join(self.writer.log_dir, "training_history.json")
+        save_json(history_payload, history_path)
+
+        plot_path = os.path.join(self.writer.log_dir, "training_curves.png")
+        plot_saved = save_simclr_history_plot(history, plot_path, f"SimCLR Training: {self.args.run_name}")
         logging.info(f"Model checkpoint and metadata has been saved at {self.writer.log_dir}.")
+        logging.info(f"Training history has been saved at {history_path}.")
+        if plot_saved:
+            logging.info(f"Training curves have been saved at {plot_path}.")
+        print(f"Saved checkpoint to {os.path.join(self.writer.log_dir, checkpoint_name)}")
+        print(f"Saved training history to {history_path}")
+        if plot_saved:
+            print(f"Saved training curves to {plot_path}")
