@@ -1,0 +1,5 @@
+batch_size,negatives_per_anchor,feature_dim,best_test_acc,best_epoch,final_test_acc,result_path
+128,254,512,62.54,49,62.1,feature_eval/results/batch_size_ablation_128_256_512_1024/batch_size_128_may04.json
+256,510,512,63.47,29,63.33,feature_eval/results/batch_size_ablation_128_256_512_1024/batch_size_256_20260503.json
+512,1022,512,60.89,45,60.29,feature_eval/results/batch_size_ablation_128_256_512_1024/batch_size_512_20260506.json
+1024,2046,512,57.56,64,56.88,feature_eval/results/batch_size_ablation_128_256_512_1024/batch_size_1024_20260516.json

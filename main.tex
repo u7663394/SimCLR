@@ -207,18 +207,19 @@ The improvement is not extremely large, but it is consistent across best and fin
 
 \subsection{Batch Size Ablation}
 
-Batch size changes the number of negatives in the contrastive loss. With two views per image, the number of negatives for each anchor is $2B-2$. We compare batch sizes 128, 256, and 512. The projection head is enabled for this ablation, and the same linear evaluation protocol is used for all three runs.
+Batch size changes the number of negatives in the contrastive loss. With two views per image, the number of negatives for each anchor is $2B-2$. We compare batch sizes 128, 256, 512, and 1024. The projection head is enabled for this ablation, and the same linear evaluation protocol is used for all four runs.
 
 \begin{table}[H]
 \centering
 \small
 \begin{tabular}{ccccc}
 \toprule
-\textbf{Batch size} & \textbf{Negatives/anchor} & \textbf{Best acc. (\%)} & \textbf{Final acc. (\%)} \\
+\textbf{Batch size} & \textbf{Negatives/anchor} & \textbf{Best acc. (\%)} & \textbf{Best epoch} & \textbf{Final acc. (\%)} \\
 \midrule
-128 & 254 & 62.54 & 62.10 \\
-256 & 510 & \textbf{63.59} & \textbf{62.84} \\
-512 & 1022 & 60.03 & 59.79 \\
+128 & 254 & 62.54 & 49 & 62.10 \\
+256 & 510 & \textbf{63.47} & 29 & \textbf{63.33} \\
+512 & 1022 & 60.89 & 45 & 60.29 \\
+1024 & 2046 & 57.56 & 64 & 56.88 \\
 \bottomrule
 \end{tabular}
 \caption{Linear evaluation result for the batch size ablation.}
@@ -235,15 +236,20 @@ Batch size changes the number of negatives in the contrastive loss. With two vie
 \hfill
 \begin{subfigure}{0.48\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{head_figures/accuracy_bar.png}
+    \includegraphics[width=\textwidth]{batch_figures/accuracy_bar.png}
     \caption{Best and final test accuracy.}
 \end{subfigure}
 \label{fig:batch-size}
 \end{figure}
 
-The best result is obtained at batch size 256, with 510 negatives per anchor and 63.59\% best test accuracy. Batch size 128 is slightly lower at 62.54\%. The largest batch size, 512, performs worst with 60.03\% best accuracy. Therefore, the result does not show a simple rule that larger batch size always gives better features.
+The best result is obtained at batch size 256, with 510 negatives per anchor and 63.47\% best test accuracy. Batch size 128 is slightly lower at 62.54\%, while batch sizes 512 and 1024 drop to 60.89\% and 57.56\%, respectively. Therefore, our result does not show the monotonic improvement with batch size that might be expected from the larger number of negative samples.
 
-This is an important observation. A larger batch gives more negative samples, which should make the contrastive task stronger. However, it also changes the optimization setting. With a fixed number of epochs, a larger batch has fewer parameter updates per epoch. It may also need a different learning rate schedule or longer pretraining. In our runs, batch size 256 gives the best balance between having enough negatives and still maintaining stable optimization.
+This differs from the main conclusion in the original SimCLR paper, which reports that contrastive learning benefits from larger batch sizes. The difference is plausible because our experiments' setting is much smaller and less tuned. The original SimCLR batch-size experiments mainly use ImageNet, a ResNet-50 backbone, LARS optimization, and a learning rate scaled with batch size. Therefore, they are not directly comparable to our lightweight setting. In contrast, our runs use CIFAR-10, ResNet-18, Adam with the same initial learning rate of 0.0003, and 100 epochs for every batch size. Under this setting, increasing the batch size changes more than the number of negatives, but also reduces the number of optimizer updates per epoch and changes how the learning process behaves.
+
+For CIFAR-10, the dataset is also small and contains only ten classes. When the batch size becomes very large, many negative samples may actually look similar or belong to the same class as the anchor image. The contrastive loss then tries to separate samples that should actually stay close in representation space. This can make the self-supervised task more difficult without improving the final class representations. For example, the batch size 1024 experiment uses 2046 negative samples for each anchor, but it achieves the worst linear evaluation accuracy. This suggests that simply increasing the number of negatives does not always improve performance on CIFAR-10.
+
+Another likely factor is hyperparameter mismatch. Large batch contrastive learning usually needs batch-size aware learning rate scaling and sometimes longer training. In our experiment, batch size 1024 has four times fewer parameter updates per epoch than batch size 256, but it uses the same number of epochs and the same initial learning rate. Therefore, the larger batch models may be trained with a poorly matched schedule relative to the 256 baseline. Overall, batch size 256 gives the best balance in our experiments. It provides enough negative samples to make contrastive learning effective, while avoiding the optimization problems and false-negative issues that can happen with very large batch sizes.
+
 
 \subsection{Low-Label Evaluation}
 
@@ -270,22 +276,21 @@ The data augmentation xxxxxx.
 
 The projection head ablation gives a clear result: using the projection head improves the final representation. It agrees with the motivation of SimCLR. The contrastive objective may require invariances that are useful for matching augmented views, but not all of these changes should be forced directly onto the encoder feature used by the downstream task. The projection head gives the model an extra space for optimizing the pretext task.
 
-The batch size ablation gives a more mixed result. The medium batch size is best, while the largest batch is worse. This does not mean negative samples are unimportant. Rather, it shows that batch size is tied to optimization details. If batch size changes, the number of updates, learning rate behavior, memory pressure, and training stability can also change. Therefore, batch size should not be interpreted as only a 'negative sample count' variable.
+The batch size ablation gives a more mixed result than the original SimCLR trend. Batch size 256 is best, while 512 and 1024 are worse. This does not mean negative samples are unimportant. Rather, it shows that batch size is tied to optimization details and dataset scale. If batch size changes, the number of updates, learning rate behavior, false-negative frequency, memory pressure, and training stability can also change. Therefore, batch size should not be interpreted as only a negative sample count variable.
 
 The low-label evaluation xxxxxx.
 
 \section{Shortcomings}
 
-There are several limitations in the current experiments. First, xxxxxx, so the result may include random variation. Second, the batch size experiment does not retune the learning rate or schedule for each
-batch size. This makes the comparison practical but not fully isolated. Third, the experiments use CIFAR-10 and ResNet-18 only, so the conclusions may not transfer directly to larger datasets or architectures. Finally, xxxxxx.
+There are several limitations in the current experiments. First, each setting is evaluated with a single seed, so the result may include random variation. Second, the batch size experiment does not retune the learning rate, temperature, optimizer, or schedule for each batch size. This makes the comparison practical but not fully isolated. Third, the experiments use CIFAR-10 and ResNet-18 only, so the conclusions may not transfer directly to larger datasets or architectures. Finally, we compare checkpoints trained for the same number of epochs rather than the same number of optimization steps, which disadvantages larger batches.
 
 \section{Future Work}
 
-Future work should run each setting with multiple seeds and report mean and standard deviation. The batch size ablation should also test learning-rate scaling, longer pretraining, and schedules that are matched by number of optimization steps rather than only by epochs. After the low-label experiments are completed, we can compare SimCLR pretraining against direct supervised training under 1\%, 10\%, and 100\% label fractions. It would also be useful to add k-nearest-neighbor evaluation and feature-space visualization as supporting evidence.
+Future work should run each setting with multiple seeds and report mean and standard deviation. The batch size ablation should also test learning-rate scaling, longer pretraining, LARS or SGD with momentum, temperature tuning, and schedules that are matched by number of optimization steps rather than only by epochs. After the low-label experiments are completed, we can compare SimCLR pretraining against direct supervised training under 1\%, 10\%, and 100\% label fractions. It would also be useful to add k-nearest-neighbor evaluation and feature-space visualization as supporting evidence.
 
 \section{Conclusion}
 
-This project studies SimCLR through controlled ablation experiments. For the completed parts, the projection head improves CIFAR-10 linear evaluation accuracy from 62.16\% to 63.59\%, showing that the nonlinear head is useful for learning transferable encoder features. The batch size ablation shows that batch size 256 performs best among 128, 256, and 512. The result suggests that more negatives are helpful only when optimization remains stable. Overall, SimCLR performance depends on both representation design and training details, so ablation studies are necessary for understanding why the method works.
+This project studies SimCLR through controlled ablation experiments. For the completed parts, the projection head improves CIFAR-10 linear evaluation accuracy from 62.16\% to 63.59\%, showing that the nonlinear head is useful for learning transferable encoder features. The batch size ablation shows that batch size 256 performs best among 128, 256, 512, and 1024. The result suggests that more negatives are helpful only when optimization remains stable and the hyperparameters are matched to the batch size. Overall, SimCLR performance depends on both representation design and training details, so ablation studies are necessary for understanding why the method works.
 
 \begin{thebibliography}{9}
 
@@ -293,6 +298,7 @@ This project studies SimCLR through controlled ablation experiments. For the com
 T. Chen, S. Kornblith, M. Norouzi, and G. Hinton.
 \textit{A Simple Framework for Contrastive Learning of Visual Representations}.
 ICML, 2020.
+\url{https://arxiv.org/pdf/2002.05709}
 
 \bibitem{cifar10}
 A. Krizhevsky.
