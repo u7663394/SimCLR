@@ -14,27 +14,29 @@ The first part focuses on data augmentation. This section will explain how diffe
 
 The next part studies low-label evaluation, showing whether SimCLR pretraining is especially useful when only limited labels are available.
 
-**Slide 5**
+## Slide 5
 
 Now I will talk about two design choices: the projection head and batch size.
 
-For the projection head, the key idea is that SimCLR uses two different spaces. The encoder outputs a 512-dimensional feature vector, called h. With the projection head, h is mapped into another vector z, and the NT-Xent contrastive loss is applied to z.
+For the projection head, SimCLR uses two spaces. The encoder outputs the feature vector **h**, and the projection head maps it to **z**. The contrastive loss is applied to **z**.
 
-This means h can stay useful for downstream classification, while z is optimized for contrastive separation. Without the projection head, the same feature h has to satisfy both purposes, which may reduce transfer quality.
+The intuition is that **h** should stay useful for downstream classification, while **z** is trained for contrastive separation. This separation reduces the pressure on the encoder representation and can help transfer learning.
 
-**Slide 6**
+## Slide 6
 
-The result supports this interpretation. With the projection head, the best linear-evaluation accuracy is 63.59 percent. Without the projection head, it drops to 62.16 percent, so the improvement is 1.43 percentage points.
+Our results support this idea. With the projection head, the best linear-evaluation accuracy is about **63.6 percent**. Without it, it drops to about **62.2 percent**.
 
-The final accuracy shows the same trend: 62.84 percent with the head, compared with 61.40 percent without it. The gain is not huge, but it is consistent, suggesting that separating the contrastive space from the encoder feature space helps the frozen representation transfer better.
+The final accuracy shows the same pattern. The gain is small, but consistent. This suggests that using a separate projection space helps the frozen encoder features transfer better.
 
-**Slide 7**
+## Slide 7
 
-For batch size, we expected larger batches to help because each anchor gets more negative samples. With two augmented views per image, the number of negatives is two times batch size minus two.
+For batch size, we expected larger batches to help because they provide more negative samples for each anchor.
 
-However, our result is not monotonic. Batch size 256 performs best, with 510 negatives per anchor and 63.47 percent best accuracy. Larger batches, 512 and 1024, actually perform worse.
+However, the result is not monotonic. Batch size **256** performs best, reaching about **63.5 percent** accuracy. Larger batches perform worse.
 
-So in our lightweight CIFAR-10 setting, more negatives are not automatically better. Batch size also changes optimization: larger batches have fewer updates per epoch, use the same learning-rate schedule, and may include more false negatives from the same class. Overall, batch size 256 gives the best balance in our runs.
+This suggests that more negatives do not always help in our lightweight CIFAR-10 setting. Larger batches also change optimization, because there are fewer updates per epoch, and they may include more false negatives from the same class.
+
+Overall, batch size **256** gives the best balance in our runs.
 
 **Slide 8**
 
