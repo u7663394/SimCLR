@@ -14,7 +14,7 @@ The first part focuses on data augmentation. This section will explain how diffe
 
 The next part studies low-label evaluation, showing whether SimCLR pretraining is especially useful when only limited labels are available.
 
-## Slide 11
+## Slide 10
 
 Now I will talk about two design choices: the projection head and batch size.
 
@@ -22,13 +22,13 @@ For the projection head, SimCLR uses two spaces. The encoder outputs the feature
 
 The intuition is that **h** should stay useful for downstream classification, while **z** is trained for contrastive separation. This separation reduces the pressure on the encoder representation and can help transfer learning.
 
-## Slide 12
+## Slide 1
 
 Our results support this idea. With the projection head, the best linear-evaluation accuracy is about **63.6 percent**. Without it, it drops to about **62.2 percent**.
 
 The final accuracy shows the same pattern. The gain is small, but consistent. This suggests that using a separate projection space helps the frozen encoder features transfer better.
 
-## Slide 13
+## Slide 12
 
 For batch size, we expected larger batches to help because they provide more negative samples for each anchor.
 
@@ -38,6 +38,6 @@ This suggests that more negatives do not always help in our lightweight CIFAR-10
 
 Overall, batch size **256** gives the best balance in our runs.
 
-**Slide 8**
+**Slide 13**
 
 To conclude, our results show that SimCLR performance depends on both representation design and training details. The projection head improves transfer, while batch size needs to be matched carefully with optimization settings.
