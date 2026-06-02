@@ -22,7 +22,7 @@ For the projection head, SimCLR uses two spaces. The encoder outputs the feature
 
 The intuition is that **h** should stay useful for downstream classification, while **z** is trained for contrastive separation. This separation reduces the pressure on the encoder representation and can help transfer learning.
 
-## Slide 1
+## Slide 11
 
 Our results support this idea. With the projection head, the best linear-evaluation accuracy is about **63.6 percent**. Without it, it drops to about **62.2 percent**.
 
