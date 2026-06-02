@@ -6,15 +6,15 @@ Good morning everyone. Our project is a SimCLR ablation study, where we investig
 
 Before looking at individual results, we use the same evaluation contract: pretrain the encoder with contrastive learning, freeze it, and then test representation quality using linear evaluation.
 
-**Slide 3**
+**Slide 3 4 5**
 
 The first part focuses on data augmentation. This section will explain how different view-generation strengths affect the quality of the learned representation.
 
-**Slide 4**
+**Slide 6 7 8 9**
 
 The next part studies low-label evaluation, showing whether SimCLR pretraining is especially useful when only limited labels are available.
 
-## Slide 5
+## Slide 11
 
 Now I will talk about two design choices: the projection head and batch size.
 
@@ -22,13 +22,13 @@ For the projection head, SimCLR uses two spaces. The encoder outputs the feature
 
 The intuition is that **h** should stay useful for downstream classification, while **z** is trained for contrastive separation. This separation reduces the pressure on the encoder representation and can help transfer learning.
 
-## Slide 6
+## Slide 12
 
 Our results support this idea. With the projection head, the best linear-evaluation accuracy is about **63.6 percent**. Without it, it drops to about **62.2 percent**.
 
 The final accuracy shows the same pattern. The gain is small, but consistent. This suggests that using a separate projection space helps the frozen encoder features transfer better.
 
-## Slide 7
+## Slide 13
 
 For batch size, we expected larger batches to help because they provide more negative samples for each anchor.
 
