@@ -1,4 +1,5 @@
 import argparse
+import os
 import torch
 import torch.backends.cudnn as cudnn
 from torchvision import models
@@ -72,12 +73,25 @@ parser.add_argument('--n-views', default=2, type=int, metavar='N',
                     help='Number of views for contrastive learning training.')
 # GPU 编号
 parser.add_argument('--gpu-index', default=0, type=int, help='Gpu index.')
+# 数据增强消融设置
+parser.add_argument('--augmentation', default='baseline',
+                    choices=['baseline', 'no_blur', 'no_color_jitter', 'no_grayscale'],
+                    help='Augmentation preset for ablation experiments.')
+# 输出目录和实验名
+parser.add_argument('--experiment-name', default=None, type=str,
+                    help='Optional experiment name used as the run folder name.')
+parser.add_argument('--output-dir', default='runs', type=str,
+                    help='Directory used to store run outputs when experiment name is set.')
 
 
 def main():
     # SimCLR 必须是 2 个视图
     args = parser.parse_args()
     assert args.n_views == 2, "Only two view training is supported. Please use --n-views 2."
+    if args.experiment_name is not None:
+        args.run_dir = os.path.join(args.output_dir, args.experiment_name)
+    else:
+        args.run_dir = None
     # check if gpu training is available
     if not args.disable_cuda and torch.cuda.is_available():
         args.device = torch.device('cuda')
@@ -91,7 +105,7 @@ def main():
     # 构建数据集
     dataset = ContrastiveLearningDataset(args.data)
     # 训练集 (包含数据增强视图)
-    train_dataset = dataset.get_dataset(args.dataset_name, args.n_views)
+    train_dataset = dataset.get_dataset(args.dataset_name, args.n_views, args.augmentation)
     # 训练集加载器
     train_loader = torch.utils.data.DataLoader(
         train_dataset, batch_size=args.batch_size, shuffle=True,

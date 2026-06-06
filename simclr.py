@@ -1,4 +1,6 @@
 import logging
+import csv
+import json
 import os
 import sys
 
@@ -29,7 +31,8 @@ class SimCLR(object):
         self.optimizer = kwargs['optimizer']
         self.scheduler = kwargs['scheduler']
         # TensorBoard 日志记录
-        self.writer = SummaryWriter() 
+        self.writer = SummaryWriter(log_dir=self.args.run_dir)
+        os.makedirs(self.writer.log_dir, exist_ok=True)
         logging.basicConfig(
             filename=os.path.join(self.writer.log_dir, 'training.log'), 
             level=logging.DEBUG
@@ -94,11 +97,16 @@ class SimCLR(object):
         save_config_file(self.writer.log_dir, self.args)
 
         n_iter = 0 # 迭代步数
+        epoch_metrics = []
         logging.info(f"Start SimCLR training for {self.args.epochs} epochs.")
         logging.info(f"Training with gpu: {self.args.disable_cuda}.")
 
         # 循环 epoch
         for epoch_counter in range(self.args.epochs):
+            epoch_loss_total = 0.0
+            epoch_top1_total = 0.0
+            epoch_top5_total = 0.0
+            epoch_steps = 0
             for images, _ in tqdm(train_loader):
                 # [batch_size, C, H, W] -> [2 * batch_size, C, H, W]
                 images = torch.cat(images, dim=0)
@@ -117,13 +125,20 @@ class SimCLR(object):
                 # 参数更新
                 scaler.step(self.optimizer)
                 scaler.update()
+                # 计算 top1 / top5 准确率 -> 看正样本是否排在前 1 或前 5
+                top1, top5 = accuracy(logits, labels, topk=(1, 5))
+                loss_value = float(loss.item())
+                top1_value = float(top1[0].item())
+                top5_value = float(top5[0].item())
+                epoch_loss_total += loss_value
+                epoch_top1_total += top1_value
+                epoch_top5_total += top5_value
+                epoch_steps += 1
                 # 定期记录训练日志
                 if n_iter % self.args.log_every_n_steps == 0:
-                    # 计算 top1 / top5 准确率 -> 看正样本是否排在前 1 或前 5
-                    top1, top5 = accuracy(logits, labels, topk=(1, 5))
-                    self.writer.add_scalar('loss', loss, global_step=n_iter)
-                    self.writer.add_scalar('acc/top1', top1[0], global_step=n_iter)
-                    self.writer.add_scalar('acc/top5', top5[0], global_step=n_iter)
+                    self.writer.add_scalar('loss', loss_value, global_step=n_iter)
+                    self.writer.add_scalar('acc/top1', top1_value, global_step=n_iter)
+                    self.writer.add_scalar('acc/top5', top5_value, global_step=n_iter)
                     self.writer.add_scalar('learning_rate', self.scheduler.get_lr()[0], global_step=n_iter)
 
                 n_iter += 1
@@ -131,7 +146,16 @@ class SimCLR(object):
             # 前 10 epoch 不调整学习率, 之后开始使用 scheduler
             if epoch_counter >= 10:
                 self.scheduler.step()
-            logging.debug(f"Epoch: {epoch_counter}\tLoss: {loss}\tTop1 accuracy: {top1[0]}")
+            epoch_summary = {
+                'epoch': epoch_counter + 1,
+                'loss': epoch_loss_total / max(epoch_steps, 1),
+                'top1': epoch_top1_total / max(epoch_steps, 1),
+                'top5': epoch_top5_total / max(epoch_steps, 1),
+                'learning_rate': float(self.optimizer.param_groups[0]['lr']),
+            }
+            epoch_metrics.append(epoch_summary)
+            logging.debug(
+                f"Epoch: {epoch_counter + 1}\tLoss: {epoch_summary['loss']}\tTop1 accuracy: {epoch_summary['top1']}")
 
         logging.info("Training has finished.")
         # 保存模型检查点
@@ -143,3 +167,31 @@ class SimCLR(object):
             'optimizer': self.optimizer.state_dict(),
         }, is_best=False, filename=os.path.join(self.writer.log_dir, checkpoint_name))
         logging.info(f"Model checkpoint and metadata has been saved at {self.writer.log_dir}.")
+        metrics_csv_path = os.path.join(self.writer.log_dir, 'metrics.csv')
+        with open(metrics_csv_path, 'w', newline='') as outfile:
+            writer = csv.DictWriter(
+                outfile,
+                fieldnames=['epoch', 'loss', 'top1', 'top5', 'learning_rate'])
+            writer.writeheader()
+            writer.writerows(epoch_metrics)
+        summary = {
+            'dataset_name': self.args.dataset_name,
+            'arch': self.args.arch,
+            'augmentation': self.args.augmentation,
+            'epochs': self.args.epochs,
+            'batch_size': self.args.batch_size,
+            'temperature': self.args.temperature,
+            'seed': self.args.seed,
+            'out_dim': self.args.out_dim,
+            'use_projection_head': self.args.use_projection_head,
+            'checkpoint_path': os.path.join(self.writer.log_dir, checkpoint_name),
+            'metrics_csv_path': metrics_csv_path,
+            'final_loss': epoch_metrics[-1]['loss'],
+            'final_top1': epoch_metrics[-1]['top1'],
+            'final_top5': epoch_metrics[-1]['top5'],
+            'epoch_metrics': epoch_metrics,
+        }
+        with open(os.path.join(self.writer.log_dir, 'summary.json'), 'w') as outfile:
+            json.dump(summary, outfile, indent=2)
+        self.writer.close()
+        return summary

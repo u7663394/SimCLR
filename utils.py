@@ -5,6 +5,16 @@ import torch
 import yaml
 
 
+def _yaml_safe_value(value):
+    if isinstance(value, (str, int, float, bool)) or value is None:
+        return value
+    if isinstance(value, (list, tuple)):
+        return [_yaml_safe_value(item) for item in value]
+    if isinstance(value, dict):
+        return {key: _yaml_safe_value(item) for key, item in value.items()}
+    return str(value)
+
+
 def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
     """
     保存模型检查点
@@ -30,8 +40,9 @@ def save_config_file(model_checkpoints_folder, args):
     """
     if not os.path.exists(model_checkpoints_folder):
         os.makedirs(model_checkpoints_folder)
-        with open(os.path.join(model_checkpoints_folder, 'config.yml'), 'w') as outfile:
-            yaml.dump(args, outfile, default_flow_style=False) # 保存为 yaml 文件
+    with open(os.path.join(model_checkpoints_folder, 'config.yml'), 'w') as outfile:
+        config = {key: _yaml_safe_value(value) for key, value in vars(args).items()}
+        yaml.dump(config, outfile, default_flow_style=False) # 保存为 yaml 文件
 
 
 def accuracy(output, target, topk=(1,)):
